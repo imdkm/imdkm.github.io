@@ -9,3 +9,6 @@ paginate = 20
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[params]
+  recentPostsLimit = 5  # 表示する最新記事の件数

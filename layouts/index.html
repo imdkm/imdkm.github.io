@@ -1,3 +1,10 @@
 {{ define "main" }}
+<h2>最新のブログ記事</h2>
+<div class="recent-posts">
+  {{ $pages := first .Site.Params.recentPostsLimit (where .Site.RegularPages "Type" "blog") }}
+  {{ range $pages }}
+    <p>{{ .Date.Format "2006.01.02" }} <a href="{{ .Permalink }}">{{ .Title }}</a></p>
+  {{ end }}
+</div>
 {{ .Content }}
 {{ end }}

@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <copyright>imdkm</copyright>
-    <lastBuildDate>Tue, 02 Jul 2024 22:31:28 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2024 07:12:46 +0900</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Pagesでサイトを運用してみる。</title>
+      <link>//localhost:1313/blog/tryinggithubpages/</link>
+      <pubDate>Thu, 04 Jul 2024 07:12:46 +0900</pubDate>
+      <guid>//localhost:1313/blog/tryinggithubpages/</guid>
+      <description>Wordpressがだるいなという気持ちがずっとあって、静的サイトジェネレーターでいろいろ運用できたら結構いいのでは？　と思っていた。なかなか重い腰があがらなかったけれど、思い立ってHugoでサイト構築。ロリポップのサーバーにそれをまるごと投げるのも考えたけれど、ためしにGitHub Pagesにデプロイしてみることにした。&#xA;やってみると案外簡単でいい感じ。自分の用途であれば正直これで事足りてしまう気もする……ものの、果たして。しばらく使ってみる。独自ドメインも使えるから、サーバー解約してこっちに1本化してしまっても悪くないんだよな……。Git／GitHubの使い方も覚えたいし、これでいいかな。&#xA;というわけで、こちらに初投稿。よろしくお願いいたします。</description>
+    </item>
     <item>
       <title>test</title>
       <link>//localhost:1313/blog/my-first-post/</link>
