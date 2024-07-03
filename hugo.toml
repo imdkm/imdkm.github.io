@@ -1,0 +1,11 @@
+baseURL = '/'
+languageCode = 'ja-jp'
+title = 'imdkm'
+theme = 'hugo-bearblog'
+copyright = "imdkm"
+paginate = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
