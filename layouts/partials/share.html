@@ -1,6 +1,6 @@
 <div class="share-buttons">
     <p><small><b>このページをシェアする</b>:
-    <a href="https://twitter.com/intent/tweet?text={{ .Title | urlize }}&url={{ .Permalink }}" target="_blank">X</a> |
-    <a href="https://www.threads.net/share?url={{ .Permalink }}" target="_blank">Threads</a> |
-    <a href="https://bsky.app/profile/{{ .Permalink }}" target="_blank">Bluesky</a></small></p>
+    <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank">X</a> |
+    <a href="https://www.threads.net/intent/post?text={{ .Title }} {{ .Permalink }}" target="_blank">Threads</a> |
+    <a href="https://bsky.app/intent/compose?text={{ .Title }} {{ .Permalink }}" target="_blank">Bluesky</a></small></p>
 </div>
