@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <copyright>imdkm</copyright>
-    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2024 11:00:00 +0900</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PR</title>
+      <link>//localhost:1313/tags/pr/</link>
+      <pubDate>Fri, 05 Jul 2024 11:00:00 +0900</pubDate>
+      <guid>//localhost:1313/tags/pr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Works</title>
+      <link>//localhost:1313/tags/works/</link>
+      <pubDate>Fri, 05 Jul 2024 11:00:00 +0900</pubDate>
+      <guid>//localhost:1313/tags/works/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Sunday-Playlist</title>
       <link>//localhost:1313/tags/sunday-playlist/</link>

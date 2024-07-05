@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/blog/</loc>
-    <lastmod>2024-07-04T07:12:46+09:00</lastmod>
+    <lastmod>2024-07-05T11:00:00+09:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/tryinggithubpages/</loc>
-    <lastmod>2024-07-04T07:12:46+09:00</lastmod>
+    <loc>//localhost:1313/blog/eiri_homiecide/</loc>
+    <lastmod>2024-07-05T11:00:00+09:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
+    <lastmod>2024-07-05T11:00:00+09:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/pr/</loc>
+    <lastmod>2024-07-05T11:00:00+09:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-07-05T11:00:00+09:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/works/</loc>
+    <lastmod>2024-07-05T11:00:00+09:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/tryinggithubpages/</loc>
     <lastmod>2024-07-04T07:12:46+09:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/my-first-post/</loc>
@@ -60,9 +72,6 @@
     <lastmod>2024-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/sunday-playlist/</loc>
-    <lastmod>2024-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/old_blog/2024-03-10-%E6%97%A5%E6%9B%9C%E6%97%A5%E3%81%AE%E3%83%97%E3%83%AC%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%88-007/</loc>
