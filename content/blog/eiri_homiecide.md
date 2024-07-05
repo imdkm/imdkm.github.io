@@ -1,7 +1,7 @@
 +++
 title = 'EIRI「Homie/Cide」（お仕事報告）'
 date = 2024-07-05T11:00:00+09:00
-tags = ["works", "PR"]
+tags = ["works", "press"]
 +++
 
 ![Image](/images/240705_homiecide.jpg)
