@@ -2,17 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/blog/svp/</loc>
+    <lastmod>2024-08-10T17:43:58+09:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/blog/</loc>
-    <lastmod>2024-07-24T18:42:23+09:00</lastmod>
+    <lastmod>2024-08-10T17:43:58+09:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/book-review/</loc>
+    <lastmod>2024-08-10T17:43:58+09:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-07-24T18:42:23+09:00</lastmod>
+    <lastmod>2024-08-10T17:43:58+09:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/jpn/</loc>
-    <lastmod>2024-07-24T18:42:23+09:00</lastmod>
+    <lastmod>2024-08-10T17:43:58+09:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-07-24T18:42:23+09:00</lastmod>
+    <lastmod>2024-08-10T17:43:58+09:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/works/</loc>
     <lastmod>2024-07-24T18:42:23+09:00</lastmod>
@@ -130,9 +136,6 @@
   </url><url>
     <loc>//localhost:1313/old_blog/2023-12-27-2023%E5%B9%B4%E7%B7%8F%E6%8B%AC/</loc>
     <lastmod>2023-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/book-review/</loc>
-    <lastmod>2023-12-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/old_blog/2023-12-25-%E6%9B%B8%E8%A9%95%E6%9D%BE%E6%9C%AC%E7%9B%B4%E7%BE%8E%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%83%83%E3%82%AF%E3%83%92%E3%82%B9%E3%83%88%E3%83%AA%E3%82%AA%E3%82%B0%E3%83%A9/</loc>
     <lastmod>2023-12-25T00:00:00+00:00</lastmod>
