@@ -10,6 +10,47 @@ menu = "main"
 2020年以前のまとめは作業中です。
 
 ## 2024
+2024.11.16 [TOMORROW X TOGETHER、最新ミニアルバムは洗練されたボーカルに注目　聴き込むほど味わい深くなる1作に](https://realsound.jp/2024/11/post-1841158.html)
+
+2024.10.31 [音楽制作のテクノロジーと「脱植民地化」第4回（全4回） 実践からみる「脱植民地化」のアクチュアリティ](https://www.ameet.jp/digital-imaging/5682/)
+
+2024.10.28 [＜対談＞AFSHEEN×春ねむり　「世界を小さくする」共通するマインドを持つ二人のコラボ曲「No Muse」](https://www.billboard-japan.com/special/detail/4593) 対談進行および構成
+
+2024.10.24 [Official髭男dism「Same Blue」レビュー：変拍子を駆使した大胆アレンジで“爽やかさ”を演出するヒゲダン流のギミック](https://realsound.jp/2024/10/post-1818407.html)
+
+2024.10.23 [音楽制作のテクノロジーと「脱植民地化」第3回（全4回） テクノロジーの転用／再解釈とその限界](https://www.ameet.jp/digital-imaging/5652/)
+
+2024.10.19 [ミュージック・マガジン2024年11月号](https://musicmagazine.stores.jp/items/67089db1e6c05c02dd356f9e) 巻頭の柴田聡子インタビュー、及び輪島裕介・永冨真梨編『入門　ポピュラー音楽の文化史〜〈戦後日本〉を読み直す』ミネルヴァ書房の書評を寄稿
+
+2024.10.19 [GLAYが示したデビュー30年目の底力　『Back To The Pops』で首位獲得、大胆な“曲順”が生んだ効果](https://realsound.jp/2024/10/post-1813061.html)
+
+2024.10.18 [DJがアナログに目覚める場を。名店のレガシーを継承するクラブ NUMMの挑戦](https://www.audio-technica.co.jp/always-listening/articles/numm/) インタビュー
+
+2024.10.16 [音楽制作のテクノロジーと「脱植民地化」 第2回（全4回） テクノロジーのグローバライズ／ローカライズ](https://www.ameet.jp/digital-imaging/5632/)
+
+2024.10.09 [音楽制作のテクノロジーと「脱植民地化」 第1回（全4回） 新局面を迎えたポップのグローバル化](https://www.ameet.jp/digital-imaging/5621/)
+
+2024.09.21 [BOYNEXTDOOR、『19.99』は聴きやすさと深みが融合した一作　隙のないポップスとしての完成度の高さ](https://realsound.jp/2024/09/post-1785853.html)
+
+2024.09.10 [神戸・塩屋に移住した三浦康嗣、東京を脱出し立体音響スタジオを作った理由とは](https://www.audio-technica.co.jp/always-listening/articles/kohshi-miura/) インタビュー
+
+2024.09.08 [カンサイ・オルタナティヴミュージック・ディスクレビュー Vol.2](https://www.ameet.jp/feature/5477/) in the blue shirt『Cold December e.p.』評を寄稿
+
+2024.08.30 [米津玄師、アルバム『LOST CORNER』に混在する3つのモード　Spotify「Liner Voice+」を聞いて](https://realsound.jp/2024/08/post-1764465.html)
+
+2024.08.24 [木村拓哉、最新アルバムで首位獲得　『SEE YOU THERE』で放つ瑞々しさと洗練させる“木村拓哉らしさ”](https://realsound.jp/2024/08/post-1757235.html)
+
+2024.08.20 [ミュージック・マガジン2024年9月号](https://musicmagazine.stores.jp/items/66b470894dcf6e0034e5e1dd) 特集「2000年代 Jポップ・ベスト・ソングス100」に参加（ランキングの提供に加え短評をいくつか）
+
+2024.07.30 [Official髭男dism『Rejoice』レビュー：ヒゲダン3年ぶりの大作、“濃さ”があって初めて伝わる感情や物語](https://realsound.jp/2024/07/post-1733927.html)
+
+2024.07.27 [ENHYPEN、最新アルバム首位＆韓国では初動234万枚超え　『ROMANCE：UNTOLD』で証明する躍進ぶり](https://realsound.jp/2024/07/post-1730670.html)
+
+2024.07.24 [長谷川白紙『魔法学校』](https://www.beatink.com/products/detail.php?product_id=14074) ライナーノーツを執筆
+
+2024.07.23 [長谷川白紙 2nd Album『魔法学校』リリース記念SPECIAL PROGRAM - DOMMUNE](https://www.dommune.com/streamings/2024/072301/) 企画・構成・司会
+
+2024.07.20 [ミュージック・マガジン2024年8月号](https://musicmagazine.stores.jp/items/668f319245021c00b69217b7) 特集「2000年代 Jポップ・ベスト・ソングス100」に参加。ランキングの提供に加え短評をいくつか。
 
 2024.07.03 [小室哲哉 読音1（別冊ステレオサウンド）](https://www.stereosound-store.jp/c/book/9784880735177) アルバムレビュー5作
 
