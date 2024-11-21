@@ -84,6 +84,8 @@ menu = "main"
 
 2024.02.27 [青土社 ||ユリイカ：ユリイカ2024年3月号　特集＝柴田聡子](http://www.seidosha.co.jp/book/index.php?id=3908&status=published) "「後悔」とそのスタイル　／　imdkm"
 
+2024.02.25 [【アーカイブ配信】「基礎教養シリーズ〜ゼロから聴きたいテクノロジーと音楽史〜」 | 美学校](https://bigakko.jp/event/2024/technology_and_music_history) ゲストを招いてのレクチャー
+
 2024.02.22 [ただ「音楽のために集まれる」場所の意味。ニア・アーカイヴスが語る、ジャングルが打ち鳴らす可能性 | CINRA](https://www.cinra.net/article/202402-niaarchives_ymmts)
 
 2024.02.22 [英国音楽の底流をなすもの。ジャイルス・ピーターソンが語る、UKジャズ、ジャングル新世代の台頭の背景 | CINRA](https://www.cinra.net/article/202402-gillespeterson_ymmts)

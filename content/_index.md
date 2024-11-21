@@ -21,6 +21,8 @@ title = "home"
 
 [V.A.『冨田ラボ / 冨田恵一 WORKS BEST 2 ～beautiful songs to remember～』楽曲解説](https://www.jvcmusic.co.jp/-/Discography/A024314/VICL-65825.html) 
 
+[【アーカイブ配信】「基礎教養シリーズ〜ゼロから聴きたいテクノロジーと音楽史〜」 | 美学校](https://bigakko.jp/event/2024/technology_and_music_history)
+
 などなど……
 
 ### きまぐれにピックアップ（2024年7月）
