@@ -2,9 +2,9 @@
 {{ if eq .Type "blog" }}{{ if not .Params.menu }}
 <h1>{{ .Title }}</h1>
 <p>
-    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-      {{ .Date.Format (default "2006.01.02" .Site.Params.dateFormat) }}
-    </time>
+  <time datetime='{{ if .GitInfo }}{{ .GitInfo.AuthorDate.Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}' pubdate>
+    {{ if .GitInfo }}{{ .GitInfo.AuthorDate.Format (default "2006.01.02" .Site.Params.dateFormat) }}{{ else }}{{ .Date.Format (default "2006.01.02" .Site.Params.dateFormat) }}{{ end }}
+  </time>
 </p>
 {{ end }}{{ end }}
 <content>

@@ -8,7 +8,7 @@
   {{ end }}
   <p>
   {{ if .Data.Singular }}
-  {{ else }}
+  {{else}}
     <small>
       <div>
         {{ range .Site.Taxonomies.tags }}
@@ -16,14 +16,14 @@
         {{ end }}
       </div>
     </small>
-  {{ end }}
+    {{ end }}
   </p>
   <ul class="blog-posts">
     {{ range .Paginator.Pages }}
     <li>
       <span>
-        <time datetime='{{ if .GitInfo }}{{ .GitInfo.AuthorDate.Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}' pubdate>
-          {{ if .GitInfo }}{{ .GitInfo.AuthorDate.Format (default "2006.01.02" .Site.Params.dateFormat) }}{{ else }}{{ .Date.Format (default "2006.01.02" .Site.Params.dateFormat) }}{{ end }}
+        <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+          {{ .Date.Format (default "2006.01.02" .Site.Params.dateFormat) }}
         </time>
       </span>
       <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -34,6 +34,6 @@
     </li>
     {{ end }}
   </ul>
-  {{ template "_internal/pagination.html" . }}
+    {{ template "_internal/pagination.html" . }}
 </content>
 {{ end }}
