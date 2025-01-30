@@ -12,3 +12,8 @@ paginate = 20
 
 [params]
   recentPostsLimit = 5  # 表示する最新記事の件数
+
+enableGitInfo = true
+
+[frontmatter]
+  lastmod = ":git"
