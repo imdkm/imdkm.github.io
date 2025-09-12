@@ -17,7 +17,7 @@ title = "home"
 
 どんな感じなん？　という方は毎月の内容をざっくりまとめているのでそちらをチェック！↓↓↓
 
-2025年 [5月](https://note.com/imdkm/n/n4a29117ea981) / [6月](https://note.com/imdkm/n/n85dd2b4a9ded) / [7月](https://note.com/imdkm/n/nbebe9da05383) / [8月](https://note.com/imdkm/n/n0afc3cad909f)
+**2025年 [5月](https://note.com/imdkm/n/n4a29117ea981) / [6月](https://note.com/imdkm/n/n85dd2b4a9ded) / [7月](https://note.com/imdkm/n/nbebe9da05383) / [8月](https://note.com/imdkm/n/n0afc3cad909f)**
 
 自分の手で情報を発信できる場として大事に育てて、ゆくゆくはいろんな企画も行っていきたいと思っています。ぜひサポートをよろしくお願いします！
 
