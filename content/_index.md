@@ -21,6 +21,53 @@ title = "home"
 
 自分の手で情報を発信できる場として大事に育てて、ゆくゆくはいろんな企画も行っていきたいと思っています。ぜひサポートをよろしくお願いします！
 
+## 出演情報
+
+### 2025.10.11 (sat) AOBA NU NOISE - NIGHT @ 仙台 SHAFT
+
+仙台 SHAFT にて DAY ~ NIGHT ぶっ通しで開催されるナイスパーティ AOBA NU NOISE の NIGHT パートに DJ で出演します！
+
+~~~
+AOBA NU NOISE - DAY
+at SHAFT
+open / start 17:00
+google form 予約(25.10.04迄) ¥4,000 (+ドリンク別途)
+entrance ¥5,000 (+ドリンク別途)
+
+LIVE
+徳利
+松本健一
+テレビ大陸音頭
+yodare
+Waikiki Champions 
+
+DJ
+heykazma
+Ian Martin(Call And Response Records)
+EVOL
+
+FOOD
+JUURI SAUNA ~TACOS
+
+AOBA NU NOISE -NIGHT
+open/start 22:00
+entrance ¥2,500 (+ドリンク別)
+
+Live
+King Rambo sound
+
+DJ
+Casin
+Shinya Takatori(RAF-REC)
+imdkm
+ASAI
+Ryota
+
+※ 「AOBA NU NOISE -DAY」からお越しの方は入れ替えなく「AOBA NU NOISE -NIGHT 」までそのまま楽しめます。
+~~~
+
+ほか、山形駅西口のレコ屋 RAF-REC ([Instagram](https://www.instagram.com/rafrec_yamagata/)) にて、不定期で DJ バーに出演しています。告知は随時 [Instagram](https://www.instagram.com/imdkm/) 等々で行ってます。チャージは無料なのでお気軽にどうぞ。
+
 ---
 
 ## 誰なのか
