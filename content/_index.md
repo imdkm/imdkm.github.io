@@ -2,7 +2,7 @@
 # This title is used as the og:title on Hugo's internal
 # opengraph structured data template on the home page.
 # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-title = "home"
+title = "imdkm. a writer and beatmaker"
 +++
 
 ---
@@ -17,56 +17,9 @@ title = "home"
 
 どんな感じなん？　という方は毎月の内容をざっくりまとめているのでそちらをチェック！↓↓↓
 
-**2025年 [5月](https://note.com/imdkm/n/n4a29117ea981) / [6月](https://note.com/imdkm/n/n85dd2b4a9ded) / [7月](https://note.com/imdkm/n/nbebe9da05383) / [8月](https://note.com/imdkm/n/n0afc3cad909f)**
+**2025年 [5月](https://note.com/imdkm/n/n4a29117ea981) / [6月](https://note.com/imdkm/n/n85dd2b4a9ded) / [7月](https://note.com/imdkm/n/nbebe9da05383) / [8月](https://note.com/imdkm/n/n0afc3cad909f)** / [9月](https://note.com/imdkm/n/nd4861f760ae3) / [10月](https://note.com/imdkm/n/n2fb589738bc2)
 
 自分の手で情報を発信できる場として大事に育てて、ゆくゆくはいろんな企画も行っていきたいと思っています。ぜひサポートをよろしくお願いします！
-
-## 出演情報
-
-### 2025.10.11 (sat) AOBA NU NOISE - NIGHT @ 仙台 SHAFT
-
-仙台 SHAFT にて DAY ~ NIGHT ぶっ通しで開催されるナイスパーティ AOBA NU NOISE の NIGHT パートに DJ で出演します！
-
-~~~
-AOBA NU NOISE - DAY
-at SHAFT
-open / start 17:00
-google form 予約(25.10.04迄) ¥4,000 (+ドリンク別途)
-entrance ¥5,000 (+ドリンク別途)
-
-LIVE
-徳利
-松本健一
-テレビ大陸音頭
-yodare
-Waikiki Champions 
-
-DJ
-heykazma
-Ian Martin(Call And Response Records)
-EVOL
-
-FOOD
-JUURI SAUNA ~TACOS
-
-AOBA NU NOISE -NIGHT
-open/start 22:00
-entrance ¥2,500 (+ドリンク別)
-
-Live
-King Rambo sound
-
-DJ
-Casin
-Shinya Takatori(RAF-REC)
-imdkm
-ASAI
-Ryota
-
-※ 「AOBA NU NOISE -DAY」からお越しの方は入れ替えなく「AOBA NU NOISE -NIGHT 」までそのまま楽しめます。
-~~~
-
-ほか、山形駅西口のレコ屋 RAF-REC ([Instagram](https://www.instagram.com/rafrec_yamagata/)) にて、不定期で DJ バーに出演しています。告知は随時 [Instagram](https://www.instagram.com/imdkm/) 等々で行ってます。チャージは無料なのでお気軽にどうぞ。
 
 ---
 
@@ -78,7 +31,7 @@ Ryota
 
 ライターとしてはミュージシャンへのインタビューや作品レビュー、イベントレポート、書評などを執筆するほか、リモートで可能な範囲の編集業務補佐、講演やインタビュー等のテープ起こし、英日翻訳なども請け負っております。info[at]imdkm.com （[at] を @ に）までご相談ください。
 
-## これまでの主なお仕事
+### これまでの主なお仕事
 
 [単著『リズムから考えるJ-POP史』（blueprint, 2019）](https://blueprint.co.jp/publishing/5694)
 

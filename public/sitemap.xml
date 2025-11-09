@@ -697,5 +697,7 @@
     <loc>//localhost:1313/works/2023/</loc>
   </url><url>
     <loc>//localhost:1313/works/2024/</loc>
+  </url><url>
+    <loc>//localhost:1313/gigs/</loc>
   </url>
 </urlset>
