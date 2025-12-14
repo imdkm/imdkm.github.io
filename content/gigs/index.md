@@ -13,4 +13,4 @@ DJ、トークなどの出演情報です。
 2025.10.11 (sat) AOBA NU NOISE - NIGHT @ 仙台 SHAFT **#DJ**
 
 ## 2026
-2026.01 京都？
+2026.01.18 (sun) [『ワード・オブ・エコー』 〜京都のクラブで開催する本と音楽のブックフェス〜 DAY 2](https://wordofecho.unglobal.jp/) w/ tofubeats **#TALK**
