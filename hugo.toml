@@ -3,7 +3,10 @@ languageCode = 'ja-jp'
 title = 'imdkm'
 theme = 'hugo-bearblog'
 copyright = "imdkm"
-paginate = 20
+
+[pagination]
+  pagerSize = 10
+  path = "page"
 
 [markup]
   [markup.goldmark]

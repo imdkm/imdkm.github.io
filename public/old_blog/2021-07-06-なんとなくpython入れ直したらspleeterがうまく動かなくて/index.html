@@ -12,8 +12,22 @@
 Pythonの複数バージョンの扱い方（Windowsの場合） | ガンマソフト株式会社
 しかし、3.8のほうにSpleeterをインストールしたはいいものの、動作に必要なffmpegのパスが通ってないと言い出すので困ってしまった。これはシステム設定でffmpegのパスを通しただけでは解決されず、pipでffmpegおよびffmpeg-pythonをアンインストール→再インストールを試したらなんかわからんが動いた。動いたらいいんだよ。
 ようやくSpleeterがちゃんと動いてくれるようになった。ただ、いちいちコマンドを打つのが面倒だからバッチファイルをつくった。Spleeterにはステムをどんな構成で抽出するかによって3つのモードがある。ヴォーカルとバックトラックだけなら2stems、ヴォーカル・ベース・ドラム・その他に分けるなら4stems、ヴォーカル・ベース・ドラム・鍵盤・その他に分けるなら5stems。バッチファイル3種類つくるのもいいけどなんか入力できたらかっこいいな……と、バッチファイルを走らせたときに尋ねることにした。あと、処理が終わったら出力先のフォルダをエクスプローラで表示することに……。
-@echo offrem 変数の用意set INPUTSTR=rem Spleeterのモードを入力するset /P INPUTSTR=&#34;which mode do you want? (2stems/4stems/5stems) : &#34;rem 引数と変数をぐいっとやりつつspleeterを呼ぶpy -3.8 -m spleeter separate -p spleeter:%INPUTSTR% -o output %1rem 出力されたフォルダを開くexplorer output\%~n1pause &gt;nul 適当な名前をつけて.batで保存しておくと、それにmp3ファイルをドラッグ＆ドロップするだけでSpleeterで処理できる。（Spleeterのインストール自体は日本語でわかりやすい解説があるからググってください……）
+@echo off
+rem 変数の用意
+set INPUTSTR=
+rem Spleeterのモードを入力する
+set /P INPUTSTR=&#34;which mode do you want? (2stems/4stems/5stems) : &#34;
+rem 引数と変数をぐいっとやりつつspleeterを呼ぶ
+py -3.8 -m spleeter separate -p spleeter:%INPUTSTR% -o output %1
+rem 出力されたフォルダを開く
+explorer output\%~n1
+pause &gt;nul
+適当な名前をつけて.batで保存しておくと、それにmp3ファイルをドラッグ＆ドロップするだけでSpleeterで処理できる。（Spleeterのインストール自体は日本語でわかりやすい解説があるからググってください……）
 まあSpleeterになんの使いみちがあるかというと、権利関係の都合もあってあんまりこう、大きな声でああだこうだとは言いづらいんだけど、でも面白いですよ。気軽にヴォーカル抽出できるの楽しいし、耳コピに活用する道もあるようだ。
+
+      
+    
+
 なにとは言わないが、以前Spleeterを使っていろいろしたときの成果物。" />
 <meta name="keywords" content="" />
 
@@ -426,12 +440,8 @@ explorer output\%~n1
 pause &gt;nul
 </code></pre><p>適当な名前をつけて.batで保存しておくと、それにmp3ファイルをドラッグ＆ドロップするだけでSpleeterで処理できる。（Spleeterのインストール自体は日本語でわかりやすい解説があるからググってください……）</p>
 <p>まあSpleeterになんの使いみちがあるかというと、権利関係の都合もあってあんまりこう、大きな声でああだこうだとは言いづらいんだけど、でも面白いですよ。気軽にヴォーカル抽出できるの楽しいし、耳コピに活用する道もあるようだ。</p>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4Jtool0sgMU?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4Jtool0sgMU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
 
 <p>なにとは言わないが、以前Spleeterを使っていろいろしたときの成果物。</p>
