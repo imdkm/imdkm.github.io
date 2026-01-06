@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Eng on imdkm</title>
     <link>//localhost:1313/categories/eng/</link>
     <description>Recent content in Eng on imdkm</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>imdkm</copyright>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Aug 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/categories/eng/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Examining gender (in)equality among four major music festivals in Japan</title>
@@ -15,6 +15,50 @@
       <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-08-17-examining-gender-inequality-among-four-major-music-festivals-in-japan/</guid>
       <description>&lt;p&gt;In February 2018, PRS Foundation launched a campaign named &lt;a href=&#34;https://keychange.eu/&#34;&gt;Keychange&lt;/a&gt;. By encouraging music festivals to achieve a 50:50 gender balance by 2022, it aims to make the music industry more inclusive and create a better future. Initially, their partners were 45 festivals around the world but now they include more than 130 festivals.&lt;/p&gt;&#xA;&lt;p&gt;Nowadays, music festivals are the industry&amp;rsquo;s most important opportunity to reach a major audience. Moreover, as some big festivals started to stream their stages via YouTube, music festivals became not only a place for the live experience but also a crucial platform of the business. So Keychange&amp;rsquo;s activity is to the point. Festivals could epitomize the whole industry in many ways.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In February 2018, PRS Foundation launched a campaign named <a href="https://keychange.eu/">Keychange</a>. By encouraging music festivals to achieve a 50:50 gender balance by 2022, it aims to make the music industry more inclusive and create a better future. Initially, their partners were 45 festivals around the world but now they include more than 130 festivals.</p>
+<p>Nowadays, music festivals are the industry&rsquo;s most important opportunity to reach a major audience. Moreover, as some big festivals started to stream their stages via YouTube, music festivals became not only a place for the live experience but also a crucial platform of the business. So Keychange&rsquo;s activity is to the point. Festivals could epitomize the whole industry in many ways.</p>
+<p>While Keychange aims to create the future, some media is examining the status quo statistically with vivid visualization. In May 2018, Pitchfork published the result of their own research for the festival&rsquo;s gender equity in America. According to the report, in 2017, festivals&rsquo; lineup in the US festivals had <strong>74% male</strong> acts, <strong>14% female</strong>, and <strong>12% mixed</strong>. The next year&rsquo;s had <strong>70% male</strong>, <strong>19% female</strong>, and <strong>11 % mixed</strong>. For a more detailed investigation, you can read <a href="https://pitchfork.com/features/festival-report/tracking-the-gender-balance-of-this-years-music-festival-lineups/">this article</a>.</p>
+<h2 id="then-hows-it-going-here-in-japan">Then, how&rsquo;s it going here in Japan?</h2>
+<p>Since the first Fuji Rock Festival in 1997, music festivals in Japan saw rapid growth throughout the 00s. By the early 2010s, music festivals became one of the most popular leisure activity. This given situation even encouraged some rock bands to invent &ldquo;Festival Rock,&rdquo; which features uplifting four-on-the-floor drum beats and sing-along friendly melodies.</p>
+<p>Thus, although music festivals have been playing a pivotal role in Japan&rsquo;s music industry, there are few mentions on gender equality. I couldn&rsquo;t find statistics on it so I decided to collect data by myself.</p>
+<p>There are four major music festivals in Japan: Fuji Rock Festival, Summer Sonic, Rock In Japan Festival, and Rising Sun Rock Festival. The former two are known for their international lineup in contrast to the latter two focus on acts that are based in Japan. I limited the scope of this research to those four festivals&rsquo; lineup for the last five years. I scraped those festivals&rsquo; web site by Python and checked out each acts&rsquo; gender as far as I could find.</p>
+<p>Below is what I found.</p>
+<h2 id="summary">SUMMARY</h2>
+<ul>
+<li>In 2019, the lineup for major festivals in Japan was <strong>65% male</strong> acts and <strong>35% female or mixed</strong> acts.
+<ul>
+<li>Comparing those festivals, it seems there&rsquo;s no big difference between them as far as concerning male : female (or mixed) ratio.</li>
+<li>The festival that included <strong>the most female acts</strong> in 2019 was <strong>Summersonic (22%)</strong>.</li>
+<li>The festival that included <strong>the least female acts</strong> in 2019 was <strong>Fuji Rock Festival (12%)</strong>.</li>
+</ul>
+</li>
+<li>From 2016 to 2018, the lineup for major festivals in Japan had been <strong>69% male</strong> acts and <strong>31% female or mixed</strong> acts.
+<ul>
+<li>Looking at annual changes, there is hardly a particular tendency on the male : female ratio.</li>
+<li>However, some festivals&rsquo; transitions show possible intentions to reduce the male ratio.
+<ul>
+<li>In 2016, <strong>Fuji had 75% male acts and Rock In Japan did 68%</strong>. On the other hand, in 2019, <strong>the former was 64% (11 points lower) and the latter was 65% (3 points lower)</strong>.</li>
+<li>Given that, I&rsquo;m planning further research for the transition throughout Fuji&rsquo;s and Rock In Japan&rsquo;s entire history.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="then-is-japans-gender-equality-in-music-festivals-better-than-the-us">Then, is Japan&rsquo;s gender equality in music festivals better than the US?</h2>
+<p>As seen above, Japan&rsquo;s gender equality in the festivals&rsquo; lineup seems a bit better than the US. There might be many explanations for this, but I don&rsquo;t have any clear opinion now.</p>
+<p>Having said that, I am not so optimistic. It&rsquo;s because Japan&rsquo;s society as a whole seems very sexist. I&rsquo;ve been disappointed at our society&rsquo;s indifference to any kind of gender gap. (One of the most shocking news was this&hellip; worth reading. <a href="https://www.theguardian.com/world/2018/dec/12/two-more-japanese-medical-schools-admit-discriminating-against-women">Two more Japanese medical schools admit discriminating against women | World news | The Guardian</a>)</p>
+<p>I think the gender ratio I mentioned above is a baseless and arbitrary consequence of the society&rsquo;s indifference. Even though the score looks better than other countries, it doesn&rsquo;t mean there&rsquo;s less gender inequality in Japan. If we don&rsquo;t consciously deal with the problem, it can be worse in the future.</p>
+<p>Anyway, this is merely a score just calculated numbers on spreadsheets. A more precise analysis is needed. I hope this would motivate someone (and help me tidying data&hellip;).</p>
+<h2 id="tables">Tables</h2>
+<ul>
+<li><img src="images/01_allfourfes-2.png" alt=""></li>
+<li><img src="images/02_comparison_2019-2.png" alt=""></li>
+<li><img src="images/03_FRF-2.png" alt=""></li>
+<li><img src="images/04_SUMMERSONIC-2.png" alt=""></li>
+<li><img src="images/05_RIJF-2.png" alt=""></li>
+<li><img src="images/06_RSR-2.png" alt=""></li>
+</ul>
+]]></content:encoded>
     </item>
     <item>
       <title>People In The Box, Kodomo Rengou (2018)</title>
@@ -22,6 +66,18 @@
       <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-06-05-people-in-the-box-kodomo-rengou-2018/</guid>
       <description>&lt;p&gt;Honestly, I had very little knowledge about People In The Box until their latest &lt;em&gt;Kodomo Rengou&lt;/em&gt;, which was released in February 2018. I was relatively new to today&amp;rsquo;s Japanese rock music &amp;lsquo;cuz I was crazy in dance music since the late &amp;rsquo;00s. However, one of my friends strongly recommended the album, saying that it would be the album of the year. Then I tried listening and soon fell in love with it. I&amp;rsquo;ve listened to it over and over, even ignoring other new releases.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Honestly, I had very little knowledge about People In The Box until their latest <em>Kodomo Rengou</em>, which was released in February 2018. I was relatively new to today&rsquo;s Japanese rock music &lsquo;cuz I was crazy in dance music since the late &rsquo;00s. However, one of my friends strongly recommended the album, saying that it would be the album of the year. Then I tried listening and soon fell in love with it. I&rsquo;ve listened to it over and over, even ignoring other new releases.</p>
+<iframe src="https://open.spotify.com/embed/album/1nHBkhIYzUGoZsapNNS69z" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=V-zpdA0zQaCYh4CeI-QLtA
+<p>The album reminded me of some math-rock acts but it had a more physical and active groove. Rather than indulging in sweet and violent tones from the amplifiers, just as some bands do (oops, I don&rsquo;t blame on them. just for comparison), they play riffs and rhythm patterns with strong clarity. From a note to note, I can hear their intention&ndash;how they want them to sound, how they want them to be. The interplay between melodies is dizzying yet compelling me to dance to it. I dare say that it&rsquo;s like something fusing prog-rock, chamber music and afrobeat.</p>
+<p>Their lyrics are also important. With quite simple vocabulary, they often depict the ordinary life around us, especially in Japan&rsquo;s suburbs. Let me take &ldquo;町A (Town A)&rdquo; as an example. In its chorus, Hirofumi Hatano (Vo. &amp; Guitar, who also writes all of their lyrics) sings like this: &ldquo;huge mall, restaurant, public library, udon noodle stand, book store, bakery, housing, flower shop, ramen stand, shrine, temple, secondhand car shop, room with sunlight.&rdquo; Most Japanese people may easily imagine such a tasteless landscape. It belongs nowhere, as the title suggests. It has no name. If anything, it can be everywhere. It might be my hometown, or else, someone&rsquo;s hometown instead.</p>
+<p>&ldquo;This is not heaven, let alone a paradise. / However, this is not hell even. / One night after another / Say, a buffer zone or resting place between nights / This is not heaven; just my hometown&rdquo; Hatano sings. Ok, this is certainly the mise-en-scene of our everyday life. But how strange, weird, and uncanny is this? It&rsquo;s like the Brechtian theatre&rsquo;s distancing effect. It&rsquo;s pretty ambivalent that the album closes with a song named &ldquo;僕は正気 (I AM sane)&rdquo;. Are we still sober or losing our minds in this world?</p>
+<p>Hatano deliberately manipulates words and depicts people&rsquo;s inherent anxiety without any sentimental rhetorics. But it moves my mind so hard that I almost cry when I listen to &ldquo;かみさま (God)&rdquo; and &ldquo;僕は正気&rdquo;.</p>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/n?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+_mYKIaSYFA</p>
+<p>The tight groove of the ensemble, the complicated texture of the sound, and the lyrics&rsquo; peculiar poesy. This is obviously the best Japanese rock album of 2018.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>ぼくのりりっくのぼうよみ (Bokunoririkkunobouyomi), 没落 (Botsuraku) (2018)</title>
@@ -29,6 +85,22 @@
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-05-28-%E3%81%BC%E3%81%8F%E3%81%AE%E3%82%8A%E3%82%8A%E3%81%A3%E3%81%8F%E3%81%AE%E3%81%BC%E3%81%86%E3%82%88%E3%81%BF-%E6%B2%A1%E8%90%BD-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/5MSPC7Nwd079uK2YyN6Gh8&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=D3L5rARXSRSmODgJxsvt3A&#xD;&#xA;&lt;p&gt;I couldn&amp;rsquo;t post last Wednesday because I was too busy and tired. One of my distraction then was preparing my dj set at Gampeki Music Festival which would be held at the weekend. I&amp;rsquo;ve almost quit djing years ago and my skill is not great at all tho, I enjoyed playing. &lt;a href=&#34;https://www.mixcloud.com/imdkm/imdkm-gampeki-music-fes-2019-05-25/&#34;&gt;You can hear it on mixcloud&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Today I&amp;rsquo;d like to write about ぼくのりりっくのぼうよみ (boku no ririkku no bo&amp;rsquo;yomi, ぼくりり in short)&amp;rsquo;s 没落 (botsuraku). The title means &amp;ldquo;fall&amp;rdquo; or &amp;ldquo;decay&amp;rdquo; literally. It was his last album under the name ぼくのりりっくのぼうよみ. He was a young and talented singer and songwriter with a unique voice and thoughtful lyrics, whose music attracted the wide audience. His dance-oriented beat and eloquent vocalization were mellow and youthful at the same time, no other singers had a charismatic atmosphere as his one.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/5MSPC7Nwd079uK2YyN6Gh8" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=D3L5rARXSRSmODgJxsvt3A
+<p>I couldn&rsquo;t post last Wednesday because I was too busy and tired. One of my distraction then was preparing my dj set at Gampeki Music Festival which would be held at the weekend. I&rsquo;ve almost quit djing years ago and my skill is not great at all tho, I enjoyed playing. <a href="https://www.mixcloud.com/imdkm/imdkm-gampeki-music-fes-2019-05-25/">You can hear it on mixcloud</a>.</p>
+<p>Today I&rsquo;d like to write about ぼくのりりっくのぼうよみ (boku no ririkku no bo&rsquo;yomi, ぼくりり in short)&rsquo;s 没落 (botsuraku). The title means &ldquo;fall&rdquo; or &ldquo;decay&rdquo; literally. It was his last album under the name ぼくのりりっくのぼうよみ. He was a young and talented singer and songwriter with a unique voice and thoughtful lyrics, whose music attracted the wide audience. His dance-oriented beat and eloquent vocalization were mellow and youthful at the same time, no other singers had a charismatic atmosphere as his one.</p>
+<p>However, suddenly he announced that he would quit ぼくりり, saying that he was exhausted with <em>being a genius</em>. He was also known for somewhat challenging or controversial remarks about Japan&rsquo;s music industry, media coverage, and music critics. He was like a trickster. So I was suspicious about the statement. It seemed like a staged performance rather than an honest feeling, just aiming a social buzz to promote his new album. Moreover, his tweets following the statement contained some misogynistic phrases like calling some of his fans ババア (&ldquo;old bitches&rdquo; or something like that), which was offensive against women. I was disappointed, although his true intention remained unclear.</p>
+<p>没落 was released in somewhat uncomfortable buzz. Against my expectations, it was an instant masterpiece which obviously deserved to be his accomplishment as an artist. While his signature style which had jazz-influenced chord progressions and vibrant melodies wasn&rsquo;t changed, the variety of beats were more diverse than before, from UK Garage/Speed Garage to NY House to Future Soul.</p>
+<p>The most surprising thing was like, some songs were like suites telling us dramatic stories, reminiscing Queen&rsquo;s &ldquo;Bohemian Rhapsody&rdquo;. The good example of these was &ldquo;輪廻転生 (Rin&rsquo;ne Tensho, Metempsychosis in English)&rdquo;. Beginning with a simple electro hip-hop beat, the song underwent from Minimalistic chamber ensemble to gospel-like choir with the Prismizer effect which reminded me of Bon Iver or Francis and the Lights. I was very surprised because very few J-POP acts have made a good use of such vocal processing technology (Yasutaka Nakata&rsquo;s use of Auto-tune is a rare example).</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/5VB3UwrsLPg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>The album was great, but this fact made me wonder why he had to quit the activity like that. It should have been the beginning of the next phase rather than an ending of the career. After his final show, he changed the stage name from ぼくりり to たなか which was one of the most typical family names in Japan. As he appeared some artist&rsquo;s releases under aliases, it seems that it&rsquo;s not retirement per se. So I hope someday たなか (or ぼくりり again) would release some materials.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4niQ-lCTTv4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
     <item>
       <title>江沼郁弥 (ENUMA Fumiya), #1 (2018)</title>
@@ -36,6 +108,29 @@
       <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-05-15-%E6%B1%9F%E6%B2%BC%E9%83%81%E5%BC%A5-1-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/1THXec52uSoXkXNJvMLUNy&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=DkYFLWLfTrCojM-I6lu9Qw&#xD;&#xA;&lt;p&gt;Enuma Fumiya&amp;rsquo;s &lt;em&gt;#1&lt;/em&gt; is his first full-length as a solo singer-songwriter. After the break-up of plenty in 2017, the introspective frontman of the band took some synths and a daw into his hands instead of the guitar. While plenty&amp;rsquo;s music was characterized by the shoegaze-like guitar noise with catchy melodies&amp;ndash;say, very &amp;ldquo;indie&amp;rdquo; in a sense&amp;ndash;the album was completely rid of such catharsis. It was like something between psychedelic folk and alternative r&amp;amp;b which could be compared to James Blake&amp;rsquo;s or Frank Ocean&amp;rsquo;s seminal works. I would say that he was finding another way to express his thought with a great delicacy. And he actually did it.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/1THXec52uSoXkXNJvMLUNy" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=DkYFLWLfTrCojM-I6lu9Qw
+<p>Enuma Fumiya&rsquo;s <em>#1</em> is his first full-length as a solo singer-songwriter. After the break-up of plenty in 2017, the introspective frontman of the band took some synths and a daw into his hands instead of the guitar. While plenty&rsquo;s music was characterized by the shoegaze-like guitar noise with catchy melodies&ndash;say, very &ldquo;indie&rdquo; in a sense&ndash;the album was completely rid of such catharsis. It was like something between psychedelic folk and alternative r&amp;b which could be compared to James Blake&rsquo;s or Frank Ocean&rsquo;s seminal works. I would say that he was finding another way to express his thought with a great delicacy. And he actually did it.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/XhwdiUb4uyw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rT5xqVVbhew?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>In the endless reverberation and infinite echoes, his voice tells us how he&rsquo;s sad and desperate. This sadness once used to be quite dramatic and ecstatic especially when he was with his band, but now it&rsquo;s more nuanced as he elaborates the sound design. Every sound of the album is deliberately modulated to express feelings that couldn&rsquo;t be said with words. M9 &ldquo;take my hands&rdquo; is the best example I think. The guitar loop is granulated and pitch-shifted voices are haunting the entire song. The song sounds like memories suspended in the air, slowly falling into oblivion.</p>
+<p>From this March, Enuma has released three singles which would be featured in the new album. These three songs, &ldquo;うるせえんだよ&rdquo;, &ldquo;偽善からはじめよう&rdquo;, and &ldquo;積み木くずし&rdquo; are more friendly in sound but much more pessimistic in words. FYI &ldquo;うるせえんだよ&rdquo; and &ldquo;偽善からはじめよう&rdquo; can be respectively translated like &ldquo;Shut the fuck up&rdquo; and &ldquo;Let&rsquo;s begin with hypocrisy&rdquo;, both are very shocking as song&rsquo;s name. However, while he sings about his distrust of the people and the impossibility of mutual understanding, he is also breaking the walls of creativity.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/hileNn5rvhE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DSgIVQTSSOc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Enuma recently plays his show with a young and mysterious band 木 (ki), one of the most anticipated new comer in Japan. Among music lovers, they&rsquo;re known for an eccentric and minimalistic approach with a definite pop sense. Their avant-garde pop rendered in a smooth R&amp;B flavor, which is 木&rsquo;s signature style, certainly resonates with Enuma&rsquo;s solo works (check out the band&rsquo;s debut EP <em>Vi</em> below). This collaboration is pretty fascinating to me. I&rsquo;d like to watch their show someday this year.</p>
+<iframe src="https://open.spotify.com/embed/album/6iPqeNBLAccQagGIV4voJE" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=cquLxgKQSbGloPb\_1QSGsA
+]]></content:encoded>
     </item>
     <item>
       <title>Tempalay, なんて素晴らしき世界 (Nante Subarashiki Sekai), 2018</title>
@@ -43,6 +138,21 @@
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-05-07-tempalay-%E3%81%AA%E3%82%93%E3%81%A6%E7%B4%A0%E6%99%B4%E3%82%89%E3%81%97%E3%81%8D%E4%B8%96%E7%95%8C-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/44sckHW5kHPrlFjffVzkI4&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=4jnQf9N5RCCpUnaPvW2FgA&#xD;&#xA;&lt;p&gt;When I found that RM (from BTS) was listening to Tempalay&amp;rsquo;s &amp;ldquo;どうしよう (dooshiyou)&amp;rdquo; I was very excited since it was one of my most favorite songs then. The song starts with slightly out-of-scale riffs which have a dislocating feeling. After a sudden glitchy edit, the band&amp;rsquo;s vocalist Ryoto Obara begins to sing with the mesmerizing guitar and the bold beat, embraced by their multi-instrumentalist AAAMYYY&amp;rsquo;s backing chorus. I was not satisfied with the cheesy vid but I couldn&amp;rsquo;t help watching it over and over and over. I thought RM might feel the same way as me.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/44sckHW5kHPrlFjffVzkI4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=4jnQf9N5RCCpUnaPvW2FgA
+<p>When I found that RM (from BTS) was listening to Tempalay&rsquo;s &ldquo;どうしよう (dooshiyou)&rdquo; I was very excited since it was one of my most favorite songs then. The song starts with slightly out-of-scale riffs which have a dislocating feeling. After a sudden glitchy edit, the band&rsquo;s vocalist Ryoto Obara begins to sing with the mesmerizing guitar and the bold beat, embraced by their multi-instrumentalist AAAMYYY&rsquo;s backing chorus. I was not satisfied with the cheesy vid but I couldn&rsquo;t help watching it over and over and over. I thought RM might feel the same way as me.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/TRpAf1aqw3g?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Tempalay is a Japanese psychedelic rock band, whose music apparently resonates with the Aussie star band Tame Impala (oh, their names resembles each other btw). Raw, lo-fi, and strangely chill. Listening to them is like a lucid dream or a psychedelic trip without losing minds. The band was formed in 2014 and officially debuted in 2015 by the EP Instant Hawaii. It took only two years to take &rsquo;em Austin, Texas to play at SXSW 2016. They&rsquo;ve been so prolific that they&rsquo;ve released three EPs and two full-length from 2015 to 2018, even they&rsquo;re gonna release their third full-length 21世紀より愛をこめて (can be translated like <em>From 21st century with love</em>) this June.</p>
+<p>なんて素晴らしき世界 <em>(Nante Subarashiki Sekai,</em> which means <em>What a wonderful world)</em> is their third EP which includes &ldquo;どうしよう&rdquo; the single mentioned above. As the original bass player Yuya Takeuchi left the band in 2018, the former support player AAAMYYY, who&rsquo;s also known for her solo career as a beatmaker officially joined in. Since she was not a proper bass player (she mostly play samplers and synths) welcoming her in the band led them a more eclectic sound, featuring a variety of instruments and electronics. For example, &ldquo;テレパシー (Telepathy)&rdquo; has 808 in its verse, popping electronic sound effects in the chorus, and AAAMYYY&rsquo;s rap is also featured in the bridge.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CxT89BLe5iE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Moreover, you may hear more elaborate and tricky songwriting in songs like &ldquo;SONIC WAVE&rdquo;, which has a lot of sudden scene changes, or &ldquo;Last Dance&rdquo;, which heavily features metric modulations. Yes. The ensemble is pretty tight. The songs are well-written and playful. I bet their upcoming 21世紀より愛をこめて is gonna be their true breakthrough. Fortunately, they just released a single called &ldquo;のめりこめ、震えろ。(Nomerikome, furuero.)&rdquo;, roughly translated like &ldquo;Lose yourself and shiver&rdquo;. I&rsquo;ll listen to it and lose myself as they ask me to do.</p>
+<iframe src="https://open.spotify.com/embed/track/3XQnittvPtZGzJrsqAwlkN" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=uY1LaZz-QtWodbJIS6sXfA
+]]></content:encoded>
     </item>
     <item>
       <title>Shohei Amimori and the Bacteria Collective&#39;s show was pretty awesome. why don&#39;t you invite them to play?</title>
@@ -50,6 +160,29 @@
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-04-24-shohei-amimori-and-the-bacteria-collectives-show-was-pretty-awesome-why-dont-you-invite-them-to-play/</guid>
       <description>&lt;p&gt;Last week I was at Shibuya WWWX to see Shohei Amimori&amp;rsquo;s show called &amp;ldquo;パタミュージッキング (patamusicking)&amp;rdquo; which was the release party for his 2018 album パタミュージック. The support acts, Kasanegi Wrist-band and Takuro Okada were both pretty awesome though, the most impressive act was, of course, the main one&amp;ndash;Shohei Amimori and the Bacteria Collective.&lt;/p&gt;&#xA;&lt;p&gt;They were gathered by Amimori to play the songs from the album which has very DAW-oriented post-production and sound processing. So I couldn&amp;rsquo;t imagine how it would be, even a little bit suspicious about that. Deliberately composed and edited, they have quite complex structures and it seemed to be almost impossible to play them live.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Last week I was at Shibuya WWWX to see Shohei Amimori&rsquo;s show called &ldquo;パタミュージッキング (patamusicking)&rdquo; which was the release party for his 2018 album パタミュージック. The support acts, Kasanegi Wrist-band and Takuro Okada were both pretty awesome though, the most impressive act was, of course, the main one&ndash;Shohei Amimori and the Bacteria Collective.</p>
+<p>They were gathered by Amimori to play the songs from the album which has very DAW-oriented post-production and sound processing. So I couldn&rsquo;t imagine how it would be, even a little bit suspicious about that. Deliberately composed and edited, they have quite complex structures and it seemed to be almost impossible to play them live.</p>
+<iframe src="https://open.spotify.com/embed/album/13dWVB5Fe9Kiegdc3H3l3U" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=yKUadiIaRPWFO2oJry-XyQ
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/CfvbbvlHmzY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Despite its complexity, パタミュージック itself is quite playful and pop (sometimes terribly uncanny especially regarding their lyrics). Entirely, their melodies often remind me of background music for JRPG (e.g. M5 &ldquo;ajabollamente&rdquo; as well as the other songs) which now has lots of enthusiasts of the genre all over the world, including Thundercat, FlyLo, and Kode9. Or some songs have a certain kind of feeling that resembles Ambient / New Age music from the 80s (you can hear it in M7 &ldquo;Biennale&rdquo;), which is now also undergoing re-evaluation, as the massive compilation <em>Kankyo Ongaku</em> and its buzz shows us.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/I5F5v-yKaHM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<iframe src="https://open.spotify.com/embed/album/63x6MwkzIVtoH6lbHIYEtr" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=uKQTWgkvTsuPxW3ByVXh7w
+<p>Amimori mixes up those musical heritages with his profound knowledge of musical history and peculiar aesthetic. While he has a very academic basis&ndash;he studied composition at Tokyo University of the Arts which is one of the most prestigious institutions in Japan&ndash;he can render it in the strangely pop atmosphere. It was already obvious in his first full-length <em>[SONASILE](<iframe src="https://open.spotify.com/embed/album/02bKepy8vKxkMOp6bbayOV" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=0e4l6uMGSi-B_ftf-MXqDA)</em>, which was rather experimental than pop while some songs featured friendly melodies in them. Two years later, in <em>パタミュージック</em>, he seemed that he was trying to criticize what the word &ldquo;pop&rdquo; meant to everyone in much more &ldquo;pop&rdquo; disguise. It was not to make &ldquo;experimental&rdquo; into &ldquo;pop&rdquo; (and vice versa). Rather, what this album tellin&rsquo; me is that being &ldquo;pop&rdquo; is the most sophisticated form of critique.</p>
+<p>I had been fascinated during the entire show and almost losing my mind. Against my expectation, it was very physical and danceable. Since then I&rsquo;ve been wondering why the audience was forced to sit down instead of dancing around the floor! The best moment was &ldquo;Climb Downhill 1&rdquo; performed in live. That was a stunning experience. As you can hear in it, the tempo is continually sped up throughout the song like a Shepard tone, which is continually ascending in pitch. Recently I learned that this kind of rhythm structure is called Risset rhythm.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/RQlrSvnG3dg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>The concept is very simple. For example, 160 bpm (beats per minute) can be interpreted as 80 bpm which is meant to be half-time, many trap things make use of this. Given that, just speeding up the tempo and when the bpm reaches a specific number slow it down to exact half bpm.</p>
+<p>But, hey, this is easy to say, quite hard to do. When it comes to playing in live with numerous players this sounds almost crazy. However, the Bacteria Collective did make it thanks to their virtuosity and the modern technology (apparently they played along with the click via monitoring headphones). Moreover, it was pretty musical, joyful, and danceable. With the light effects it was spectacular that was worth to come to Tokyo from Yamagata (It took one night to go to Tokyo in the bus. If you use Shinkansen express, you can go there in three hours tho&hellip;).</p>
+<p>I strongly recommend Shohei Amimori&rsquo;s works and his performance. For foreign audience it would be the next Cornelius or something like that. Listen to his work from above Spotify link and embedded vids.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Perfume, Future Pop (2018)</title>
@@ -57,6 +190,31 @@
       <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-04-16-perfume-future-pop-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/0e7AS0Cgn03lXq2orBHQG0&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=\_VtbN7KdRRq6dPqejd\_SVQ&#xD;&#xA;&lt;p&gt;Since their breakthrough &amp;ldquo;ポリリズム (polyrhythm)&amp;rdquo; in 2007, Perfume has grown up from a &amp;ldquo;kawaii&amp;rdquo; futuristic electro-pop idol to one of Japan&amp;rsquo;s most popular and fascinating pop act. They just made their first major appearance at Coachella last weekend and highly appreciated (even &lt;a href=&#34;https://www.rollingstone.com/music/music-lists/coachella-2019-best-performances-ariana-grande-nsync-822246/&#34;&gt;Rolling Stone named them as one of the best acts at Coachella&lt;/a&gt;). It seems that their performance in the second weekend will be streamed via YouTube. It&amp;rsquo;ll be worth watching for their performance will show you the sophisticated side of J-POP: the ensemble of their spontaneous charm, skillful choreography by MIKIKO, and cutting-edge tech effects by Rhizomatics.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/0e7AS0Cgn03lXq2orBHQG0" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=\_VtbN7KdRRq6dPqejd\_SVQ
+<p>Since their breakthrough &ldquo;ポリリズム (polyrhythm)&rdquo; in 2007, Perfume has grown up from a &ldquo;kawaii&rdquo; futuristic electro-pop idol to one of Japan&rsquo;s most popular and fascinating pop act. They just made their first major appearance at Coachella last weekend and highly appreciated (even <a href="https://www.rollingstone.com/music/music-lists/coachella-2019-best-performances-ariana-grande-nsync-822246/">Rolling Stone named them as one of the best acts at Coachella</a>). It seems that their performance in the second weekend will be streamed via YouTube. It&rsquo;ll be worth watching for their performance will show you the sophisticated side of J-POP: the ensemble of their spontaneous charm, skillful choreography by MIKIKO, and cutting-edge tech effects by Rhizomatics.</p>
+<p>Let me introduce them a bit more. With Nakata Yasutaka, who&rsquo;s the most prolific Japanese producer in this decade, Perfume played an essential role in the recent J-POP scene. From electro-influenced dance pop (oh, I miss that blog-house era&hellip;) to EDM-like banger, they introduced the ethos of dance music to J-POP in a very challenging way.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KbiSxunJatM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>For example, their hit &ldquo;ポリリズム&rdquo; which I mentioned above has an eccentric twist in the bridge where top notes progress in 5/4 time (it is repetition of the word &ldquo;polyrhythm&rdquo; for in Japanese the word &ldquo;polyrhythm&rdquo; has five syllables like &ldquo;po-lee-lee-zoo-moo&rdquo;) on the four-on-the-floor beat. Literally, it&rsquo;s a kind of polyrhythm. It is said that their record company rejected this idea for it&rsquo;s too much for the listeners but Nakata insisted that this is essential to the song since it&rsquo;s calling itself &ldquo;polyrhythm&rdquo;. It was not just a funny idea. Rather it&rsquo;s a challenge to the norm.</p>
+<p>Future Pop, their latest album released in the summer of 2018, was also challenging when it came to song structure. It featured &ldquo;drop&rdquo;-type hook, which was not so popular in Japan. Around 2016 the Chainsmokers and other EDM-oriented producers began to use &ldquo;drop&rdquo; as a new way to make a hook in a song. Usually, hooks (or chorus in the more traditional way) feature an earworm melody and impressive lyrics. In contrast, &ldquo;drop&rdquo;-type hooks prefer bright synth-leads or heavy bass lines to vocals. You can hear it in the Chainsmokers&rsquo; &ldquo;Closer feat. Halsey&rdquo;, their biggest hit.</p>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/PT2?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+_F-1esPk</p>
+<p>Hooks without singing. Since Japanese people really like to sing and listen to singing, this seemed not to be favored. However, they actually made it. It&rsquo;s because they are not only singers but distinguished dancers. As I mentioned above they are known for their very sophisticated stage performance. So their fans soon understood what these &ldquo;drop&rdquo;-type hooks meant to them. Also, in these two or three years EDM has become much popular in Japan thanks to the growing festival culture and the rise of young producers (in addition, EDM-oriented songwriting in K-POP is of course one of main influence).</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/cGlFxkWgI84?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/pFc9PZrroOk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Curiously, although Perfume was often described as &ldquo;EDM&rdquo; for their song featured supersaw leads, plucky synths, and heavy kick drums, in terms of song structure they were quite J-POP. In this sense, Future Pop is their first proper &ldquo;EDM&rdquo; album. But this doesn&rsquo;t mean they will be an EDM band forever. Soon they will find the next challenge and surprise us.</p>
+<p>Well, before it, I&rsquo;d better watch them performing at Coachella this weekend on the couch with some snack.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Kid Fresino, ài qing (2018)</title>
@@ -64,6 +222,31 @@
       <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-04-10-kid-fresino-ai-qing-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/7qMgzRK8TKUbyECfMY9GGr&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=CtOe2pwdQAW3AF\_XNCF0Bg&#xD;&#xA;&lt;p&gt;While Asian-American hip-hop collective 88rising&amp;rsquo;s making a viral sensation around the world and K-POP acts like BTS or BLACKPINK are going into the U.S. market with hip-hop oriented imagery, the underground hip-hop scenes around Eastern Asia has been quite interesting for years. Throughout several cities in Japan, maybe especially Tokyo, the new generation of hip-hop acts is emerging and changing the game.&lt;/p&gt;&#xA;&lt;p&gt;Kid Fresino began his career as a producer and DJ for hip-hop group Fla$hBacks in 2013. Soon he also started to rap and released his own solo works in parallel with the group. Switching Japanese and English alternately, he spits verses in a sticky, slightly off-the-pocket but groovy manner. He&amp;rsquo;s been known for being prolific as both producer and rapper (lots of guest appearances and collaboration such as &lt;em&gt;Somewhere&lt;/em&gt;, a double name album with the Nagoya-based rapper C.O.S.A.) but since returning to Japan from a few years stay in NY he turned his direction a bit.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/7qMgzRK8TKUbyECfMY9GGr" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=CtOe2pwdQAW3AF\_XNCF0Bg
+<p>While Asian-American hip-hop collective 88rising&rsquo;s making a viral sensation around the world and K-POP acts like BTS or BLACKPINK are going into the U.S. market with hip-hop oriented imagery, the underground hip-hop scenes around Eastern Asia has been quite interesting for years. Throughout several cities in Japan, maybe especially Tokyo, the new generation of hip-hop acts is emerging and changing the game.</p>
+<p>Kid Fresino began his career as a producer and DJ for hip-hop group Fla$hBacks in 2013. Soon he also started to rap and released his own solo works in parallel with the group. Switching Japanese and English alternately, he spits verses in a sticky, slightly off-the-pocket but groovy manner. He&rsquo;s been known for being prolific as both producer and rapper (lots of guest appearances and collaboration such as <em>Somewhere</em>, a double name album with the Nagoya-based rapper C.O.S.A.) but since returning to Japan from a few years stay in NY he turned his direction a bit.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4TRM3cps2Jo?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/8VzneQnyMPY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>In 2017, as he moved back to Tokyo he formed a band with talented instrumental players. With the band, he&rsquo;s been exploring a more genre-bending approach since then, which was first accomplished in the EP <em>Salve</em> (2017) and this first step led him to the singular sound of <em>ài qing</em>. The band&rsquo;s members are now Jungo Miura (Ba., from PETROLZ), Yusaku Sato (Key. etc.), Shun Ishiwaka (Dr.) and Utena Kobayashi (Perc.). As they are all highly regarded players in their own field, this band certainly deserves to be called a &ldquo;super band&rdquo;.</p>
+<iframe src="https://open.spotify.com/embed/album/0bZZoPiUPJ6HxAdHyInjCa" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=hnjcxkQkTXql3DzqD0Fxuw
+<p>In contrast to <em>Salve</em> which was full of pretty smooth, neo-soul like tracks, <em>ài qing</em> opens with the very complex polyrhythmic tune &ldquo;Coincidence&rdquo;. Although the members of the band are heavily influenced by and trained in contemporary Jazz, it sounds much more solid like prog- or post-rock things. Here, Kid Fresino takes a unique approach that is a bit different from the sort of post-Soulquarians style ensemble. You can hear it in five out of thirteen tracks in this album, &ldquo;Coincidence&rdquo;, M5 &ldquo;Winston&rdquo;, M6 &ldquo;CNW&rdquo;, M9 &ldquo;not nightmare&rdquo;, M11 &ldquo;Nothing is still&rdquo;.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/JvOBHAfXX1Y?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>On the other hand, this album features beats from cutting-edge electronic music producers in Japan including Seiho and Kenmochi Hidefumi (Wednesday Campanella) along with the hip-hop artisan BACHLOGIC, the bright new comer VaVa, and Kid Fresino himself. Futuristic bangers by Seiho are indeed my favorites, particularly M7 &ldquo;Fool me twice&rdquo; featuring 5lack has a tense atmosphere in its minimalistic sound design. Kid Fresino and Seiho keep on working together and recently, they released &ldquo;720&rdquo; which is a rather short but def banger with acid synths and breakbeats.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/aUQu49f8jIA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Of course, the other featured rappers, NENE and Ryugo Ishida from Yurufuwa Gang, Chinza Dopeness, Campanella, ISSUGI, C.O.S.A., JJJ shows how unique talents are now in Japan&rsquo;s hip-hop scene. If you&rsquo;re interested in Japanese hip-hop, you can dig into it through this album and featured rappers.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>sub-bass, anxiety, and hugs: some notes on therapeutic values of Billie Eilish&#39;s music</title>
@@ -71,6 +254,29 @@
       <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-04-05-sub-bass-anxiety-and-hugs-some-notes-on-therapeutic-values-of-billie-eilishs-music/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/0S0KGZnfBGSIssfF54WSJh&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=eV6kRwwFSNCtVHM\_ICdCMQ&#xD;&#xA;&lt;p&gt;As you can see it on the billboard hot 100 charts, Billie Eilish&amp;rsquo;s debut &lt;em&gt;When We All Fall Asleep, Where Do We Go?&lt;/em&gt; is making fascination among young listeners in the States. Many Japanese listeners are also fascinated by the album and Eilish&amp;rsquo;s charismatic behavior, and I&amp;rsquo;m not afraid to say I&amp;rsquo;m the one. I&amp;rsquo;m completely crazy in her.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/DyDfgMOUjCI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;p&gt;Today I read an interesting article which features Eilish&amp;rsquo;s interview. It was &amp;ldquo;&lt;a href=&#34;https://www.rollingstone.com/music/music-features/billie-eilish-album-songs-interview-tour-tickets-797040/&#34;&gt;Billie Eilish’s Teenage Truths: How the unfiltered 17-year-old singer with dark visions became pop’s new conscience&lt;/a&gt;&amp;rdquo; by Jonah Weiner. But the Japanese version of the article had a different title that said &amp;ldquo;&lt;a href=&#34;https://rollingstonejapan.com/articles/detail/30460&#34;&gt;若い子たちにとって私の曲はハグなの (Kids use my songs as a hug.)&lt;/a&gt;&amp;rdquo; quoting her words. This quote impressed me because calling her music &amp;ldquo;a hug&amp;rdquo; seemed to be quite accurate to me.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/0S0KGZnfBGSIssfF54WSJh" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=eV6kRwwFSNCtVHM\_ICdCMQ
+<p>As you can see it on the billboard hot 100 charts, Billie Eilish&rsquo;s debut <em>When We All Fall Asleep, Where Do We Go?</em> is making fascination among young listeners in the States. Many Japanese listeners are also fascinated by the album and Eilish&rsquo;s charismatic behavior, and I&rsquo;m not afraid to say I&rsquo;m the one. I&rsquo;m completely crazy in her.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DyDfgMOUjCI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Today I read an interesting article which features Eilish&rsquo;s interview. It was &ldquo;<a href="https://www.rollingstone.com/music/music-features/billie-eilish-album-songs-interview-tour-tickets-797040/">Billie Eilish’s Teenage Truths: How the unfiltered 17-year-old singer with dark visions became pop’s new conscience</a>&rdquo; by Jonah Weiner. But the Japanese version of the article had a different title that said &ldquo;<a href="https://rollingstonejapan.com/articles/detail/30460">若い子たちにとって私の曲はハグなの (Kids use my songs as a hug.)</a>&rdquo; quoting her words. This quote impressed me because calling her music &ldquo;a hug&rdquo; seemed to be quite accurate to me.</p>
+<p>In my opinion, the main characteristic of Eilish&rsquo;s music is a heavy-use of sub-bass. Precisely, this term means the sound of very low frequencies between 20Hz (the lowest limit of human&rsquo;s perception, most home speakers cannot play this frequency) to 40 or 50 Hz (usually this range is occupied by the sustain of kick drums). For example, &ldquo;when party&rsquo;s over&rdquo; is basically consist of her voice, some dubbed chorus, and a bit of some acoustic instruments like the piano. But in the midst of the song terrific sub-bass is inserted as something between a bass line and a sound effect. If you cannot hear it you should listen to it with good headphones instead of speakers.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/pbMwTqkKSps?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Her (or their, regarding the sibling&rsquo;s collaboration on song writings) use of sub-bass gets an extreme when &ldquo;xanny&rdquo; plays out with the oddly distorted bass lines shred the listener&rsquo;s ears. It is not only uncomfortable but also un-musical in a sense that it sounds like a digital error occurred when processing sound files in the Digital Audio Workstation. Unlike a fuzz or overdrive, such kind of distortion doesn&rsquo;t make any sense until the song makes us sure that this noise is made intentionally. In &ldquo;xanny&rdquo;, her voice is also distorted in the same manner as the bass. Now I&rsquo;m sure that this is a challenge rather than a mistake. Okay.</p>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/GbjwfQG?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+_N_Y</p>
+<p>I&rsquo;ve been wondering why such peculiar use of the sub-bass was featured in her music and was appreciated by many, many fans. Of course, there was a possible answer like this: they just didn&rsquo;t hear at all. Even without bass, every her song is an earworm. But her words, &ldquo;Kids use my songs as a hug&rdquo; gave me enlightenment. Those massive, freaky low sine waves embrace listeners like a hug. And a hug can comfort us as Temple Grandin&rsquo;s <em>hug machines</em> shows.</p>
+<p>Temple Grandin is a scientist who created the scheme for humane treatment of livestock for slaughter. But she may be better known for sharing her experience as a person on autism spectrum. Her hug machine (or hug box) is a device that gives its user a physical pressure by holding him or herself tight inside the box. Pressure gives you ease. This discovery is applied to several therapeutic programs for people with disorders, like the weighted blanket for insomnia caused by depression, autism spectrum disorder, ADHD, etc. By the way, I&rsquo;m on ADHD for years. Maybe since my childhood?</p>
+<p>This is why she makes use of sub-bass. I&rsquo;m not so sure but nearly convinced myself.</p>
+<p>Eilish&rsquo;s music is grotesque, introspective, and sad regarding its lyrics. The fear of self-destruction, severe depression, and physical abuse is frequently expressed through both words and images. This kind of practice in pop culture often works as a stress relief for youth, especially those who are in their puberty. Like Kurt Cobain&rsquo;s desperate lyrics, all those abject images in her music are the ultimate cure for kids with anxiety.</p>
+<p>However, I think that it is not enough. When she plays sub-bass loud, it almost literally hugs you. Even before you understand what she&rsquo;s singing, you feel comfortably embraced by the sound (if you have an adequate environment in your bedroom, though). Despite its superficial cruelty, her music is inherently tender.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>You gotta check &#34;Apple Vinegar Music Award&#34;, the musicians&#39; choice of the year.</title>
@@ -78,6 +284,38 @@
       <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-04-02-you-gotta-check-apple-vinegar-music-award-the-musicians-choice-of-the-year/</guid>
       <description>&lt;p&gt;Hm. Hi, this is imdkm. I&amp;rsquo;ve posted nine entries since January. I dunno how many people reading this blog, but I hope someday these entries would be read by many music fans and make &amp;rsquo;em listen to Japanese pop music more. This year&amp;rsquo;s resolution of mine.&lt;/p&gt;&#xA;&lt;p&gt;Well, today, I&amp;rsquo;d like to introduce an interesting project named &amp;ldquo;&lt;a href=&#34;http://www.applevinegarmusicaward.com/&#34;&gt;Apple Vinegar Music Award&lt;/a&gt;&amp;rdquo;. It is an independent annual award to shed the light on the year&amp;rsquo;s most excellent but relatively unknown releases of young musicians in Japan. It was founded by Masafumi Goto, who is ASIAN KUNG-FU GENERATION&amp;rsquo;s vocalist and guitarist, in 2018 (for those who doesn&amp;rsquo;t know &amp;rsquo;em, the band&amp;rsquo;s introduction is in the final paragraphs of this post). Nominees are selected by him and judges are well-known musicians in J-POP scene, who are friends of him&amp;ndash;seemingly rather private than public, but its mission is very ambitious for just an personal project. I&amp;rsquo;m sure it&amp;rsquo;s worth to check it out.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hm. Hi, this is imdkm. I&rsquo;ve posted nine entries since January. I dunno how many people reading this blog, but I hope someday these entries would be read by many music fans and make &rsquo;em listen to Japanese pop music more. This year&rsquo;s resolution of mine.</p>
+<p>Well, today, I&rsquo;d like to introduce an interesting project named &ldquo;<a href="http://www.applevinegarmusicaward.com/">Apple Vinegar Music Award</a>&rdquo;. It is an independent annual award to shed the light on the year&rsquo;s most excellent but relatively unknown releases of young musicians in Japan. It was founded by Masafumi Goto, who is ASIAN KUNG-FU GENERATION&rsquo;s vocalist and guitarist, in 2018 (for those who doesn&rsquo;t know &rsquo;em, the band&rsquo;s introduction is in the final paragraphs of this post). Nominees are selected by him and judges are well-known musicians in J-POP scene, who are friends of him&ndash;seemingly rather private than public, but its mission is very ambitious for just an personal project. I&rsquo;m sure it&rsquo;s worth to check it out.</p>
+<p>Although Goto&rsquo;s own musical taste is mostly rock music, many past nominees are from different fields. In 2018, four out of ten nominees were rappers or hip-hop groups (Yurufuwa Gang, Punpee, Awich, JJJ), and eventually, the Japanese rapper JJJ won the award. Of course, the award isn&rsquo;t diverse enough to cover entire J-POP (there are no idol groups or dance music producers). But through this award, you can hear some interesting things going on in the recent J-POP scene.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/eJeGa79-Tb4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<figure>
+<p><a href="https://open.spotify.com/user/imdkm/playlist/4I5OvvLXnWngXGLw5TRhHK?si=T7j8rwpkQsOF8OAwwxUBdA">https://open.spotify.com/user/imdkm/playlist/4I5OvvLXnWngXGLw5TRhHK?si=T7j8rwpkQsOF8OAwwxUBdA</a></p>
+<figcaption>
+<p>Yuta Orisaka&rsquo;s なつのべ is not on spotify. please check <a href="https://www.youtube.com/watch?v=x738INXVKjE">this video</a>!</p>
+</figcaption>
+</figure>
+<p>This year&rsquo;s nominees were more diverse in terms of musical styles. Singer and songwriters (Kaho Nakamura, Yuta Orisaka, Hakushi Hasegawa, AAAMYYY), a beatmaker (STUTS), rappers (VaVa, Kid Fresino) and rock bands (ROTH BART BARON, Gateballers, Tempalay, Age Factory, GEZAN). The winner of the year was Nakamura and three nominees, Orisaka, Kid Fresino, and GEZAN were selected as the honorable mentions. Since the award could fund 1,200,000 yen ($10,800 or €9,600) from supporters including Goto himself, the prize was distributed as below; 600,000 yen for Nakamura, 200,000 yen for Orisaka, Kid Fresino, and GEZAN each.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DGmQRSUuKFY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p><a href="https://open.spotify.com/user/imdkm/playlist/2I8Mh5NGJHoGhR7h4eTP3z?si=VEbFbPpKSYq">https://open.spotify.com/user/imdkm/playlist/2I8Mh5NGJHoGhR7h4eTP3z?si=VEbFbPpKSYq</a>_N3c3GYGM1g</p>
+<p>Fortunately, I have written about many nominees on this blog. <a href="http://imdkm.com/2019/01/30/yuta-orisaka-heisei-2018/">Orisaka&rsquo;s</a> <a href="http://imdkm.com/2019/01/30/yuta-orisaka-heisei-2018/"></a><em><a href="http://imdkm.com/2019/01/30/yuta-orisaka-heisei-2018/">平成</a></em> was the very first post. Also, I&rsquo;ve <a href="http://imdkm.com/2019/02/20/kaho-nakamura-ainou-2018/">Nakamura&rsquo;s</a> <em><a href="http://imdkm.com/2019/02/20/kaho-nakamura-ainou-2018/">AINOU</a></em>, <a href="http://imdkm.com/2019/03/13/%e9%95%b7%e8%b0%b7%e5%b7%9d%e7%99%bd%e7%b4%99-hakushi-hasegawa-%e8%8d%89%e6%9c%a8%e8%90%8c%e5%8b%95-so-moku-ho-do-2018/">Hakushi Hasegawa&rsquo;s</a> _<a href="http://imdkm.com/2019/03/13/%e9%95%b7%e8%b0%b7%e5%b7%9d%e7%99%bd%e7%b4%99-hakushi-hasegawa-%e8%8d%89%e6%9c%a8%e8%90%8c%e5%8b%95-so-moku-ho-do-2018/">草木萌動</a> o_n this blog. For your convenience, each post has embedded Spotify playlist for the albums. I&rsquo;m now planning writing the rest of this year&rsquo;s nominees. My next post will be Kid Fresino&rsquo;s <em>Ai qing</em>, which was one of the honorable mentions of the year.</p>
+<p>Asian Kung-Fu Generation is one of the most popular rock band since 00s known for their unique interpretation of 90&rsquo;s grunge and Emo sound. Many songs of them were used by ultra-famous animes like <em>NARUTO</em>, <em>Fullmetal Alchemist</em>, and <em>BLEACH</em>. So if you&rsquo;re familiar with these animes, you should know them by their songs such as &ldquo;リライト (Rewrite)&rdquo;.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/cr8magEp0Ho?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>AKG and Goto are also known for their remarks on Japan&rsquo;s music scenes and the industry. For example, in order to share their influence and fascination with their listeners, they have held their own festival called &ldquo;NANO-MUGEN&rdquo;, where they invited their favorite bands from Japan, UK, and the US to play in front of the young audience in Japan. Recently, Goto often insists that Japanese music companies should make use of subscription platforms like Spotify and Apple Music more, instead of depending on selling physical media like CD and Blu-ray. AKG&rsquo;s latest ホームタウン is an emotional guitar pop album rendered in simple and delicate, yet powerful sound. You should check this one, too.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/7z-7klgUSyU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<iframe src="https://open.spotify.com/embed/album/20MRweb6L6MSPdNyLtGrLF" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=1F5HLg7PTZu8WQODz7j\_Sg
+]]></content:encoded>
     </item>
     <item>
       <title>Maison book girl, yume, 2018.</title>
@@ -85,6 +323,26 @@
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-03-27-maison-book-girl-yume-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/4oiCS2mJi94pmj9aypPEOz&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=cwc8RUsnS\_qMYFN22aDXGg&#xD;&#xA;&lt;p&gt;In Japan, there has been a so-called &amp;ldquo;idol&amp;rdquo; scene for decades. Yes, you may know Perfume, BABYMETAL, and several groups which feature young female performers. But there are much more to check out. Maison book girl is one of them. They&amp;rsquo;re my most favorite group, and their 2018 full-length &lt;em&gt;yume&lt;/em&gt; is a masterpiece (IMO).&lt;/p&gt;&#xA;&lt;p&gt;Before introducing the album, let me roughly trace a brief history of recent idol scene in Japan. Since AKB48&amp;rsquo;s debut in 2005, numerous girls&amp;rsquo; groups have emerged both overground and underground. The latter ones were called &amp;ldquo;地下アイドル (Chika Idol)&amp;rdquo; and established its cultural status in Japanese pop culture. Today the line between major idols and underground idols have been blurred and the entire idol scene is getting saturated. But some acts continue to endeavor to make more unique, sophisticated works and performances.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/4oiCS2mJi94pmj9aypPEOz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=cwc8RUsnS\_qMYFN22aDXGg
+<p>In Japan, there has been a so-called &ldquo;idol&rdquo; scene for decades. Yes, you may know Perfume, BABYMETAL, and several groups which feature young female performers. But there are much more to check out. Maison book girl is one of them. They&rsquo;re my most favorite group, and their 2018 full-length <em>yume</em> is a masterpiece (IMO).</p>
+<p>Before introducing the album, let me roughly trace a brief history of recent idol scene in Japan. Since AKB48&rsquo;s debut in 2005, numerous girls&rsquo; groups have emerged both overground and underground. The latter ones were called &ldquo;地下アイドル (Chika Idol)&rdquo; and established its cultural status in Japanese pop culture. Today the line between major idols and underground idols have been blurred and the entire idol scene is getting saturated. But some acts continue to endeavor to make more unique, sophisticated works and performances.</p>
+<p>Maison book girl is one of them. They were founded by a producer and composer Kenta Sakurai and a former BiS (a seminal idol group of the 2010s) member Megumi Koshoji along with Aoi Yagawa, Yui Inoue, and Kaori Sohmoto. But Sohmoto left the group in 2015 and Rin Wada joined later soon. Sakurai produces almost entire music and words, and four singers and dancers Koshoji, Yagawa, Inoue, and Wada perform in front of the audience.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rjikk6IP2F4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Musically, Sakurai&rsquo;s composition is heavily influenced by contemporary classical music. Although its tonal structure is more like post-rock or prog-rock (well, say, not &ldquo;atonal&rdquo; like twelve-tone or serialism things), its rhythmic structure reminds me of the post-war minimalism era defined by the works of Steve Reich and Terry Riley. Irregular meters, metric modulations, and counter-point like conversations between melodies give the music a complex character which is almost going beyond &ldquo;pop&rdquo; or &ldquo;rock&rdquo;. But at the same time, often it gets quite emotional and catchy.</p>
+<p>In <em>yume</em>, Maison book girl&rsquo;s music and performance accomplished the highest quality not only throughout their career but among fellow idols (well, uh, just my opinion!). <em>yume</em> is a concept album about dreams, as its title says. It features some field recordings (including the operating noise of fMRI which is analyzing a brain dreaming) and skits, then these sound pieces glue up this album into a dream-like entity. It is fragmented into illogical moments like surrealistic poetry, but its entire listening experience has sort of peculiar consistency.</p>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ynN?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+_ndxZKIw</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/aVhwE343lxA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>It&rsquo;s almost impossible to pick up my favorite, but &ldquo;言選り (kotoeri)&rdquo; and &ldquo;レインコートと首の無い鳥 (a raincoat and a headless bird)&rdquo; are well composed and full of skillful performance. The former song&rsquo;s lyrics were written by an AI which was made especially for them. Studying Sakurai&rsquo;s repertoire, it creates new lines automatically. In my eyes , it&rsquo;s like a simulated unconsciousness that surrealists would want it deadly. It can be said that <em>yume</em> is well-rendered 21st century version of surrealist work in disguise of girl-pop.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>tofubeats, RUN, 2018</title>
@@ -92,6 +350,39 @@
       <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-03-20-tofubeats-run-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/768w3G6KlQfsegNgMm3XG1&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=0dzgUv-7S1OEOyyqiNcAhQ&#xD;&#xA;&lt;p&gt;The 2010s was the decade of tofubeats. Some wouldn&amp;rsquo;t agree with me but this has been my honest feeling for years. Working with numerous J-POP acts like Chisato Moritaka, KREVA, Bonnie Pink etc., now he is one of the most popular DJ and producer among his generation. &amp;ldquo;水星&amp;rdquo;, his earliest breakthrough hit, is like the decade&amp;rsquo;s standard number as many young pop singers have made their own version of it.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/768w3G6KlQfsegNgMm3XG1" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=0dzgUv-7S1OEOyyqiNcAhQ
+<p>The 2010s was the decade of tofubeats. Some wouldn&rsquo;t agree with me but this has been my honest feeling for years. Working with numerous J-POP acts like Chisato Moritaka, KREVA, Bonnie Pink etc., now he is one of the most popular DJ and producer among his generation. &ldquo;水星&rdquo;, his earliest breakthrough hit, is like the decade&rsquo;s standard number as many young pop singers have made their own version of it.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/NOjmN-ZHlBQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Y3xehyYXbJw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>He&rsquo;s known for his prolific and genre bending activities&ndash;DJing, singing, beatmaking and producing other artists. His danceable and euphoric sound attracted not only dance floor but more wider audience. You can feel it when you listen to _[First Album](<iframe src="https://open.spotify.com/embed/album/0nR74qdTXs3dDE5hZjvBuJ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=fX8pb4knThO_ZXZhn-5Scw) o_r <em>[POSITIVE](<iframe src="https://open.spotify.com/embed/album/6dyhi5e5clmAVbBCMkOSif" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=sPz_gqyUQgiTkNEPmjJ6Ww)</em>, his first and second full-length with Warner Music Japan.</p>
+<p>However, his creative turning point was, as far as I&rsquo;ve seen, <em>[FANTASY CLUB](<iframe src="https://open.spotify.com/embed/album/4J0ksIXuqCi3gdFh9qqOII" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=5Ghu_dGET0OS9f73Pe3zJQ)</em> which was released in 2017. It was a very introspective, reflective, thoughtful piece of art, contrary to his public image&ndash;a producer specialized to pop, funny, joyful and party-oriented dance music. Instead, he sang his everyday struggles and a little prayer, almost alone in his bedroom studio. It sounded much more honest than ever, showing his ability to make a conceptual, serious-themed album (the album&rsquo;s main motif was &ldquo;post-truth&rdquo;, 2016&rsquo;s buzz word).</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/xe3vmPTJLGk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>2018&rsquo;s release <em>RUN</em> was obviously the sequel to <em>FANTASY CLUB</em>. In <em>FANTASY CLUB</em>, he seemed to be afraid of saying something plainly. He was trying to figure out how the world should be and just prayed. He didn&rsquo;t make any assert on it. On the contrary, in &ldquo;RUN&rdquo;, the album&rsquo;s opening song, he declared that he was gonna start to run and keep on running &rsquo;til the end, even the situation would discourage him. Heavy trap-like 808 bass and edgy hi-hats drive his motivation and the song&rsquo;s straightforward one-verse structure underlines his decision. This was one of the best songs in 2018.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/c0wsotqcKr0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>The album included also his recent hits &ldquo;ふめつのこころ&rdquo; and &ldquo;RIVER&rdquo;, along with instrumental house tracks (&ldquo;You Make Me Acid&rdquo;, &ldquo;Return to Sender&rdquo;, &ldquo;Bullet Trn&rdquo;), a uk garage style tune (&ldquo;Newtown&rdquo;) and polyrhythmic intimate conversation with someone (&ldquo;Sometimes&rdquo;). The sound was more powerful than the last album and very consistent throughout the twelve tracks despite those varieties of beats.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/W4TtTzSxqv8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>My favorite is the last track, &ldquo;ふめつのこころ(SLOWDOWN)&rdquo;. As the title says, this song is a reprise of &ldquo;ふめつのこころ&rdquo;, but with more sincere messages to the listeners. Let me summarize; You can rewind this song (or any kind of song as far as it&rsquo;s recorded) and play it back again, or slow it down in order to listen more closely. Even you can&rsquo;t understand what&rsquo;s going on, you&rsquo;ll find something in your mind. So please do not give up, try again.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/SFEZHCAB6NA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>In my opinion, this is both how to listen to music in the age of mechanical reproduction and how to understand others in the age of social dissonance. And, this is one of possible solutions to the question posed by <em>FANTASY CLUB</em>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>長谷川白紙 (Hakushi Hasegawa), 草木萌動 (So-moku Ho-do), 2018</title>
@@ -99,6 +390,22 @@
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-03-13-%E9%95%B7%E8%B0%B7%E5%B7%9D%E7%99%BD%E7%B4%99-hakushi-hasegawa-%E8%8D%89%E6%9C%A8%E8%90%8C%E5%8B%95-so-moku-ho-do-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/5D0i8bR94UAccdT51l4v06&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=mjywd9IGRV2gT0nG2oMK7Q&#xD;&#xA;&lt;p&gt;There has been a so-called &amp;ldquo;netlabel&amp;rdquo; scene in Japan since the late 2000s as well as overseas. &lt;a href=&#34;http://maltinerecords.cs8.biz/&#34;&gt;Maltine Records&lt;/a&gt; is one of the most famous netlabels in Japan, which was founded by two then high school students in 2005. Specializing in the contemporary dance and electronic music producers, they&amp;rsquo;ve released over 170 singles or eps including ones by dj newtown (a.k.a. tofubeats), TORIENA, Pa&amp;rsquo;s Lam System, パソコン音楽クラブ (Pasocom Ongaku Club) etc..&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/5D0i8bR94UAccdT51l4v06" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=mjywd9IGRV2gT0nG2oMK7Q
+<p>There has been a so-called &ldquo;netlabel&rdquo; scene in Japan since the late 2000s as well as overseas. <a href="http://maltinerecords.cs8.biz/">Maltine Records</a> is one of the most famous netlabels in Japan, which was founded by two then high school students in 2005. Specializing in the contemporary dance and electronic music producers, they&rsquo;ve released over 170 singles or eps including ones by dj newtown (a.k.a. tofubeats), TORIENA, Pa&rsquo;s Lam System, パソコン音楽クラブ (Pasocom Ongaku Club) etc..</p>
+<p>When Hakushi Hasegawa released <a href="http://maltinerecords.cs8.biz/168.html">his first ep</a> <em><a href="http://maltinerecords.cs8.biz/168.html">アイフォーンシックスプラス (iPhone Six Plus)</a></em> from Maltine Records, he was only 18 yrs old. Although every song from the ep had a very delicate and complicated tonal or rhythmic structure in it, his voice was so smooth, sweet, soft and soothing. Unlike the label&rsquo;s previous releases, the ep was not particularly for a dance floor. But his kaleidoscopic groove inevitably invited listeners to dance, even if you couldn&rsquo;t figure out its time signature. Since then, Hasegawa has been considered one of the latest talents from Maltine Records.</p>
+<p><a href="https://soundcloud.com/maltine-record/sets/maru168">https://soundcloud.com/maltine-record/sets/maru168</a></p>
+<p>But he soon underwent the next breakthrough. In November 2018, he announced his second ep, <em>草木萌動 (So-moku Ho-do)</em>, would be released in December. The title was taken from the traditional Chinese calendar which had been also used by Japanese people, meaning &ldquo;when trees and plants begin to bloom&rdquo;.</p>
+<p>This word properly explains Hasegawa&rsquo;s music, I think. While his debut had sort of post-internet feeling in its title and artwork, the music was rather erotic, physical, and pseudo-organic. Influenced by contemporary classical music and jazz, he wove up complex harmonies, repeated key changes, and the polyrhythmic groove to make a rhizome-like structure under the ground. Then his voice soaked into it like rain watering plants and their roots. On the surface, plants were coming into buds, almost blooming, shaking themselves.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/O77-6NXd9Pw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>As he keeps on making songs and playing lots of shows, he&rsquo;s studying composing at a university now. One can easily recognize his knowledge of the musical grammar particularly 20th century&rsquo;s avant-garde in his songs. But his uniqueness is that he&rsquo;s capable of writing pop songs with those idioms at the edge of the academic discipline. Along with his past works including 草木萌動, his recent collaboration with 入江陽 (Yo Irie) and BOMI is a very good example. I wish he would gain more attention and write some chart-topping tunes someday.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/cI28cNdFkqg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
     <item>
       <title>三浦大知 (Daichi Miura), 球体 (Kyu-tai), 2018</title>
@@ -106,6 +413,26 @@
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-03-06-%E4%B8%89%E6%B5%A6%E5%A4%A7%E7%9F%A5-daichi-miura-%E7%90%83%E4%BD%93-kyu-tai-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/0sG5eHkkoCNcpqH4gyneBX&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=kDjUDBd4S9aSWnrz6ZXPxw&#xD;&#xA;&lt;p&gt;Kiyoshi Matsuo, the R&amp;amp;B expert and renowned producer, once said that Japanese people prefer a genuine singer to an all-rounder. Eiichi Ohtaki, the legendary singer and songwriter, also pointed out that Japanese people tend to value singing too much. In Japan, it can be said that an ideal singer must sing emotionally without moving so the audience can absorb into the voice.&lt;/p&gt;&#xA;&lt;p&gt;However, Daichi Miura&amp;rsquo;s distinguished performance would change such unconscious bias among Japanese people. He&amp;rsquo;s undoubtedly the most acclaimed pop act in Japan now, and his latest full-length &lt;em&gt;球体&lt;/em&gt; gained so much attention that some critics and listeners concidered the album as the best release in 2018.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/0sG5eHkkoCNcpqH4gyneBX" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=kDjUDBd4S9aSWnrz6ZXPxw
+<p>Kiyoshi Matsuo, the R&amp;B expert and renowned producer, once said that Japanese people prefer a genuine singer to an all-rounder. Eiichi Ohtaki, the legendary singer and songwriter, also pointed out that Japanese people tend to value singing too much. In Japan, it can be said that an ideal singer must sing emotionally without moving so the audience can absorb into the voice.</p>
+<p>However, Daichi Miura&rsquo;s distinguished performance would change such unconscious bias among Japanese people. He&rsquo;s undoubtedly the most acclaimed pop act in Japan now, and his latest full-length <em>球体</em> gained so much attention that some critics and listeners concidered the album as the best release in 2018.</p>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/B014oik?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+_9f0</p>
+<p>Working with the long-time collaborator Nao&rsquo;ymt, Miura explored how far he could go as both a dancer and a singer (<em>球体</em> was originally a staged performance by himself). Nao&rsquo;ymt&rsquo;s music for this project was a very eclectic mix of EDM, ambient R&amp;B, and Japanese traditional instruments. &ldquo;飛行船 (Hikousen)&rdquo; is a good example. The future bass-inspired beat features 尺八 (shakuhachi, bamboo flute) in its drop. It&rsquo;s both danceable and a bit exotic although the entire feeling is very modern.</p>
+<p>But what made this album special was Nao&rsquo;ymt&rsquo;s songwriting. Deliberately rhymed Japanese poetry with heavily syncopated and complicated rhythm sounds like nothing else. Moreover, Miura&rsquo;s outstanding vocalization and delivery give some luxurious texture to it. In the chorus part of &ldquo;綴化 (Tekka)&rdquo;, he effortlessly sings a series of percussive, tricky melodies with his virtuosity. I was quite impressed when I listened to it for the first time.</p>
+<p>Miura&rsquo;s career covers over 20 years since his debut in 1997. He originally debuted as a lead singer of children&rsquo;s performance group Folder and had some hits with them. After he left the group because of his voice condition, he took a long hiatus and then debuted again as a solo singer (the song linked below is his first single). It was in 2005. His career may have been rather difficult than you think of, but he&rsquo;s worked so hard that even he was invited to sing at the Emperor Akihito&rsquo;s 30th-anniversary ceremony in early 2019.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/2uwg3e386SA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Even considering all of that, 球体 and the year 2018 will be remembered as his creative breakthrough, as his later singles including &ldquo;Be Myself&rdquo; and &ldquo;Blizzard&rdquo; (Yes, the main theme song of the blockbuster anime, <em>Dragon Ball: Broly</em>) proved.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/dhA5D7qkHwA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
     <item>
       <title>cero, POLY LIFE MULTI SOUL, 2018</title>
@@ -113,6 +440,37 @@
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-02-27-cero-poly-life-multi-soul-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/6JD9GiACPTf4symuPbpfPG&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=A5dELjYlS3u93Lpx17LlQg&#xD;&#xA;&lt;p&gt;Throughout the 2010s, Japanese pop music has been obsessed with the so-called &amp;lsquo;urban&amp;rsquo; or &amp;lsquo;city&amp;rsquo; feeling. Many bands tried to render their impressions on their own city life, mostly in Tokyo. They sounded more optimistic than how the society actually was, but I think it was kinda redevelopment of their imaginary city. After the great earthquake in 2011, this act of redevelopment became more crucial since the city&amp;ndash;well, of course, Tokyo&amp;ndash;was heavily damaged both literally and psychologically. They needed to fix it, at least imaginarily.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/6JD9GiACPTf4symuPbpfPG" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=A5dELjYlS3u93Lpx17LlQg
+<p>Throughout the 2010s, Japanese pop music has been obsessed with the so-called &lsquo;urban&rsquo; or &lsquo;city&rsquo; feeling. Many bands tried to render their impressions on their own city life, mostly in Tokyo. They sounded more optimistic than how the society actually was, but I think it was kinda redevelopment of their imaginary city. After the great earthquake in 2011, this act of redevelopment became more crucial since the city&ndash;well, of course, Tokyo&ndash;was heavily damaged both literally and psychologically. They needed to fix it, at least imaginarily.</p>
+<p>In my opinion, cero&rsquo;s body of work is a good example of this zeitgeist. The band was originally formed by three multi-instrumentalists, Shohei Takagi, Yu Arauchi, and Tomoyuki Yanagi in 2004. Around 2006 Tsubasa Hashimoto joined them. They released their debut full-length in 2011 but Yanagi left the band. Now cero consists of Takagi, Arauchi, and Hashimoto along with a bunch of skillful fellow musicians supporting them.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/WvUV0oeQY0A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Their early works like <em>WORLD RECORD</em> and <em>My Lost City</em> were a very playful and fantastic depiction of the contemporary city and suburban life. Influenced by classic Japanese rock bands such as はっぴいえんど, they played psychedelic folk-rock songs with comtemporary twists that could be compared to early Beck, but with a more exotic flavor.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/iyIaweKZvcM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>However, after these two records, they began exploring a different direction. Their EP <em>Yellow Magus</em> released in 2013 was comprised of four songs apparently inspired by deep funk tunes from the 70s. Two years later, they released their third album <em>Obscure Ride</em>. It was heavily influenced by neo-soul and contemporary jazz, particularly D&rsquo;Angelo&rsquo;s <em>Voodoo</em> or the Soulquarians&rsquo; other works.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/lfETQNfBAD4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Since then, their main interest has been rhythm and groove. Listening to <em>Obscure Ride</em>, you can imagine they roam around the imaginary city and its suburbs on the loose, out-of-pocket 16-beat with bittersweet R&amp;B feelings. It fascinated some audience in Japan and led the band one of the most prominent acts in Tokyo.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ouef18CtxFU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>And <em>POLY LIFE MULTI SOUL</em> was released in 2018. As soon as its lead single &ldquo;魚の骨 鳥の羽根&rdquo; uploaded on YouTube, it made a sensation. As you can hear, it features 3:4 cross-rhythm entirely. Moreover, the other songs also feature polyrhythm, irregular meters, metric modulations.</p>
+<p>Although their rhythmic structure is rather complex, this album is quite danceable. It ends with a song named &ldquo;Poly Life Multi Soul,&rdquo; which has a strong four-on-the-floor beat in the second half. This ending sequence reminds me of feeling right before the party&rsquo;s over. Delightfully tired, getting ready to start another day under the sun.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/at6iJ0ul2XA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>In terms of lyrics, it seemed influenced by American and South American literature. In fact, &ldquo;夜になると鮭は&rdquo; directly adapts Raymond Carver&rsquo;s poem. Here, the surrealistic nature of contemporary city life was connected with the magical realism by the lyricist and vocalist, Takagi. Feeling haunted by anonymous lives and straying souls, we&rsquo;re trying to deal with everyday life.</p>
+<p>Far from the city as an idealized utopia, <em>POLY LIFE MULTI SOUL</em> arrived at somewhere both magical and uncanny. And this actually was the Japanese city life in 2018, I think.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>中村佳穂 (Kaho Nakamura), AINOU, 2018</title>
@@ -120,6 +478,25 @@
       <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-02-20-kaho-nakamura-ainou-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/6OfjyI10e9vEFFzWdcmwqW&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=wH-vyZIIR9OQOzE4qFspaw&#xD;&#xA;&lt;p&gt;Kyoto, the ancient capital of Japan, is known for its cultural scenes. Regarding music, there&amp;rsquo;s plenty of musicians playing indie rock, electronic music, hip hop, and more eclectic things. This is maybe because of the nature of the city, where is known as students&amp;rsquo; city with lots of universities in rather a small area. Of course, there&amp;rsquo;s also precious historical heritage making this town enchanted.&lt;/p&gt;&#xA;&lt;p&gt;Kaho Nakamura is a Kyoto-native singer and songwriter, and is one of the most prominent figures in recent Kyoto cultural scene. Her second full-length &lt;em&gt;AINOU&lt;/em&gt; was critically acclaimed for its distinguished composition, sound design, and excellent vocalization. Praised by senior musicians like Kan Takano, Shigeru Kishida, and tofubeats, she was already known for her playful performance which was full of virtuosity. However, the album was the real breakthrough for her.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/6OfjyI10e9vEFFzWdcmwqW" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=wH-vyZIIR9OQOzE4qFspaw
+<p>Kyoto, the ancient capital of Japan, is known for its cultural scenes. Regarding music, there&rsquo;s plenty of musicians playing indie rock, electronic music, hip hop, and more eclectic things. This is maybe because of the nature of the city, where is known as students&rsquo; city with lots of universities in rather a small area. Of course, there&rsquo;s also precious historical heritage making this town enchanted.</p>
+<p>Kaho Nakamura is a Kyoto-native singer and songwriter, and is one of the most prominent figures in recent Kyoto cultural scene. Her second full-length <em>AINOU</em> was critically acclaimed for its distinguished composition, sound design, and excellent vocalization. Praised by senior musicians like Kan Takano, Shigeru Kishida, and tofubeats, she was already known for her playful performance which was full of virtuosity. However, the album was the real breakthrough for her.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DGmQRSUuKFY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>From a groovy mid-tempo like &ldquo;きっとね！ (Kitto Ne!)&rdquo; to a neo-soul flavored slow jam &ldquo;get back&rdquo; or a simple piano ballad &ldquo;永い言い訳 (Nagai Iiwake)&quot;, <em>AINOU</em> takes a very eclectic approach which mixed Techno, R&amp;B, Neo-Soul, City Pop, House, and Japanese Folklore etc. Then Nakamura&rsquo;s voice gives unity to the entire album. She sings in a very delicate and nuanced manner as if she&rsquo;s trying to precisely trace the feeling inside the song.</p>
+<p>I think the biggest charm of this record is a tension between her raw genius and the post-production. In &ldquo;you may they&rdquo;, the vocal is slightly glitched and the beat is like a fusion of L.A. beats in the late 2000s and indie pop today. While the delicate yet eloquent character of her voice is obvious, the song seems trying to deconstruct it. This may be a reflection of the recording process, which took two years and a half to finish.</p>
+<p>The turning point was James Blake&rsquo;s performance at Fuji Rock Festival 2016, where she also played at. His performance, the dubstep-influenced complex texture of sound fused with a soulful voice, inspired Nakamura&rsquo;s creativity. She decided to make a &ldquo;sound-oriented&rdquo; work different from her previous &ldquo;song-oriented&rdquo; ones. One massive sub-bass can tell something emotional. Some delicate reverberation can move someone&rsquo;s heart. She tried to make something like these. Well, as far as I understand by her interviews.</p>
+<p>With help from fellow musicians like Masahiro Araki and Yuichi Fukaya (from Remi-gai), Ryo Konishi (from CRCK/LCKS), Shuhei Nishida (from Yoshida Yohei Group), she finally made it. Thus, <em>AINOU</em>&rsquo;s eclectic approach is the result of her creative ambition and collaboration with the devoted fellows.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/BuCBZMSqAiE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>If you love <em>AINOU</em>, you better try listening to Remi-gai, CRCK/LCKS, and Yoshida Yohei Group. Their works also represent the cutting edge of Japanese alternative pop music. Particularly, Remi-gai&rsquo;s recent work is quite interesting. In 2016, they worked with students&rsquo; glee club and brass band, and released two EPs (<em>the dance we do</em>, <em>GIANT</em>). You can feel how they influenced the production of <em>AINOU</em>.</p>
+<iframe src="https://open.spotify.com/embed/album/1nU0kKeJl2Kh0eiySm35Qg" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=DfmAD-RlQlmOk4-vu2FZYA
+<iframe src="https://open.spotify.com/embed/album/2GDmFUrWELNZba4tSCYaFz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=Kw1fQSKFT3um1BqRrxmLPw
+]]></content:encoded>
     </item>
     <item>
       <title>崎山蒼志 (Sohshi Sakiyama), いつかみた国 (Itsuka Mita Kuni), 2018</title>
@@ -127,6 +504,26 @@
       <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-02-13-sohshi-sakiyama-%E3%81%84%E3%81%A4%E3%81%8B%E3%81%BF%E3%81%9F%E5%9B%BD-itsuka-mita-kuni-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/4EM4fTaRgbM0EMOGF0NGle&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=2jeQ-iQcSGOdImXG\_s91tg&#xD;&#xA;&lt;p&gt;Sohshi Sakiyama is a singer and songwriter from Hamamatsu, Shizuoka. He&amp;rsquo;s only 16-year-old but has gained enormous attention throughout 2018, since he appeared on AbemaTV&amp;rsquo;s program &amp;ldquo;日村が行く！(Himura ga Yuku)&amp;rdquo;, where he played his song &amp;ldquo;五月雨 (Samidare)&amp;rdquo;. The video went viral as soon as it appeared on Twitter and quickly built a huge fan base among the listeners including well-known Japanese rock musicians such as Enon Kawatani (from Gesu no Kiwami Otome), or Shigeru Kishida (from Quruli).&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/4EM4fTaRgbM0EMOGF0NGle" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=2jeQ-iQcSGOdImXG\_s91tg
+<p>Sohshi Sakiyama is a singer and songwriter from Hamamatsu, Shizuoka. He&rsquo;s only 16-year-old but has gained enormous attention throughout 2018, since he appeared on AbemaTV&rsquo;s program &ldquo;日村が行く！(Himura ga Yuku)&rdquo;, where he played his song &ldquo;五月雨 (Samidare)&rdquo;. The video went viral as soon as it appeared on Twitter and quickly built a huge fan base among the listeners including well-known Japanese rock musicians such as Enon Kawatani (from Gesu no Kiwami Otome), or Shigeru Kishida (from Quruli).</p>
+<p><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DCy9fJi?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+_bAM</p>
+<p>The song&rsquo;s lyrics were full of unique metaphors and bright poesy, and also the song itself was quite sophisticated in terms of melodies and harmonies. However, I think the most attractive thing in his performance was his singing voice. His high-tone, shaking voice reminded me of Neil Young, Bob Dylan, or David Byrne in a way. Of course, they&rsquo;re not quite similar though. Some might even say they&rsquo;ve never listened to such an idiosyncratic voice. I almost agree with them.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DD59xKDefo4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>The fans immediately started digging YouTube for the singer&rsquo;s performance vids which had been uploaded before then. Fortunately, there were plenty of his live footages on the net because he frequently played around Hamamatsu music scene and the audience has recorded his performances for several years. More they found, more they loved him.</p>
+<p>Finally, he signed to Sony Music and began releasing several singles from last summer to autumn. On December 5th, he released his 1st full-length, &ldquo;いつかみた国 (Itsuka Mita Kuni)&rdquo;. This 7-track LP includes the breakthrough &ldquo;五月雨&rdquo;, fans&rsquo; favorite &ldquo;ソフト (Soft)&rdquo;, as well as new songs.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/FN4E7PAMAlU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Throughout the nearly entire album, Sakiyama just strums the guitar and sing (except one song, &ldquo;龍の子 (Tatsu no Ko)&rdquo;, which he tried DAW for the first time). That&rsquo;s all and enough! There seems no edit, no effect, you can only hear his properly recorded performance. But thanks for his elegant guitar skill, they sound like kinds of Post-Rock, Prog-Rock, or even Electro. I strongly recommend to try this album once, and I&rsquo;m pretty sure you&rsquo;ll fall in love with it. Even if without words, his vibrant voice and excellent guitar play should move your heart.</p>
+<p>For your information, one of Sakiyama&rsquo;s favorite release in 2018 is Yves Tumor&rsquo;s &ldquo;Safe in the Hands of Love&rdquo;, according to his tweet. Isn&rsquo;t it very curious, is it?</p>
+]]></content:encoded>
     </item>
     <item>
       <title>宇多田ヒカル (Hikaru Utada), 初恋(Hatsukoi), 2018</title>
@@ -134,6 +531,32 @@
       <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-02-04-hikaru-utada-%E5%88%9D%E6%81%8Bhatsukoi/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/5ejvTc5RFRnM6MrczQxzTE&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;&lt;/iframe&gt;?si=96qWSGFOSsG1\_K4ZWTZ94g&#xD;&#xA;&lt;p&gt;If you&amp;rsquo;re acquainted with the Japanese pop culture, you may know Hikaru Utada. She&amp;rsquo;s one of Japan&amp;rsquo;s most famous singer and songwriter in these decades. Her debut album &lt;em&gt;First Love&lt;/em&gt; sold over 10 million copies worldwide. It is the best selling J-POP album in history&amp;ndash;and no one will ever break this record.&lt;/p&gt;&#xA;&lt;p&gt;In 1998, with her debut single &amp;ldquo;Automatic / time will tell,&amp;rdquo; she changed the entire landscape of J-POP. Heavily influenced by the contemporary urban music like R&amp;amp;B, she showed Japanese audience how the Japanese language can groove on the R&amp;amp;B-oriented beat.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/5ejvTc5RFRnM6MrczQxzTE" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=96qWSGFOSsG1\_K4ZWTZ94g
+<p>If you&rsquo;re acquainted with the Japanese pop culture, you may know Hikaru Utada. She&rsquo;s one of Japan&rsquo;s most famous singer and songwriter in these decades. Her debut album <em>First Love</em> sold over 10 million copies worldwide. It is the best selling J-POP album in history&ndash;and no one will ever break this record.</p>
+<p>In 1998, with her debut single &ldquo;Automatic / time will tell,&rdquo; she changed the entire landscape of J-POP. Heavily influenced by the contemporary urban music like R&amp;B, she showed Japanese audience how the Japanese language can groove on the R&amp;B-oriented beat.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-9DxpPiE458?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Of course, there were many precursors in terms of this kind of practice in Japan. From pre-modern Jazz to Rock n Roll to Soul to Hip Hop, Japanese musicians had been trying to adopt Western music into their musical vocabulary. Roughly, their main concern was how Western pop music could be sung in Japanese. Utada&rsquo;s debut was like its ultimate answer emerged at the very end of the 20th century. </p>
+<p>Since then, along with her comrades such as Ringo Sheena, she&rsquo;s been recognized as the most prominent artist in contemporary Japanese pop music. However, she took a hiatus from 2011 to 2015, saying that she wanted to live an ordinary life for a while.</p>
+<p>In 2016, Utada announced come-back and released <em>Fantôme</em>, which featured several guest singers. Before then, she rarely invited guest singers in her music. Given that, the album seemed like a thankful gift for her fans those who patiently waited for her come back.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/JxHubxeh8J4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Moreover, it displayed her development as an artist in terms of singing rhythm and flow. I bet you can hear it clearly when you play &ldquo;忘却 (Bo-kyaku)&rdquo; with KOHH. On the atmospheric heartbeat-like beat, here she&rsquo;s chanting like a prayer, rather than a pop star. The repetition of the same rhythm figure emphasizes rhymes between the lines, just as KOHH&rsquo;s unique vocalization and flow do. His approach is more complicated, say, kinds of polyrhythmic one, though.</p>
+<p>Two years later, 2018, she released her latest, <em>初恋 (Hatsukoi)</em>. The title means &ldquo;first love&rdquo; in English. This obviously refers to her debut album. It seemed as if she was trying to reboot her career for it was her 20th anniversary year as a singer and songwriter.</p>
+<p>The album was thematically pretty delicate and self-reflective. For example, she frankly revealed her mixed feeling towards her mother, who deceased in 2013. On the other hand, in some songs, she showed her blissful and dramatic feeling in love with her lover, even singing people would be envious of her entire life with him.</p>
+<p>From musical aspects, the album was quite challenging. With help from distinguished musicians such as Chris Dave on the drums, the rhythmical experiment which had been pursued in <em>Fantôme</em> became more sophisticated than ever. She tapped into the recent Trap style singing and rhyming, the polyrhythmic structure of the beat, and the subtle but definitive change of flow.</p>
+<iframe src="https://open.spotify.com/embed/album/2bpWX8fos6DKP3HdfCpyG0" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=ih7EK2T2QOSnbvIQrxnDdw
+<p>Listen to &ldquo;誓い (Chikai),&rdquo; which is now known as [&ldquo;Don&rsquo;t Think Twice&rdquo;](<iframe src="https://open.spotify.com/embed/album/1jwWsa2XOmgJf27IyCyH4O" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>?si=cCCyl-PmR7einWjxBiTjAQ) outside Japan. This was the theme song for <em>Kingdom Hearts 3</em> and led to Utada&rsquo;s recent collaboration with Skrillex. According to Utada&rsquo;s vocal, the song sounds basically 6/8. But if you focus on the piano, you can feel 4/4 with a bit swing or a loose groove. Still more, Utada sings very straightforward 16 beat at the bridge. These factors give this song a very interesting texture in terms of rhythm. Keeping this texture throughout the song rather than make a dramatic catharsis at the end, listeners are left emotionally confused a little and prompted to play it again and again.</p>
+<p>Some argue that this album is the best release of 2018. I half agree with it. Honestly, I don&rsquo;t like the lyrics, the messages they contain. However, there&rsquo;s no doubt that this exquisite songwriting and arranging has no equal among contemporary Japanese pop music. It&rsquo;s great pleasure that such an incredible album gained so much popularity in Japan (it reached #3 in the Billboard Japan year chart 2018). I strongly recommend to check out Utada&rsquo;s recent works including 初恋 and Skrillex collaboration &ldquo;Face My Fears.&rdquo;</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Kvnwnf9UftA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
     <item>
       <title>折坂悠太 (Yuta Orisaka), 平成 (Heisei), 2018</title>
@@ -141,6 +564,22 @@
       <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2019-01-30-yuta-orisaka-heisei-2018/</guid>
       <description>&lt;iframe src=&#34;https://open.spotify.com/embed/album/3yaeDnL81FcAFRxgpOsNah&#34; width=&#34;300&#34; height=&#34;380&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;p&gt;Heisei era, beginning in early 1989 as Emperor Hirohito deceased, is going to end in April 2019. It was the era of increasing depression both economically and socially. These three decades are known notoriously as &amp;ldquo;lost decades,&amp;rdquo; Japanese people went through the collapse of the economy and severe disasters like several great earthquakes, ane even faced the fear of terrorism by some religious cults.&lt;/p&gt;&#xA;&lt;p&gt;Yuta Orisaka was born in 1989. His life has been therefore along with Heisei era. At the very end of it, perhaps he&amp;rsquo;s inevitably conscious about what these three decades meant to him. So he wrote a song and named it &amp;ldquo;Heisei,&amp;rdquo; moreover he decided to make it the title of the entire album.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<iframe src="https://open.spotify.com/embed/album/3yaeDnL81FcAFRxgpOsNah" width="300" height="380"></iframe>
+<p>Heisei era, beginning in early 1989 as Emperor Hirohito deceased, is going to end in April 2019. It was the era of increasing depression both economically and socially. These three decades are known notoriously as &ldquo;lost decades,&rdquo; Japanese people went through the collapse of the economy and severe disasters like several great earthquakes, ane even faced the fear of terrorism by some religious cults.</p>
+<p>Yuta Orisaka was born in 1989. His life has been therefore along with Heisei era. At the very end of it, perhaps he&rsquo;s inevitably conscious about what these three decades meant to him. So he wrote a song and named it &ldquo;Heisei,&rdquo; moreover he decided to make it the title of the entire album.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/D2Db-fDm5R8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p><em>Heisei</em> is his sophomore full-length, which is critically acclaimed for its elegant use of Japanese poetic styles and various singing methods. Before <em>Heisei</em> is released, Hikaru Utada, the most famous and popular singer and songwriter in Japan, said Orisaka&rsquo;s &ldquo;あさま (Asama)&rdquo; from his debut was her favorite. Since then, he gained much attention and finally he did meet people&rsquo;s expectations by <em>Heisei</em>.</p>
+<p>Although some of its motives in the album are apparently taken from recent events like the great earthquakes, these songs sound just like recordings from a hundred years ago, the early days of Japanese pop music history. It is, in some way, because of their rhetric (poetic or literary rather than colloquial) and use of musical scales that are often said &ldquo;traditional.&rdquo; Also this is because of the lack of Rock feeling. Orisaka&rsquo;s music is a fusion of Jazz, Latin, Country, and Japanese Folklore, etc.. But there seems few traces of Rock. Thus, his music reminds me of pre-Rock decades of Japanese pop music.</p>
+<p>Orisaka also shows off his voice in different ways. He sings, shouts, read aloud his lyrics and poetry. Often his performance gets very theatrical, especially in &ldquo;逢引 (meeting).&rdquo; This surrealistic narrative fuses a love song and a monologue in a battlefield by the power of his voices. As you can hear in it, he&rsquo;s a quite skillful and unique singer.</p>
+<p>Through <em>Heisei</em>, the singer shows us some visions and emotions rather than telling a story. They feel like pale shadows both comfortable and a bit depressing. And this ambivalent feeling is like what I got when I reminisce Heisei era. I&rsquo;m sure that almost everyone spent these decades in Japan would feels the same.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-30skTZ6aEg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+]]></content:encoded>
     </item>
     <item>
       <title>Poly Life Multi Soulのリズムメモ</title>
@@ -148,6 +587,131 @@
       <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/old_blog/2018-05-20-2018-05-20-234632/</guid>
       <description>&lt;p&gt;夕方書いた記事の補足。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B07BDNVV55/tortoisetau09-22/&#34;&gt;&lt;img src=&#34;images/411%2Bgbo79VL._SL160_.jpg&#34; alt=&#34;POLY LIFE MULTI SOUL (通常盤)&#34; title=&#34;POLY LIFE MULTI SOUL (通常盤)&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/exec/obidos/ASIN/B07BDNVV55/tortoisetau09-22/&#34;&gt;POLY LIFE MULTI SOUL (通常盤)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;アーティスト: &lt;a href=&#34;http://d.hatena.ne.jp/keyword/cero&#34;&gt;cero&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;出版社/メーカー: &lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%AB%A5%AF%A5%D0%A5%EA%A5%BA%A5%E0&#34;&gt;カクバリズム&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;発売日: 2018/05/16&lt;/li&gt;&#xA;&lt;li&gt;メディア: CD&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://d.hatena.ne.jp/asin/B07BDNVV55/tortoisetau09-22&#34;&gt;この商品を含むブログを見る&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;さいしょに&#34;&gt;さいしょに&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;パルス&#xA;&lt;ul&gt;&#xA;&lt;li&gt;リズムの基礎単位&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;拍子&#xA;&lt;ul&gt;&#xA;&lt;li&gt;一小節を何分割しているかの単位&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;メトリック・&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%E2%A5%B8%A5%E5%A5%EC&#34;&gt;モジュレ&lt;/a&gt;ーション&#xA;&lt;ul&gt;&#xA;&lt;li&gt;パルスの長さを維持しながら拍子を伸縮させる&#xA;&lt;ul&gt;&#xA;&lt;li&gt;●=○=1パルス、●=アクセント、○=休符とした場合、&lt;/li&gt;&#xA;&lt;li&gt;A:｜●○○○●○○○●○○○●○○○｜●○○○●○○○…&lt;/li&gt;&#xA;&lt;li&gt;B:｜●○○●○○●○○●○○｜●○○●○○●○○●○○…&lt;/li&gt;&#xA;&lt;li&gt;AとBはパルスの長さを共有しているが小節の長さ（＝実質的なテンポ）が異なる。&lt;/li&gt;&#xA;&lt;li&gt;よくあるパターンとしては、付点音符を使った&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%B7%A5%F3%A5%B3%A5%DA%A1%BC%A5%B7%A5%E7%A5%F3&#34;&gt;シンコペーション&lt;/a&gt;を使って小節をまたいで拍子をスムースに変化させる例&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;クロスリズム&#xA;&lt;ul&gt;&#xA;&lt;li&gt;複数の拍子に解釈可能な単一のリズム・パターン&lt;/li&gt;&#xA;&lt;li&gt;小節あたりのパルスの数が公倍数になっているときに可能&lt;/li&gt;&#xA;&lt;li&gt;典型的なのはパルスの数が12の場合のクロスリズム&lt;/li&gt;&#xA;&lt;li&gt;｜●○○●○○●○○●○○｜(四分三連の4/4もしくは12/8)&lt;/li&gt;&#xA;&lt;li&gt;｜●○○○●○○○●○○○｜(3/4)&lt;/li&gt;&#xA;&lt;li&gt;12/8もしくは3/4の場合、基本的にすべてクロスリズムとして解釈できるが、実際にはアクセントの位置やメロディの流れによってどちらかに一意に決まることが多い。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;iframe src=&#34;https://www.youtube.com/embed/-WJ0GqWHhII&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0&#34;&gt;ポリリズム&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ひとつの小節のなかに異なる複数の拍子が共存している&#xA;&lt;ul&gt;&#xA;&lt;li&gt;4/4のリズムの上に三連がのっている、etc&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;iframe src=&#34;https://www.youtube.com/embed/fGqdIPer-ms&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;p&gt;最近流行りの三連フロウも&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0&#34;&gt;ポリリズム&lt;/a&gt;っちゃ&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0&#34;&gt;ポリリズム&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;パルスは共有しているが小節の長さが異なる&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://d.hatena.ne.jp/keyword/Perfume&#34;&gt;Perfume&lt;/a&gt; - &lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0&#34;&gt;ポリリズム&lt;/a&gt;における&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0&#34;&gt;ポリリズム&lt;/a&gt;パート&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;iframe src=&#34;https://www.youtube.com/embed/KbiSxunJatM&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;p&gt;三拍子のうえで5音節の単語をくり返して小節がまわりこんだり揃ったりをくり返す。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;どちらも&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0&#34;&gt;ポリリズム&lt;/a&gt;…　だと思う&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;各曲メモ気になったのだけ&#34;&gt;各曲メモ（気になったのだけ）&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Modern Steps&#xA;&lt;ul&gt;&#xA;&lt;li&gt;メトリック・&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%E2%A5%B8%A5%E5%A5%EC&#34;&gt;モジュレ&lt;/a&gt;ーションを使ったリズムチェンジ&#xA;&lt;ul&gt;&#xA;&lt;li&gt;イントロのギターとオルガンは4/4（その後のパートとはテンポが異なる）&lt;/li&gt;&#xA;&lt;li&gt;リズムボックスが入ってからは[4/4 *2 + 5/4 * 2] * 3（1パルス＝八分音符として、1周期36パルス）&lt;/li&gt;&#xA;&lt;li&gt;四分三連の3/4に移行（1周期18パルス）&lt;/li&gt;&#xA;&lt;li&gt;最後のギターは7/8 + 11/8（1周期18パルス）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;魚の骨　鳥の羽根&#xA;&lt;ul&gt;&#xA;&lt;li&gt;3と4のクロスリズム&lt;/li&gt;&#xA;&lt;li&gt;キメの部分でどちらかの拍子が優勢に聞こえる部分もあるが、全体を通して3にも4にもとれるきれいなクロスリズム&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;ベッテン・フォールズ&#xA;&lt;ul&gt;&#xA;&lt;li&gt;メトリック・&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%E2%A5%B8%A5%E5%A5%EC&#34;&gt;モジュレ&lt;/a&gt;ーションを使ったリズムチェンジがばんばん&#xA;&lt;ul&gt;&#xA;&lt;li&gt;5/4→9/8→12/8→5/4→9/8→4/4→12/8…［20220228 いま思うと5/4は10/8と書いたほうがいい］&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;溯行&#xA;&lt;ul&gt;&#xA;&lt;li&gt;後半に4/4から12/8へのメトリック・&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%E2%A5%B8%A5%E5%A5%EC&#34;&gt;モジュレ&lt;/a&gt;ーション&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://d.hatena.ne.jp/keyword/Buzzle&#34;&gt;Buzzle&lt;/a&gt; Bee Ride&#xA;&lt;ul&gt;&#xA;&lt;li&gt;一貫して7/4だが、クラーベがわりのベルが抜けた後半に激しい&lt;a href=&#34;http://d.hatena.ne.jp/keyword/%A5%B7%A5%F3%A5%B3%A5%DA%A1%BC%A5%B7%A5%E7%A5%F3&#34;&gt;シンコペーション&lt;/a&gt;がある。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Double Exposure&#xA;&lt;ul&gt;&#xA;&lt;li&gt;4/4。ただし3小節を1周期として進行するのでちょっとだけ変則的に聞こえる。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Waters&#xA;&lt;ul&gt;&#xA;&lt;li&gt;3/4。中盤で一部周期が倍になって6/4。&lt;/li&gt;&#xA;&lt;li&gt;要所要所でクロスリズム的にとれ、後半でシンセのコードだけになるところ以降ははっきりとクロスリズム的なパターン。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;以上です&#34;&gt;以上です&lt;/h3&gt;</description>
+      <content:encoded><![CDATA[<p>夕方書いた記事の補足。</p>
+<p><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07BDNVV55/tortoisetau09-22/"><img src="images/411%2Bgbo79VL._SL160_.jpg" alt="POLY LIFE MULTI SOUL (通常盤)" title="POLY LIFE MULTI SOUL (通常盤)"></a></p>
+<p><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B07BDNVV55/tortoisetau09-22/">POLY LIFE MULTI SOUL (通常盤)</a></p>
+<ul>
+<li>アーティスト: <a href="http://d.hatena.ne.jp/keyword/cero">cero</a></li>
+<li>出版社/メーカー: <a href="http://d.hatena.ne.jp/keyword/%A5%AB%A5%AF%A5%D0%A5%EA%A5%BA%A5%E0">カクバリズム</a></li>
+<li>発売日: 2018/05/16</li>
+<li>メディア: CD</li>
+<li><a href="http://d.hatena.ne.jp/asin/B07BDNVV55/tortoisetau09-22">この商品を含むブログを見る</a></li>
+</ul>
+<h3 id="さいしょに">さいしょに</h3>
+<ul>
+<li>パルス
+<ul>
+<li>リズムの基礎単位</li>
+</ul>
+</li>
+<li>拍子
+<ul>
+<li>一小節を何分割しているかの単位</li>
+</ul>
+</li>
+<li>メトリック・<a href="http://d.hatena.ne.jp/keyword/%A5%E2%A5%B8%A5%E5%A5%EC">モジュレ</a>ーション
+<ul>
+<li>パルスの長さを維持しながら拍子を伸縮させる
+<ul>
+<li>●=○=1パルス、●=アクセント、○=休符とした場合、</li>
+<li>A:｜●○○○●○○○●○○○●○○○｜●○○○●○○○…</li>
+<li>B:｜●○○●○○●○○●○○｜●○○●○○●○○●○○…</li>
+<li>AとBはパルスの長さを共有しているが小節の長さ（＝実質的なテンポ）が異なる。</li>
+<li>よくあるパターンとしては、付点音符を使った<a href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%F3%A5%B3%A5%DA%A1%BC%A5%B7%A5%E7%A5%F3">シンコペーション</a>を使って小節をまたいで拍子をスムースに変化させる例</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>クロスリズム
+<ul>
+<li>複数の拍子に解釈可能な単一のリズム・パターン</li>
+<li>小節あたりのパルスの数が公倍数になっているときに可能</li>
+<li>典型的なのはパルスの数が12の場合のクロスリズム</li>
+<li>｜●○○●○○●○○●○○｜(四分三連の4/4もしくは12/8)</li>
+<li>｜●○○○●○○○●○○○｜(3/4)</li>
+<li>12/8もしくは3/4の場合、基本的にすべてクロスリズムとして解釈できるが、実際にはアクセントの位置やメロディの流れによってどちらかに一意に決まることが多い。</li>
+</ul>
+</li>
+</ul>
+<iframe src="https://www.youtube.com/embed/-WJ0GqWHhII" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<ul>
+<li><a href="http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0">ポリリズム</a>
+<ul>
+<li>ひとつの小節のなかに異なる複数の拍子が共存している
+<ul>
+<li>4/4のリズムの上に三連がのっている、etc&hellip;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<iframe src="https://www.youtube.com/embed/fGqdIPer-ms" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<p>最近流行りの三連フロウも<a href="http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0">ポリリズム</a>っちゃ<a href="http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0">ポリリズム</a>。</p>
+<ul>
+<li>パルスは共有しているが小節の長さが異なる
+<ul>
+<li><a href="http://d.hatena.ne.jp/keyword/Perfume">Perfume</a> - <a href="http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0">ポリリズム</a>における<a href="http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0">ポリリズム</a>パート</li>
+</ul>
+</li>
+</ul>
+<iframe src="https://www.youtube.com/embed/KbiSxunJatM" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<p>三拍子のうえで5音節の単語をくり返して小節がまわりこんだり揃ったりをくり返す。</p>
+<ul>
+<li>どちらも<a href="http://d.hatena.ne.jp/keyword/%A5%DD%A5%EA%A5%EA%A5%BA%A5%E0">ポリリズム</a>…　だと思う</li>
+</ul>
+<h3 id="各曲メモ気になったのだけ">各曲メモ（気になったのだけ）</h3>
+<ul>
+<li>Modern Steps
+<ul>
+<li>メトリック・<a href="http://d.hatena.ne.jp/keyword/%A5%E2%A5%B8%A5%E5%A5%EC">モジュレ</a>ーションを使ったリズムチェンジ
+<ul>
+<li>イントロのギターとオルガンは4/4（その後のパートとはテンポが異なる）</li>
+<li>リズムボックスが入ってからは[4/4 *2 + 5/4 * 2] * 3（1パルス＝八分音符として、1周期36パルス）</li>
+<li>四分三連の3/4に移行（1周期18パルス）</li>
+<li>最後のギターは7/8 + 11/8（1周期18パルス）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>魚の骨　鳥の羽根
+<ul>
+<li>3と4のクロスリズム</li>
+<li>キメの部分でどちらかの拍子が優勢に聞こえる部分もあるが、全体を通して3にも4にもとれるきれいなクロスリズム</li>
+</ul>
+</li>
+<li>ベッテン・フォールズ
+<ul>
+<li>メトリック・<a href="http://d.hatena.ne.jp/keyword/%A5%E2%A5%B8%A5%E5%A5%EC">モジュレ</a>ーションを使ったリズムチェンジがばんばん
+<ul>
+<li>5/4→9/8→12/8→5/4→9/8→4/4→12/8…［20220228 いま思うと5/4は10/8と書いたほうがいい］</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>溯行
+<ul>
+<li>後半に4/4から12/8へのメトリック・<a href="http://d.hatena.ne.jp/keyword/%A5%E2%A5%B8%A5%E5%A5%EC">モジュレ</a>ーション</li>
+</ul>
+</li>
+<li><a href="http://d.hatena.ne.jp/keyword/Buzzle">Buzzle</a> Bee Ride
+<ul>
+<li>一貫して7/4だが、クラーベがわりのベルが抜けた後半に激しい<a href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%F3%A5%B3%A5%DA%A1%BC%A5%B7%A5%E7%A5%F3">シンコペーション</a>がある。</li>
+</ul>
+</li>
+<li>Double Exposure
+<ul>
+<li>4/4。ただし3小節を1周期として進行するのでちょっとだけ変則的に聞こえる。</li>
+</ul>
+</li>
+<li>Waters
+<ul>
+<li>3/4。中盤で一部周期が倍になって6/4。</li>
+<li>要所要所でクロスリズム的にとれ、後半でシンセのコードだけになるところ以降ははっきりとクロスリズム的なパターン。</li>
+</ul>
+</li>
+</ul>
+<h3 id="以上です">以上です</h3>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

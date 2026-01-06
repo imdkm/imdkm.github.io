@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AIはプリペアド・ピアノの夢を見るか？――人工知能と自動作曲に関する覚書 | imdkm</title>
+<meta name="title" content="AIはプリペアド・ピアノの夢を見るか？――人工知能と自動作曲に関する覚書" />
+<meta name="description" content="
+この曲は、ソニーの研究所が開発したAI、「FlowMachines」を用いて作曲された、「ビートルズ風」のポップソングだ。イントロのコーラスワークやベルの音色はむしろペット・サウンズ期のビーチ・ボーイズではないのか、という気もするけれど、たしかにメロディにはどこかジョンやポールの面影が感じられる。2017年にはこの他にもAIを用いて作曲した楽曲を含むアルバムが発表されるという。なんとまあ、夢のある話ではないか。ただし、「AIがついに作曲を！　シンギュラリティ！」と言うのは先走りすぎだろう。このAIがどのようなものかを糸口にしつつ、昨今盛んな人工知能による作曲や演奏について、考えてみたい。
+
+
+" />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="/old_blog/2016-11-04-2016-11-04-173008/">
+  <meta property="og:site_name" content="imdkm">
+  <meta property="og:title" content="AIはプリペアド・ピアノの夢を見るか？――人工知能と自動作曲に関する覚書">
+  <meta property="og:description" content="この曲は、ソニーの研究所が開発したAI、「FlowMachines」を用いて作曲された、「ビートルズ風」のポップソングだ。イントロのコーラスワークやベルの音色はむしろペット・サウンズ期のビーチ・ボーイズではないのか、という気もするけれど、たしかにメロディにはどこかジョンやポールの面影が感じられる。2017年にはこの他にもAIを用いて作曲した楽曲を含むアルバムが発表されるという。なんとまあ、夢のある話ではないか。ただし、「AIがついに作曲を！　シンギュラリティ！」と言うのは先走りすぎだろう。このAIがどのようなものかを糸口にしつつ、昨今盛んな人工知能による作曲や演奏について、考えてみたい。">
+  <meta property="og:locale" content="ja_jp">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="old_blog">
+    <meta property="article:published_time" content="2016-11-04T00:00:00+00:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AIはプリペアド・ピアノの夢を見るか？――人工知能と自動作曲に関する覚書">
+  <meta name="twitter:description" content="この曲は、ソニーの研究所が開発したAI、「FlowMachines」を用いて作曲された、「ビートルズ風」のポップソングだ。イントロのコーラスワークやベルの音色はむしろペット・サウンズ期のビーチ・ボーイズではないのか、という気もするけれど、たしかにメロディにはどこかジョンやポールの面影が感じられる。2017年にはこの他にもAIを用いて作曲した楽曲を含むアルバムが発表されるという。なんとまあ、夢のある話ではないか。ただし、「AIがついに作曲を！　シンギュラリティ！」と言うのは先走りすぎだろう。このAIがどのようなものかを糸口にしつつ、昨今盛んな人工知能による作曲や演奏について、考えてみたい。">
+
+
+
+
+  <meta itemprop="name" content="AIはプリペアド・ピアノの夢を見るか？――人工知能と自動作曲に関する覚書">
+  <meta itemprop="description" content="この曲は、ソニーの研究所が開発したAI、「FlowMachines」を用いて作曲された、「ビートルズ風」のポップソングだ。イントロのコーラスワークやベルの音色はむしろペット・サウンズ期のビーチ・ボーイズではないのか、という気もするけれど、たしかにメロディにはどこかジョンやポールの面影が感じられる。2017年にはこの他にもAIを用いて作曲した楽曲を含むアルバムが発表されるという。なんとまあ、夢のある話ではないか。ただし、「AIがついに作曲を！　シンギュラリティ！」と言うのは先走りすぎだろう。このAIがどのようなものかを糸口にしつつ、昨今盛んな人工知能による作曲や演奏について、考えてみたい。">
+  <meta itemprop="datePublished" content="2016-11-04T00:00:00+00:00">
+  <meta itemprop="wordCount" content="87">
+  <meta itemprop="keywords" content="Jpn">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    width: 70%;
+    margin: auto;
+    display: block;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #0074e0;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #2e5a83;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+   
+.page-item {
+    display: inline-block;  
+    margin-right: 10px;  
+    text-align: center;  
+}
+
+</style>
+  </head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>imdkm</h2>
+</a>
+<nav><a href="/">トップ</a>
+
+<a href="/works/">これまでのお仕事</a>
+
+<a href="/gigs/">出演情報</a>
+
+
+<a href="/blog">ブログ</a>
+
+
+<a href="/old_blog">旧ブログアーカイヴ</a>
+</nav>
+</header>
+  <main>
+
+<content>
+  <iframe width="700" height="394" src="https://www.youtube.com/embed/LSHZ_b05W7o" frameborder="0" allowfullscreen></iframe>
+<p>この曲は、<a href="http://d.hatena.ne.jp/keyword/%A5%BD%A5%CB%A1%BC">ソニー</a>の研究所が開発したAI、<a href="http://www.flow-machines.com/flowcomposer-composing-with-ai/">「FlowMachines」</a>を用いて作曲された、「<a href="http://d.hatena.ne.jp/keyword/%A5%D3%A1%BC%A5%C8%A5%EB%A5%BA">ビートルズ</a>風」のポップソングだ。イントロのコーラスワークやベルの音色はむしろペット・サウンズ期の<a href="http://d.hatena.ne.jp/keyword/%A5%D3%A1%BC%A5%C1%A1%A6%A5%DC%A1%BC%A5%A4%A5%BA">ビーチ・ボーイズ</a>ではないのか、という気もするけれど、たしかにメロディにはどこかジョンやポールの面影が感じられる。2017年にはこの他にもAIを用いて作曲した楽曲を含むアルバムが発表されるという。なんとまあ、夢のある話ではないか。ただし、「AIがついに作曲を！　シンギュラリティ！」と言うのは先走りすぎだろう。このAIがどのようなものかを糸口にしつつ、昨今盛んな<a href="http://d.hatena.ne.jp/keyword/%BF%CD%B9%A9%C3%CE%C7%BD">人工知能</a>による作曲や演奏について、考えてみたい。</p>
+<ul>
+<li></li>
+</ul>
+<p><a href="#FlowMachines%E3%81%AF%E3%81%AA%E3%81%AB%E3%82%92%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B">FlowMachinesはなにをしてくれるのか</a></p>
+<ul>
+<li><a href="#%E3%81%93%E3%82%8C%E3%81%BE%E3%81%A7%E3%81%AE%E8%87%AA%E5%8B%95%E4%BD%9C%E6%9B%B2%E3%81%A8%E3%81%A9%E3%81%86%E9%81%95%E3%81%86%E3%81%AE%E3%81%8B">これまでの自動作曲とどう違うのか</a></li>
+<li><a href="#%E3%81%A3%E3%81%BD%E3%81%95%E3%82%92%E5%AD%A6%E3%81%B6AI">「○○っぽさ」を学ぶAI</a></li>
+<li><a href="#MIDI%E3%81%8B%E3%83%AA%E3%83%BC%E3%83%89%E3%82%B7%E3%83%BC%E3%83%88%E3%81%8B%E3%83%9D%E3%83%83%E3%83%97%E3%82%B9%E3%81%AE%E8%A8%98%E5%8F%B7%E5%8C%96">MIDIか、「リードシート」か――ポップスの記号化</a></li>
+<li><a href="#%E8%A8%98%E5%8F%B7%E5%8C%96%E3%81%8B%E3%82%89%E7%AC%A6%E5%8F%B7%E5%8C%96%E3%81%B8DeepMind%E3%81%AETTS%E6%8A%80%E8%A1%93">記号化から符号化へ――DeepMindのTTS技術</a></li>
+<li><a href="#AI%E3%81%AF%E3%83%97%E3%83%AA%E3%83%9A%E3%82%A2%E3%83%89%E3%83%94%E3%82%A2%E3%83%8E%E3%81%AE%E5%A4%A2%E3%82%92%E8%A6%8B%E3%82%8B%E3%81%8B">AIはプリペアド・ピアノの夢を見るか</a></li>
+</ul>
+<h2 id="flowmachinesはなにをしてくれるのか">FlowMachinesはなにをしてくれるのか</h2>
+<p>研究所の提供するAI『Flow Machines』はもちろん単なる作曲ソフトでは決して無いけれど、一から十までこなしてくれる完璧な知能というわけでもない。むしろ、<strong>過剰に有能なアシスタント</strong> と言ったほうが適切かもしれない。「<a href="http://d.hatena.ne.jp/keyword/%A5%D3%A1%BC%A5%C8%A5%EB%A5%BA">ビートルズ</a>風のポップソングを作って」と言えば、いろんなコード進行とメロディのパターンをAIが提案してくれる。気に入ったものがあればOKを出して、気に入らないところには別のパターンを出してもらう。次の動画を見れば、具体的なプロセスがわ<a href="http://d.hatena.ne.jp/keyword/%A4%AB%A4%EB%A4%C8">かると</a>思う。</p>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/SDnkX8v8caY" frameborder="0" allowfullscreen></iframe>
+<p>「ここの音符がつまりすぎてる」「ここはもうちょっと高く」「別のコードで」とか、いろいろと細かい修正が入っている。操作はかなり直感的で、多少楽譜が読める人ならば誰でもすぐに使えそうだ。こうしてできた楽曲に、どんな楽器で、どんなテイストで演奏するかを指定さえすれば、AIがデータベース化された録音素材をうまくパッチワークして出力してくれる。</p>
+<p>つまり、コードとメロディ担当のAIと、演奏担当のAIがいて、それに人間が適宜指示を下しているわけだ。それだって充分すごいんだけど、技術的に言って具体的になにがすごかったかといえば、次の二点に尽きると思う。まず、大量のジャズ・スタンダードや<a href="http://d.hatena.ne.jp/keyword/%A5%D6%A5%ED%A1%BC%A5%C9%A5%A6%A5%A7%A1%BC">ブロードウェー</a>のナンバー、そしてポップソングの楽譜をデータベース化することで、AIがこれまでにない多くのスタイルを学習することができるようになった、ということ。次に、実際の演奏音源からグルーヴや演奏のクセを学習して、しかもそれを違和感なく合成することができるようになった、ということだ。このアシスタントは、「無茶苦茶モノ知ってる」 うえに 「どんな演奏もさらっとこなす」のだ。</p>
+<h2 id="これまでの自動作曲とどう違うのか">これまでの自動作曲とどう違うのか</h2>
+<p><a href="http://d.hatena.ne.jp/keyword/%A4%BD%A4%E2%A4%BD%A4%E2">そもそも</a>、コンピューターに作曲をさせるという試み自体は、計算機の誕生以来ずっと追求されてきたものだった。<a href="https://www.jstage.jst.go.jp/article/jssst/30/1/30_1_101/_article/-char/ja/">自動作曲の手法に関するサーヴェイ論文に目を通してみると</a>、レジャレン・ヒラーによって1959年に作曲された <em>《<a href="http://d.hatena.ne.jp/keyword/%B8%B9%B3%DA%BB%CD%BD%C5%C1%D5">弦楽四重奏</a>のためのイリアック<a href="http://d.hatena.ne.jp/keyword/%C1%C8%B6%CA">組曲</a> Illiac Suite for <a href="http://d.hatena.ne.jp/keyword/String%20Quartet">String Quartet</a>》</em> が、実際にコンピューターによってつくられた最初の音楽作品だという。<a href="http://d.hatena.ne.jp/keyword/YouTube">YouTube</a>に実演がアップロードされている。もちろん、当時のコンピューターにオーディオを扱うだけのパワーはなかったので、演奏しているのは人間だ。</p>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/n0njBFLQSk8" frameborder="0" allowfullscreen></iframe>
+<p>イリアック<a href="http://d.hatena.ne.jp/keyword/%C1%C8%B6%CA">組曲</a>については日本語では<a href="http://data.jssa.info/paper/2014v06n04/2.Kodera.pdf">東京芸大の小寺未知留さんによる研究報告</a>があり、その歴史的意義や<a href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>について簡潔ながら詳しく検討されている。<a href="http://d.hatena.ne.jp/keyword/%A4%BD%A4%E2%A4%BD%A4%E2">そもそも</a>こうした対位法に代表されるクラッシックの作曲法は、修練を積んで磨かれる感性的な側面と同時に、高度に洗練された規則体系を持ってもいる。そうした体系を<a href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>に組み込めば、コンピューターだって作曲できるのではないか、と思うのはある種当然の成り行きではある。全四楽章のうち第一楽章（前掲）から<a href="https://www.youtube.com/watch?v=MrN0pOnA1x4">第二楽章</a>は厳格な対位法にもとづき、<a href="https://www.youtube.com/watch?v=cuq4smO_4Js">第三楽章</a>はそれに加えて音量や奏法も含めた、いわゆる<a href="http://d.hatena.ne.jp/keyword/%A5%C8%A1%BC">トー</a>タルセリエリズムに近いアプローチをとっている（実際に第三楽章は不協和音やパーカッシヴな音が多用されており、いわずもがなという感じ）。<a href="https://www.youtube.com/watch?v=QyqiSbbwHIs">第四楽章</a>では楽理的なアプローチから離れて、<a href="http://d.hatena.ne.jp/keyword/%A5%DE%A5%EB%A5%B3%A5%D5%B2%E1%C4%F8">マルコフ過程</a>を用いた乱数生成がもっぱら用いられているようだ。</p>
+<p>こうした初期の自動作曲においては、<strong>対位法という厳格なルールをコンピューターに教えれば（＝<a href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>に組み込めば）楽曲はできあがる</strong>、という寸法になっていた。しかし、いつまでも時代はバッハのままではない。現在ぼくたちに馴染み深いポップスやロックの世界には、クラシックの対位法とか和声法ほど厳格な禁則もない。あるのは「これってありだよね」と経験的に積み重ねられてきた実例と、そこから<a href="http://d.hatena.ne.jp/keyword/%B5%A2%C7%BC">帰納</a>的に導き出されるもろもろのパターンにすぎない。そのようにして人々のあいだに培われたのは「○○っぽい」という漠然とした感覚にほかならないが、それはまさに、これまでコンピューターが一番苦手としてきたことだ。前掲のサーヴェイ論文に詳しくまとめられているけれど、これまでの自動作曲は、こうした困難をどのように乗り越えるかに腐心してきたといってよい。</p>
+<h2 id="っぽさを学ぶai">「○○っぽさ」を学ぶAI</h2>
+<p>そこに、ここ数年めっきり<a href="http://d.hatena.ne.jp/keyword/%A5%D0%A5%BA%A5%EF%A1%BC%A5%C9">バズワード</a>化し、ある方面には幻想を、またある方面には幻滅を与え続けている深層学習が登場する。自分は計算機科学の専門家ではないので詳しいことは述べられないけれど、ざっくりと言えば、深層学習のおかげで、学習用のデータ・セットさえ与えれば、コンピューターが「これは○○っぽい、これは××っぽい、これはなんかそのあいだくらい」みたいな雰囲気を勝手に掴んで、分類することが容易になった<a href="#f-8d5d73b2" title="詳しい理屈については、ネット上にも記事がいやになるほどあふれているけれど、書籍で言えば松尾豊の『[asin:4040800206:title]』などがぼくにはわかりやすかった">*1</a>。深層学習の利点は、単にジャンルそれぞれの「っぽさ」を学ぶだけではなくて、与えられるデータ・セットの種類次第で、たとえば音程のゆらぎとか、リズムの溜め方とか、演奏者の手癖みたいなものも学ぶことができるという点だ。</p>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/buXqNqBFd6E" frameborder="0" allowfullscreen></iframe>
+<p>ここでAIは一挙に「○○っぽい曲」を作れる能力を得たと同時に、それを「××っぽく弾く」こともできるようになったわけだ。上掲の動画は<a href="http://d.hatena.ne.jp/keyword/%A5%D9%A1%BC%A5%C8%A1%BC%A5%F4%A5%A7%A5%F3">ベートーヴェン</a>の第九を様々に<a href="http://d.hatena.ne.jp/keyword/%A5%AA%A1%BC%A5%B1%A5%B9%A5%C8%A5%EC%A1%BC%A5%B7%A5%E7%A5%F3">オーケストレーション</a>した例を並べたものだが、こんなふうにヴァリエーションをつくってくれるだけでも面白いものがある。ペニー・レイン風の第九なんて、いかにもなフレーズの連発で思わず頬が緩んでしまう。「AIが人間と同等の創作活動を！」みたいな驚異はないかもしれないけれど、「もうこんなことまでできるんだ！」という喜びが湧いてくるようなデモンストレーションだ。</p>
+<p>FlowMachinesは、特に演奏情報に関しては、録音された素材も学習の対象としているようだけれども、やはりその学習の大部分は、「リードシート」という <strong>特殊なかたちの楽譜によって記号化されたデータ</strong> にもとづいている。そのあたりに、<a href="http://d.hatena.ne.jp/keyword/%A5%BD%A5%CB%A1%BC">ソニー</a>研究所の実用的な割り切りが感じられる。たとえば<a href="http://d.hatena.ne.jp/keyword/Google">Google</a>のMagentaでは、学習用に用いるデータ・セットは<a href="http://d.hatena.ne.jp/keyword/MIDI">MIDI</a>データが主のようだ。<a href="http://d.hatena.ne.jp/keyword/MIDI">MIDI</a>はコンピューターが音情報を制御する規格としてかなり実績も高く安定性があり、かつ広く用いられている形式だから、<a href="http://d.hatena.ne.jp/keyword/%A5%AA%A1%BC%A5%D7%A5%F3%A5%BD%A1%BC%A5%B9">オープンソース</a>なプロジェクトとしての拡張性を考えれば、そちらを採用するのは妥当な判断だと言える。そこで <strong>「リードシート」を採用したことがなぜ「実用的」か</strong>、ということを考えてみる。</p>
+<h2 id="midiかリードシートかポップスの記号化"><a href="http://d.hatena.ne.jp/keyword/MIDI">MIDI</a>か、「リードシート」か――ポップスの記号化</h2>
+<p>ジャズやロックも含めた広義のポップ・ミュージックは、その構造については経験的な基礎づけしかもたなかった一方で、その書法については極めて洗練された体系を持っている。これは<a href="http://d.hatena.ne.jp/keyword/%B5%C6%C3%CF%C0%AE%B9%A6">菊地成孔</a>や<a href="http://d.hatena.ne.jp/keyword/%C2%E7%C3%AB%C7%BD%C0%B8">大谷能生</a>が<a href="http://d.hatena.ne.jp/keyword/%A5%BC%A5%ED%C7%AF%C2%E5">ゼロ年代</a>を通じて「バークリー・メソッド」という呼称で論じてきたもの（e.g.菊地・大谷共著『<a href="http://d.hatena.ne.jp/asin/4309410162/tortoisetau09-22">憂鬱と官能を教えた学校 上&mdash;【バークリー・メソッド】によって俯瞰される20世紀商業音楽史 調律、調性および旋律・和声 (河出文庫 き 3-1)</a>』など）だが、要するに、<strong>和声のブロックとそれらの一定の組み合わせ（＝ケーデンス／<a href="http://d.hatena.ne.jp/keyword/%A5%AB%A5%C7%A5%F3%A5%C4">カデンツ</a>）を基本的な単位とする書法</strong> のことだ。FlowMachinesのデータベースに蓄積されている「リードシート」と呼ばれる楽譜はまさしくその代表というべきもので、主としてメロディラインと歌詞、そしてそれに伴う和声進行だけが記された、高度に抽象的で実用的な書法だ。菊地・大谷が指摘するように、この書法は、楽曲全体がどのように構成されているかとか、部分と部分、あるいは部分と全体とがどのような関係を持つかといった分析にあたって絶大な威力を発揮する。</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Lead-sheet-wikipedia.svg" alt="Lead-sheet-wikipedia.svg"> <a href="https://commons.wikimedia.org/wiki/File:Lead-sheet-wikipedia.svg#/media/File:Lead-sheet-wikipedia.svg">リード・シートの例。</a>By <a href="//commons.wikimedia.org/wiki/User:Paradoxian" title="User:Paradoxian">Paradoxian</a> - Own work, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=8696595">Link</a></p>
+<p><a href="https://magenta.tensorflow.org/2016/07/15/lookback-rnn-attention-rnn/">このMagentaプロジェクトのブログ記事</a>では、楽曲全体に一貫する構造をAIがつくりだすことがいかに難しいか、それを克服するためにはどのような学習の<a href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>が適切かが論じられている。1,2小節のメロディをつくることはたやすくても、一曲としてまとまりを持った長いメロディをつくるのはなかなか難しいのだ。その点、「リードシート」は各々の楽曲の構造をある程度抽象化して書くものなので、そうした構造化を学習段階である程度達成できているのではないか、と思う（入力しているデータそのものを比較したわけじゃないので違うかもしれないけれど）。</p>
+<p>たとえば<a href="http://d.hatena.ne.jp/keyword/MIDI">MIDI</a>ファイルにおいて音程は0から127までの数値にひとつずつ割り振られ、絶対的に記述される。それは演奏するひとつひとつの音符がすみずみまで記されたオーケストラ譜に近い。他方、「リード・シート」においては、メロディ以外の伴奏は「Gmin」とか「A♭7」とかごく簡略化されて記される。各々の記号は、どの音を基準に、どの種類の和音を鳴らすべきかだけを指示する（一番簡単な例で言えば、「Cmaj」はドの音を基準に、その3つ上の音と5つ上の音からなる和音、すなわちドミソの和音をこれだけで示している）。それによって、同じ楽曲を対象としたデータであっても、<strong><a href="http://d.hatena.ne.jp/keyword/MIDI">MIDI</a>よりも「リードシート」のほうが、「メインのメロディ／伴奏の和音の根音／伴奏の和音の構成音」といった構造が、一目瞭然</strong> なわけだ。</p>
+<p>先述したように、FlowMachinesが学習に用いているのは「リードシート」だけではない。しかし、膨大な量の「リードシート」の活用があって初めて、あのような精度の自動作曲が実用レベルに実装されているだろうと思われる。</p>
+<h2 id="記号化から符号化へdeepmindのtts技術">記号化から符号化へ――DeepMindのTTS技術</h2>
+<p>と、ここまでは比較的各種メディアを賑わせた話題ではある。しかし、個人的に最も驚いたのは、既に実用レベルに達したFlowMachinesでも、音楽に限らないAIの創造性を追求するプロジェクトとして邁進するMagentaでもなく、<strong>DeepMindによって改良されたTTS（テキスト読み上げ）技術</strong> の副産物だった。</p>
+<p>DeepMindのWaveNetは、深層学習の技術を用いて、音声データそのものを学習し、生成するAIだ。<a href="https://deepmind.com/blog/wavenet-generative-model-raw-audio/">この9月にDeepMindが発表した記事</a>によれば、このWaveNet技術を用いれば、従来のTTSよりもずっと流暢で自然な音声が生成でき、しかも性別や声色までかなり柔軟にコン<a href="http://d.hatena.ne.jp/keyword/%A5%C8%A5%ED%A1%BC%A5%EB">トロール</a>できるらしい。</p>
+<p>これまで、TTSは人間の発声をシミュレーションして喋らせるか、あらかじめ用意された子音や母音などの音声を合成してひとつなぎにして喋らせるか、どちらかの手法がとられていた。たとえていえば、前者は<a href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%F3%A5%BB%A5%B5%A5%A4%A5%B6%A1%BC">シンセサイザー</a>で楽器の音を再現して演奏すること、後者は実際に演奏した素材を編集して曲をつくることに対応するだろう。<a href="http://d.hatena.ne.jp/keyword/%BD%E9%B2%BB%A5%DF%A5%AF">初音ミク</a>なんかの<a href="http://d.hatena.ne.jp/keyword/Vocaloid">Vocaloid</a>は後者だ。WaveNetはそのどちらとも違う。録音された人の声そのものを学習して、学習したデータに基いてAIがゼロから音声を生成するのだ。<a href="https://deepmind.com/blog/wavenet-generative-model-raw-audio/">実際記事中のサンプルを聴いてみると、なるほど既存のエンジンよりも違和感が少ない</a>。</p>
+<p>しかしちょっと戦慄するのは、前掲ページ後半の“Knowing What to Say”という項目で紹介されている、「テキストデータを与えずに、ただAIを走らせて出力した音声」だ。WaveNetを実際に使う際には、WaveNetが学習したデータを実際のテキストデータに対照させる手続きが必要になる。その手続きを経る前の、なまの学習内容が紹介されているのだ。<strong>それはあきらかに人の声で、なにかを言おうとしているかのように聴こえるけれども、実際のところ、一切の意味内容を欠いている。</strong> 抑揚もあり、息継ぎもあり、単に自分がその言語を知らないだけで、実は意味の通った文章を読み上げているのではないかと疑ってしまう。しかしそんなことはない。AIが気ままに10秒間の音声ファイルを出力しているだけなのだ。このままぶつぶつつぶやかせていると、次第に意思でも持ち始めるんじゃないかとちょっと怖くなる。</p>
+<p>そして、そういったありがちな恐怖をもう一度裏切るのが、人の声ではなくてピアノを演奏した音声を学習させた例だ。ここでもまた、WaveNetは学習した内容に基いて、思うままに音声を生成している。なんの楽譜も与えられていない。ただWaveNetは入力されたピアノの演奏を学習し、10秒間のサンプルを出力しているだけ。なのにもかかわらず、<strong>そこには和声があり、メロディがあり、律動がある。</strong> 凄腕のピアニストが肩慣らしに即興演奏を楽しんでいるかのようだ。</p>
+<p>WaveNetが示しているのは、FlowMachinesやMagentaにみられるような 「記号化」のプロセスなしに、AIが「作曲」してしまう最も端的な例だ。高度に抽象化されたケーデンスの組み合わせもなく、127段階の数値に還元された音程の羅列さえもなく、<strong>ただ「サンプリング＝符号化」されたデータそのものに基いて、AIは作曲しうる。</strong> あらゆる記号には、それを理解するためのコードが存在する。「リードシート」は人間が作曲する用途に効率化されたコードを持ち、<a href="http://d.hatena.ne.jp/keyword/MIDI">MIDI</a>は人間が機械に司令を与えるために定められたコードを持つ。しかしWaveNetによるピアノ独奏は、そうしたあらゆるコードを持たない。それはただそのように響くよう律儀に配列された、デジタルデータなのだ。</p>
+<h2 id="aiはプリペアドピアノの夢を見るか">AIは<a href="http://d.hatena.ne.jp/keyword/%A5%D7%A5%EA%A5%DA%A5%A2%A5%C9%A1%A6%A5%D4%A5%A2%A5%CE">プリペアド・ピアノ</a>の夢を見るか</h2>
+<p>WaveNetによる「作曲」（というか「演奏」というか）は、人間がそうするような意味で「作曲」と言いうるのか。あるいは、WaveNetは、数分とか数十分といった長さの、一貫した「作品」を生成できるのか。そうした美学的な問いや技術的な課題についてはひとまずおいておく。ただ実際に、<strong>AIが学習した結果を10秒間のサウンドファイルに<a href="http://d.hatena.ne.jp/keyword/%A5%EC%A5%F3%A5%C0%A5%EA%A5%F3%A5%B0">レンダリング</a>した結果、そこには紛れもなく（きわめて古典的な感覚における）「音楽」が鳴っていた</strong> ということは否定しがたい。楽譜（あるいは<a href="http://d.hatena.ne.jp/keyword/MIDI">MIDI</a>）を通した記号化を経ることのない、AIによる直観的な「演奏」。それは、その演奏の根拠となる<a href="http://d.hatena.ne.jp/keyword/%A5%A2%A5%EB%A5%B4%A5%EA%A5%BA%A5%E0">アルゴリズム</a>さえもほぼ<a href="http://d.hatena.ne.jp/keyword/%A5%D6%A5%E9%A5%C3%A5%AF%A5%DC%A5%C3%A5%AF%A5%B9">ブラックボックス</a>だ。<a href="http://d.hatena.ne.jp/keyword/Max/MSP">Max/MSP</a>のパッチみたいに、中身を開いて調べることはできないのだから。</p>
+<p>符号化されたデータが、そのまま学習され、解釈され、出力される。もし「コンピューターによる自動作曲」の究極的なかたちがあるとすれば、それはWaveNetのそれではないかと思う。だとすれば、FlowMachinesの見せてくれた可能性は、当たり前の話だが、まだほんの一部でしかない。</p>
+<p>一切の記号化から逃れた音楽。WaveNetの吐き出す10秒ほどの短いクリップをそのように呼んでみよう。たとえ実際のそのクリップが、調性感覚に溢れる保守的な音楽に聴こえたとしても。</p>
+<p>すると、奇妙にもそれは、20世紀を通じてある種の音楽家たちが熱狂的に追求しようとした音楽に、裏口から到達してしまっているように見える。あらゆる記号化からこぼれ落ちる音そのもの、楽譜に書けない音楽、楽譜の外側にある音楽。それは<a href="http://d.hatena.ne.jp/keyword/%A5%B8%A5%E7%A5%F3%A1%A6%A5%B1%A1%BC%A5%B8">ジョン・ケージ</a>が聴こうとした始まりもなければ終わりもない世界そのものの音楽であり、ピエール・<a href="http://d.hatena.ne.jp/keyword/%A5%B7%A5%A7%A5%D5%A5%A7%A1%BC%A5%EB">シェフェール</a>がテープの上で築こうとした具体音の音楽であり、クリスチャン・マークレーがレコードのス<a href="http://d.hatena.ne.jp/keyword/%A5%AF%A5%E9%A5%C3%A5%C1">クラッチ</a>・ノイズを通して可聴化しようとした録音物としての音楽であり…　と、このリストはいくらでも続けることができる。</p>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/aL77mHnCrNs" frameborder="0" allowfullscreen></iframe>
+<p>深層学習によって生成されたサウンド・クリップがあっけらかんと明らかにしてしまったのは、<strong>あらゆるものが符号化（≠記号化）されアーカイヴされた次元においては、記号化そのものが不要である</strong>、という身も蓋もない事実だ。<strong>AIには、<a href="http://d.hatena.ne.jp/keyword/%A5%D7%A5%EA%A5%DA%A5%A2%A5%C9%A1%A6%A5%D4%A5%A2%A5%CE">プリペアド・ピアノ</a>の夢を見る必要がない。</strong> なぜなら<a href="http://d.hatena.ne.jp/keyword/%A5%D7%A5%EA%A5%DA%A5%A2%A5%C9%A1%A6%A5%D4%A5%A2%A5%CE">プリペアド・ピアノ</a>は、五線譜の上に、五線譜からはみ出す音を書き記すために生まれた発明だからだ。おそらくWaveNetは<a href="http://d.hatena.ne.jp/keyword/%A5%D7%A5%EA%A5%DA%A5%A2%A5%C9%A1%A6%A5%D4%A5%A2%A5%CE">プリペアド・ピアノ</a>というものがどのような音を出すのか学ぶのにやぶさかではないだろうし、一度学習してしまえば、らくらくと<a href="http://d.hatena.ne.jp/keyword/%A5%D7%A5%EA%A5%DA%A5%A2%A5%C9%A1%A6%A5%D4%A5%A2%A5%CE">プリペアド・ピアノ</a>的な音を響かせてしまうことだろう。</p>
+<iframe width="700" height="394" src="https://www.youtube.com/embed/N0-y8oNDLgU" frameborder="0" allowfullscreen></iframe>
+<p>繰り返そう。AIは、<a href="http://d.hatena.ne.jp/keyword/%A5%B8%A5%E7%A5%F3%A1%A6%A5%B1%A1%BC%A5%B8">ジョン・ケージ</a>のように、<a href="http://d.hatena.ne.jp/keyword/%A5%D7%A5%EA%A5%DA%A5%A2%A5%C9%A1%A6%A5%D4%A5%A2%A5%CE">プリペアド・ピアノ</a>を夢見、発明する必要は特にない。調性があろうがなかろうが、楽音だろうがノイズだろうが、ロックだろうがジャズだろうが、ただ符号化さえしてくれればいい。作曲するには符号があれば良いのだ。極端な話、そうなのだ。ただ人間との協働が必要なときにだけ、記号を勉強してもらわないと困るんだけれど。</p>
+<p>恐らくAIは、耳当たりのよいポップスから暴力的なハーシュ・ノイズまで、学習さえすればいくらでもつくってくれるようになるだろう。しかしそれがいくらコンサバで、死ぬほど退屈であったとしても、その音は人間たちによる音楽の記号化をめぐるさまざまな格闘とは無縁の彼岸から響いてくることになる可能性は、かなり高い。</p>
+<p>……「んなことぐだぐだごたく並べてるけど、聴いている分には楽しかったら構わないじゃん」って？　いやまったくその通りで、個人的にはシンギュラリティってそういう感じだと思うんですよね。理解を絶した凄まじい世界がやってくるのではなく、「なんか便利になったな～」ってみんな普通に暮らしてるんだけど、その暮らしを支えている原理は字義通り<a href="http://d.hatena.ne.jp/keyword/%BF%CD%C3%D2">人智</a>を超えたAIなの。むしろそれまでが大変だ。<strong>FlowMachinesみたいなのが大事なのは、AIと人間の付き合い方をきちんとデザインしてくれているところですよね。</strong> そうじゃないとがんがん軋轢が生まれちゃいそう。<a href="http://d.hatena.ne.jp/keyword/%A4%B3%A4%C1">こち</a>らからは以上です。</p>
+<p><a href="#fn-8d5d73b2">*1</a>:詳しい理屈については、ネット上にも記事がいやになるほどあふれているけれど、書籍で言えば松尾豊の『<a href="http://d.hatena.ne.jp/asin/4040800206/tortoisetau09-22">人工知能は人間を超えるか ディープラーニングの先にあるもの (角川EPUB選書)</a>』などがぼくにはわかりやすかった</p>
+</content>
+
+
+
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    </body>
+
+</html>

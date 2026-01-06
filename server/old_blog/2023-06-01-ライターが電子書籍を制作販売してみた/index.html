@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ライターが電子書籍を制作・販売してみた | imdkm</title>
+<meta name="title" content="ライターが電子書籍を制作・販売してみた" />
+<meta name="description" content="自主制作したZINE「音楽とテクノロジーをいかに語るか？」の文フリ・通販での完売にいたる顛末についてはすでにブログ記事にまとめたけれど、同時に電子書籍版の準備も進めていた。きょう晴れて販売開始とあいなったので、その準備についても書いてまとめておきたい。
+音楽とテクノロジーをいかに語るか？（電子版） - 編集室B（imdkm） - BOOTH
+購入ページは↑から。500円でダウンロード販売しています！
+PDF版だったらすぐできたけど
+先に別の記事で書いたように、今回のZINEはLaTeXで制作し、PDFで入稿していた。なので、単にPCで読む用のPDFファイルならもうすでにあった（実際、このデータをサンプルとして人に送ったこともある）。しかし、どうせ電子版を販売するなら、PDF以外の形式もぜひ試してみたかった。そもそもPDFが文書を頒布するフォーマットとしてあまり好きではない。あれはやはり「紙」を前提としたフォーマットだし。ひらたく言うとPDFにはPDFの良さがあるけれど、固定レイアウトになってしまうのがなんとなく嫌なのだ。
+なにより電子書籍はリフロー型っしょ、と思っているから、どうせやるならEPUBをやってみたい。正直どうやってつくるのかまったくわかんないけど。でもそこまで難しいわけでもなさそう（レイアウトやらに凝りだすと、また違うのだが……）。原稿はすでにあるので、ためしにつくってみた。
+VS CodeでMarkdownから（Pandoc経由で）EPUBに
+具体的な手順としては、LaTeXの原稿を整理して簡素化、Markdownで記述しなおして、Pandoc経由でEPUBに変換した。別にLaTeXから直接EPUB化もできたのだが、微妙に思うような結果にならなかった。一度Markdownに落とし込めば、少なくともテキストを読ませるぶんには十分に機能するEPUBを出力することは造作なくできた。
+本当は、図版も最低限まで割愛した簡易版でEPUBを完成させるつもりだったのだけれど、突然思い立ってしまい、EPUBにも冊子版と同等の図版を挿入することにした。これがなかなか厄介で、Markdownで楽勝～と思っていたのが、特にコンテンツガイドの部分でほとんどHTMLをベタ打ちすることになり、最低限の記述で済んだとはいえ、MarkdownとHTMLのちゃんぽんを試行錯誤で組み立てていったのはちょっとかったるかった。でも、ちょっと背伸びしたおかげで勝手はだんだんわかってきた。
+もとの冊子が左綴じ・横書きだったこともあり、EPUBでも横書きで済ませた。LaTeXであれEPUBであれ、今後は縦書きでつくってみたい気持ちはあるので、なにか機会があれば挑戦したい（VS Code &#43; Markdown &#43; Pandocという組み合わせ以外のものを試すのもありだ）。まだ電子書籍自作道ははじまったばかりだ！
+余談：Kindle Direct Publishingもしてみた
+これは完全に余談。過去のブログ記事をコンパイルしたテキストオンリーのシンプルな電子書籍を（上記の要領で）制作して、Kindle Direct Publishingにのせてみている。Amazonで自主制作した電子書籍を販売するためにはどうしたらいいのか、Kindle Unlimitedに登録するには……などのノウハウが欲しかったからだ。結果としては、EPUBを作成したら、KDPのアカウントをつくってぶん投げるだけでOKだった。詳しいやり方はネットにいくらでも転がっているので検索していただくとして……。
+指パッチンの鳴らし方――自選ブログアーカイヴ | imdkm | 文学・評論 | Kindleストア | Amazon
+実際の電子書籍は↑のリンクから購入ないしKindle Unlimitedでの閲覧ができます。試してみてくれよな！" />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="/old_blog/2023-06-01-%E3%83%A9%E3%82%A4%E3%82%BF%E3%83%BC%E3%81%8C%E9%9B%BB%E5%AD%90%E6%9B%B8%E7%B1%8D%E3%82%92%E5%88%B6%E4%BD%9C%E8%B2%A9%E5%A3%B2%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F/">
+  <meta property="og:site_name" content="imdkm">
+  <meta property="og:title" content="ライターが電子書籍を制作・販売してみた">
+  <meta property="og:description" content="自主制作したZINE「音楽とテクノロジーをいかに語るか？」の文フリ・通販での完売にいたる顛末についてはすでにブログ記事にまとめたけれど、同時に電子書籍版の準備も進めていた。きょう晴れて販売開始とあいなったので、その準備についても書いてまとめておきたい。
+音楽とテクノロジーをいかに語るか？（電子版） - 編集室B（imdkm） - BOOTH
+購入ページは↑から。500円でダウンロード販売しています！
+PDF版だったらすぐできたけど 先に別の記事で書いたように、今回のZINEはLaTeXで制作し、PDFで入稿していた。なので、単にPCで読む用のPDFファイルならもうすでにあった（実際、このデータをサンプルとして人に送ったこともある）。しかし、どうせ電子版を販売するなら、PDF以外の形式もぜひ試してみたかった。そもそもPDFが文書を頒布するフォーマットとしてあまり好きではない。あれはやはり「紙」を前提としたフォーマットだし。ひらたく言うとPDFにはPDFの良さがあるけれど、固定レイアウトになってしまうのがなんとなく嫌なのだ。
+なにより電子書籍はリフロー型っしょ、と思っているから、どうせやるならEPUBをやってみたい。正直どうやってつくるのかまったくわかんないけど。でもそこまで難しいわけでもなさそう（レイアウトやらに凝りだすと、また違うのだが……）。原稿はすでにあるので、ためしにつくってみた。
+VS CodeでMarkdownから（Pandoc経由で）EPUBに 具体的な手順としては、LaTeXの原稿を整理して簡素化、Markdownで記述しなおして、Pandoc経由でEPUBに変換した。別にLaTeXから直接EPUB化もできたのだが、微妙に思うような結果にならなかった。一度Markdownに落とし込めば、少なくともテキストを読ませるぶんには十分に機能するEPUBを出力することは造作なくできた。
+本当は、図版も最低限まで割愛した簡易版でEPUBを完成させるつもりだったのだけれど、突然思い立ってしまい、EPUBにも冊子版と同等の図版を挿入することにした。これがなかなか厄介で、Markdownで楽勝～と思っていたのが、特にコンテンツガイドの部分でほとんどHTMLをベタ打ちすることになり、最低限の記述で済んだとはいえ、MarkdownとHTMLのちゃんぽんを試行錯誤で組み立てていったのはちょっとかったるかった。でも、ちょっと背伸びしたおかげで勝手はだんだんわかってきた。
+もとの冊子が左綴じ・横書きだったこともあり、EPUBでも横書きで済ませた。LaTeXであれEPUBであれ、今後は縦書きでつくってみたい気持ちはあるので、なにか機会があれば挑戦したい（VS Code &#43; Markdown &#43; Pandocという組み合わせ以外のものを試すのもありだ）。まだ電子書籍自作道ははじまったばかりだ！
+余談：Kindle Direct Publishingもしてみた これは完全に余談。過去のブログ記事をコンパイルしたテキストオンリーのシンプルな電子書籍を（上記の要領で）制作して、Kindle Direct Publishingにのせてみている。Amazonで自主制作した電子書籍を販売するためにはどうしたらいいのか、Kindle Unlimitedに登録するには……などのノウハウが欲しかったからだ。結果としては、EPUBを作成したら、KDPのアカウントをつくってぶん投げるだけでOKだった。詳しいやり方はネットにいくらでも転がっているので検索していただくとして……。
+指パッチンの鳴らし方――自選ブログアーカイヴ | imdkm | 文学・評論 | Kindleストア | Amazon
+実際の電子書籍は↑のリンクから購入ないしKindle Unlimitedでの閲覧ができます。試してみてくれよな！">
+  <meta property="og:locale" content="ja_jp">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="old_blog">
+    <meta property="article:published_time" content="2023-06-01T00:00:00+00:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ライターが電子書籍を制作・販売してみた">
+  <meta name="twitter:description" content="自主制作したZINE「音楽とテクノロジーをいかに語るか？」の文フリ・通販での完売にいたる顛末についてはすでにブログ記事にまとめたけれど、同時に電子書籍版の準備も進めていた。きょう晴れて販売開始とあいなったので、その準備についても書いてまとめておきたい。
+音楽とテクノロジーをいかに語るか？（電子版） - 編集室B（imdkm） - BOOTH
+購入ページは↑から。500円でダウンロード販売しています！
+PDF版だったらすぐできたけど 先に別の記事で書いたように、今回のZINEはLaTeXで制作し、PDFで入稿していた。なので、単にPCで読む用のPDFファイルならもうすでにあった（実際、このデータをサンプルとして人に送ったこともある）。しかし、どうせ電子版を販売するなら、PDF以外の形式もぜひ試してみたかった。そもそもPDFが文書を頒布するフォーマットとしてあまり好きではない。あれはやはり「紙」を前提としたフォーマットだし。ひらたく言うとPDFにはPDFの良さがあるけれど、固定レイアウトになってしまうのがなんとなく嫌なのだ。
+なにより電子書籍はリフロー型っしょ、と思っているから、どうせやるならEPUBをやってみたい。正直どうやってつくるのかまったくわかんないけど。でもそこまで難しいわけでもなさそう（レイアウトやらに凝りだすと、また違うのだが……）。原稿はすでにあるので、ためしにつくってみた。
+VS CodeでMarkdownから（Pandoc経由で）EPUBに 具体的な手順としては、LaTeXの原稿を整理して簡素化、Markdownで記述しなおして、Pandoc経由でEPUBに変換した。別にLaTeXから直接EPUB化もできたのだが、微妙に思うような結果にならなかった。一度Markdownに落とし込めば、少なくともテキストを読ませるぶんには十分に機能するEPUBを出力することは造作なくできた。
+本当は、図版も最低限まで割愛した簡易版でEPUBを完成させるつもりだったのだけれど、突然思い立ってしまい、EPUBにも冊子版と同等の図版を挿入することにした。これがなかなか厄介で、Markdownで楽勝～と思っていたのが、特にコンテンツガイドの部分でほとんどHTMLをベタ打ちすることになり、最低限の記述で済んだとはいえ、MarkdownとHTMLのちゃんぽんを試行錯誤で組み立てていったのはちょっとかったるかった。でも、ちょっと背伸びしたおかげで勝手はだんだんわかってきた。
+もとの冊子が左綴じ・横書きだったこともあり、EPUBでも横書きで済ませた。LaTeXであれEPUBであれ、今後は縦書きでつくってみたい気持ちはあるので、なにか機会があれば挑戦したい（VS Code &#43; Markdown &#43; Pandocという組み合わせ以外のものを試すのもありだ）。まだ電子書籍自作道ははじまったばかりだ！
+余談：Kindle Direct Publishingもしてみた これは完全に余談。過去のブログ記事をコンパイルしたテキストオンリーのシンプルな電子書籍を（上記の要領で）制作して、Kindle Direct Publishingにのせてみている。Amazonで自主制作した電子書籍を販売するためにはどうしたらいいのか、Kindle Unlimitedに登録するには……などのノウハウが欲しかったからだ。結果としては、EPUBを作成したら、KDPのアカウントをつくってぶん投げるだけでOKだった。詳しいやり方はネットにいくらでも転がっているので検索していただくとして……。
+指パッチンの鳴らし方――自選ブログアーカイヴ | imdkm | 文学・評論 | Kindleストア | Amazon
+実際の電子書籍は↑のリンクから購入ないしKindle Unlimitedでの閲覧ができます。試してみてくれよな！">
+
+
+
+
+  <meta itemprop="name" content="ライターが電子書籍を制作・販売してみた">
+  <meta itemprop="description" content="自主制作したZINE「音楽とテクノロジーをいかに語るか？」の文フリ・通販での完売にいたる顛末についてはすでにブログ記事にまとめたけれど、同時に電子書籍版の準備も進めていた。きょう晴れて販売開始とあいなったので、その準備についても書いてまとめておきたい。
+音楽とテクノロジーをいかに語るか？（電子版） - 編集室B（imdkm） - BOOTH
+購入ページは↑から。500円でダウンロード販売しています！
+PDF版だったらすぐできたけど 先に別の記事で書いたように、今回のZINEはLaTeXで制作し、PDFで入稿していた。なので、単にPCで読む用のPDFファイルならもうすでにあった（実際、このデータをサンプルとして人に送ったこともある）。しかし、どうせ電子版を販売するなら、PDF以外の形式もぜひ試してみたかった。そもそもPDFが文書を頒布するフォーマットとしてあまり好きではない。あれはやはり「紙」を前提としたフォーマットだし。ひらたく言うとPDFにはPDFの良さがあるけれど、固定レイアウトになってしまうのがなんとなく嫌なのだ。
+なにより電子書籍はリフロー型っしょ、と思っているから、どうせやるならEPUBをやってみたい。正直どうやってつくるのかまったくわかんないけど。でもそこまで難しいわけでもなさそう（レイアウトやらに凝りだすと、また違うのだが……）。原稿はすでにあるので、ためしにつくってみた。
+VS CodeでMarkdownから（Pandoc経由で）EPUBに 具体的な手順としては、LaTeXの原稿を整理して簡素化、Markdownで記述しなおして、Pandoc経由でEPUBに変換した。別にLaTeXから直接EPUB化もできたのだが、微妙に思うような結果にならなかった。一度Markdownに落とし込めば、少なくともテキストを読ませるぶんには十分に機能するEPUBを出力することは造作なくできた。
+本当は、図版も最低限まで割愛した簡易版でEPUBを完成させるつもりだったのだけれど、突然思い立ってしまい、EPUBにも冊子版と同等の図版を挿入することにした。これがなかなか厄介で、Markdownで楽勝～と思っていたのが、特にコンテンツガイドの部分でほとんどHTMLをベタ打ちすることになり、最低限の記述で済んだとはいえ、MarkdownとHTMLのちゃんぽんを試行錯誤で組み立てていったのはちょっとかったるかった。でも、ちょっと背伸びしたおかげで勝手はだんだんわかってきた。
+もとの冊子が左綴じ・横書きだったこともあり、EPUBでも横書きで済ませた。LaTeXであれEPUBであれ、今後は縦書きでつくってみたい気持ちはあるので、なにか機会があれば挑戦したい（VS Code &#43; Markdown &#43; Pandocという組み合わせ以外のものを試すのもありだ）。まだ電子書籍自作道ははじまったばかりだ！
+余談：Kindle Direct Publishingもしてみた これは完全に余談。過去のブログ記事をコンパイルしたテキストオンリーのシンプルな電子書籍を（上記の要領で）制作して、Kindle Direct Publishingにのせてみている。Amazonで自主制作した電子書籍を販売するためにはどうしたらいいのか、Kindle Unlimitedに登録するには……などのノウハウが欲しかったからだ。結果としては、EPUBを作成したら、KDPのアカウントをつくってぶん投げるだけでOKだった。詳しいやり方はネットにいくらでも転がっているので検索していただくとして……。
+指パッチンの鳴らし方――自選ブログアーカイヴ | imdkm | 文学・評論 | Kindleストア | Amazon
+実際の電子書籍は↑のリンクから購入ないしKindle Unlimitedでの閲覧ができます。試してみてくれよな！">
+  <meta itemprop="datePublished" content="2023-06-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="38">
+  <meta itemprop="keywords" content="Jpn">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    width: 70%;
+    margin: auto;
+    display: block;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #0074e0;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #2e5a83;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+   
+.page-item {
+    display: inline-block;  
+    margin-right: 10px;  
+    text-align: center;  
+}
+
+</style>
+  </head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>imdkm</h2>
+</a>
+<nav><a href="/">トップ</a>
+
+<a href="/works/">これまでのお仕事</a>
+
+<a href="/gigs/">出演情報</a>
+
+
+<a href="/blog">ブログ</a>
+
+
+<a href="/old_blog">旧ブログアーカイヴ</a>
+</nav>
+</header>
+  <main>
+
+<content>
+  <p>自主制作したZINE「音楽とテクノロジーをいかに語るか？」の文フリ・通販での完売にいたる顛末についてはすでにブログ記事にまとめたけれど、同時に電子書籍版の準備も進めていた。きょう晴れて販売開始とあいなったので、その準備についても書いてまとめておきたい。</p>
+<p><a href="https://imdkm.booth.pm/items/4815297">音楽とテクノロジーをいかに語るか？（電子版） - 編集室B（imdkm） - BOOTH</a></p>
+<p>購入ページは↑から。500円でダウンロード販売しています！</p>
+<h2 id="pdf版だったらすぐできたけど">PDF版だったらすぐできたけど</h2>
+<p>先に<a href="https://imdkm.com/archives/2154">別の記事で書いた</a>ように、今回のZINEはLaTeXで制作し、PDFで入稿していた。なので、単にPCで読む用のPDFファイルならもうすでにあった（実際、このデータをサンプルとして人に送ったこともある）。しかし、どうせ電子版を販売するなら、PDF以外の形式もぜひ試してみたかった。そもそもPDFが文書を頒布するフォーマットとしてあまり好きではない。あれはやはり「紙」を前提としたフォーマットだし。ひらたく言うとPDFにはPDFの良さがあるけれど、固定レイアウトになってしまうのがなんとなく嫌なのだ。</p>
+<p>なにより電子書籍はリフロー型っしょ、と思っているから、どうせやるならEPUBをやってみたい。正直どうやってつくるのかまったくわかんないけど。でもそこまで難しいわけでもなさそう（レイアウトやらに凝りだすと、また違うのだが……）。原稿はすでにあるので、ためしにつくってみた。</p>
+<h2 id="vs-codeでmarkdownからpandoc経由でepubに">VS CodeでMarkdownから（Pandoc経由で）EPUBに</h2>
+<p>具体的な手順としては、LaTeXの原稿を整理して簡素化、Markdownで記述しなおして、Pandoc経由でEPUBに変換した。別にLaTeXから直接EPUB化もできたのだが、微妙に思うような結果にならなかった。一度Markdownに落とし込めば、少なくともテキストを読ませるぶんには十分に機能するEPUBを出力することは造作なくできた。</p>
+<p>本当は、図版も最低限まで割愛した簡易版でEPUBを完成させるつもりだったのだけれど、突然思い立ってしまい、EPUBにも冊子版と同等の図版を挿入することにした。これがなかなか厄介で、Markdownで楽勝～と思っていたのが、特にコンテンツガイドの部分でほとんどHTMLをベタ打ちすることになり、最低限の記述で済んだとはいえ、MarkdownとHTMLのちゃんぽんを試行錯誤で組み立てていったのはちょっとかったるかった。でも、ちょっと背伸びしたおかげで勝手はだんだんわかってきた。</p>
+<p>もとの冊子が左綴じ・横書きだったこともあり、EPUBでも横書きで済ませた。LaTeXであれEPUBであれ、今後は縦書きでつくってみたい気持ちはあるので、なにか機会があれば挑戦したい（VS Code + Markdown + Pandocという組み合わせ以外のものを試すのもありだ）。まだ電子書籍自作道ははじまったばかりだ！</p>
+<h2 id="余談kindle-direct-publishingもしてみた">余談：Kindle Direct Publishingもしてみた</h2>
+<p>これは完全に余談。過去のブログ記事をコンパイルしたテキストオンリーのシンプルな電子書籍を（上記の要領で）制作して、Kindle Direct Publishingにのせてみている。Amazonで自主制作した電子書籍を販売するためにはどうしたらいいのか、Kindle Unlimitedに登録するには……などのノウハウが欲しかったからだ。結果としては、EPUBを作成したら、KDPのアカウントをつくってぶん投げるだけでOKだった。詳しいやり方はネットにいくらでも転がっているので検索していただくとして……。</p>
+<p><a href="https://www.amazon.co.jp/dp/B0C6KTWCN2">指パッチンの鳴らし方――自選ブログアーカイヴ | imdkm | 文学・評論 | Kindleストア | Amazon</a><br>
+実際の電子書籍は↑のリンクから購入ないしKindle Unlimitedでの閲覧ができます。試してみてくれよな！</p>
+
+</content>
+
+
+
+<p>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    </body>
+
+</html>

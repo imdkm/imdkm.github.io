@@ -1,38 +1,52 @@
 {{ define "main" }}
+
+{{/* ★ ここが最重要：Paginator を明示的に作る */}}
+{{ $paginator := .Paginate .Pages }}
+
 <content>
   {{ if .Data.Singular }}
-  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
-  <small>
-    <a href="{{ "blog" | relURL }}">Remove filter</a>
-  </small>
+    <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
+    <small>
+      <a href="{{ "blog" | relURL }}">Remove filter</a>
+    </small>
   {{ end }}
+
   <p>
-  {{ if .Data.Singular }}
-  {{ else }}
+  {{ if not .Data.Singular }}
     <small>
       <div>
         {{ range .Site.Taxonomies.tags }}
-        <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+          <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
         {{ end }}
       </div>
     </small>
   {{ end }}
   </p>
+
   <ul class="blog-posts">
-    {{ range .Paginator.Pages }}
-    <li>
-      <span>
-        <time datetime='{{ if .GitInfo }}{{ .GitInfo.AuthorDate.Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}' pubdate>
-          {{ if .GitInfo }}{{ .GitInfo.AuthorDate.Format (default "2006.01.02" .Site.Params.dateFormat) }}{{ else }}{{ .Date.Format (default "2006.01.02" .Site.Params.dateFormat) }}{{ end }}
-        </time>
-      </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
+    {{ range $paginator.Pages }}
+      <li>
+        <span>
+          <time datetime='{{ .Lastmod.Format "2006-01-02" }}' pubdate>
+            {{ .Lastmod.Format (default "2006.01.02" .Site.Params.dateFormat) }}
+          </time>
+        </span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
     {{ else }}
-    <li>
-      No posts yet
-    </li>
+      <li>No posts yet</li>
     {{ end }}
   </ul>
+
+  {{/* ★ ページネーションUI */}}
+  <nav class="pagination">
+    {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}">← newer</a>
+    {{ end }}
+    {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}">older →</a>
+    {{ end }}
+  </nav>
 </content>
+
 {{ end }}

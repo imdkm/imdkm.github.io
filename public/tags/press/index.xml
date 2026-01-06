@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Press on imdkm</title>
     <link>//localhost:1313/tags/press/</link>
     <description>Recent content in Press on imdkm</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>imdkm</copyright>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2024 11:00:00 +0900</lastBuildDate>
     <atom:link href="//localhost:1313/tags/press/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EIRI「Homie/Cide」（お仕事報告）</title>
@@ -15,6 +15,23 @@
       <pubDate>Fri, 05 Jul 2024 11:00:00 +0900</pubDate>
       <guid>//localhost:1313/blog/eiri_homiecide/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/240705_homiecide.jpg&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;　この度OMOIDE LABELからリリースされるトラックメーカー／コンポーザーEIRIによるシングル「Homie/Cide」（&lt;a href=&#34;https://omoidelabel.bandcamp.com/album/homie-cide&#34;&gt;Bandcamp&lt;/a&gt;）のプレスリリースを担当しました。パレスチナでいま起こっているイスラエルによる虐殺・民族浄化に対するプロテスト・ソングであり、ごりごりのレベル・ミュージックです。2ヶ月分の売上が、UNRWAへの寄付にあてられます。リリース文は以下。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;　愛知県在住のトラックメイカー／コンポーザーEIRIが、ネットレーベルOMOIDE LABELよりファースト・シングル「Homie/Cide」をリリースする。FULLMATIC XXの『L.O.G (1991 TAPE)』（2020年）に衝撃を受け、生々しく歪んだPhonkのサウンドを求めて本格的に活動を開始したというEIRI。完成した作品を正式にリリースするのは本作が初となる。ビートだけではなく、自身でマイクを握り、切り裂くようなヴォーカルも披露している。&lt;/p&gt;&#xA;&lt;p&gt;　「Homie/Cide」の主題は、一聴してすぐにわかるとおり、イスラエルによるパレスチナでのジェノサイドに対する痛烈な批判だ。EIRIは、止むことのないイスラエルによる残虐な軍事攻撃や、それに加担するアメリカをはじめとした「西側」諸国の抱える矛盾と欺瞞への怒りを率直に表明する。きわめてストレートなレベル・ミュージックだ。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;　また、リミックスには、いずれもパレスチナ問題に深い関心を寄せるVTuberの温泉マーク、そしてOMOIDE LABELから昨年EP「HONNINMAN RETURNS」をリリースしたhonninmanというふたりの表現者が参加。イスラエルのジェノサイドに否を突きつけながら、さらなる連帯の可能性を模索する印象的なメッセージを付け加えている。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;　なお、本作の制作過程においては、イスラエル企業であるWAVESのプラグイン（サウンドを加工するためのソフトウェア）を使用しないなど、可能な限りイスラエルへのボイコットを試みているという。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;　また、7月5日（金）のリリースから9月6日（金）のBandcamp Friday終了までに本作で得られた収益は、アーティストを通じて国連パレスチナ難民救済事業機関（UNRWA）緊急支援寄付（https://www.securite.jp/unrwa_emergency_support）にあてられる。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;　ぜひチェックしてみてください。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img src="/images/240705_homiecide.jpg" alt="Image"></p>
+<p>　この度OMOIDE LABELからリリースされるトラックメーカー／コンポーザーEIRIによるシングル「Homie/Cide」（<a href="https://omoidelabel.bandcamp.com/album/homie-cide">Bandcamp</a>）のプレスリリースを担当しました。パレスチナでいま起こっているイスラエルによる虐殺・民族浄化に対するプロテスト・ソングであり、ごりごりのレベル・ミュージックです。2ヶ月分の売上が、UNRWAへの寄付にあてられます。リリース文は以下。</p>
+<blockquote>
+<p>　愛知県在住のトラックメイカー／コンポーザーEIRIが、ネットレーベルOMOIDE LABELよりファースト・シングル「Homie/Cide」をリリースする。FULLMATIC XXの『L.O.G (1991 TAPE)』（2020年）に衝撃を受け、生々しく歪んだPhonkのサウンドを求めて本格的に活動を開始したというEIRI。完成した作品を正式にリリースするのは本作が初となる。ビートだけではなく、自身でマイクを握り、切り裂くようなヴォーカルも披露している。</p>
+<p>　「Homie/Cide」の主題は、一聴してすぐにわかるとおり、イスラエルによるパレスチナでのジェノサイドに対する痛烈な批判だ。EIRIは、止むことのないイスラエルによる残虐な軍事攻撃や、それに加担するアメリカをはじめとした「西側」諸国の抱える矛盾と欺瞞への怒りを率直に表明する。きわめてストレートなレベル・ミュージックだ。</p>
+</blockquote>
+<blockquote>
+<p>　また、リミックスには、いずれもパレスチナ問題に深い関心を寄せるVTuberの温泉マーク、そしてOMOIDE LABELから昨年EP「HONNINMAN RETURNS」をリリースしたhonninmanというふたりの表現者が参加。イスラエルのジェノサイドに否を突きつけながら、さらなる連帯の可能性を模索する印象的なメッセージを付け加えている。</p>
+</blockquote>
+<blockquote>
+<p>　なお、本作の制作過程においては、イスラエル企業であるWAVESのプラグイン（サウンドを加工するためのソフトウェア）を使用しないなど、可能な限りイスラエルへのボイコットを試みているという。</p>
+</blockquote>
+<blockquote>
+<p>　また、7月5日（金）のリリースから9月6日（金）のBandcamp Friday終了までに本作で得られた収益は、アーティストを通じて国連パレスチナ難民救済事業機関（UNRWA）緊急支援寄付（https://www.securite.jp/unrwa_emergency_support）にあてられる。</p>
+</blockquote>
+<p>　ぜひチェックしてみてください。</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

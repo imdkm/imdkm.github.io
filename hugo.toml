@@ -1,12 +1,11 @@
 baseURL = '/'
 languageCode = 'ja-jp'
 title = 'imdkm'
-theme = 'hugo-bearblog'
+theme = 'bearcub'
 copyright = "imdkm"
 
 [pagination]
-  pagerSize = 10
-  path = "page"
+  pagerSize = 20
 
 [markup]
   [markup.goldmark]

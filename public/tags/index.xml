@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on imdkm</title>
     <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on imdkm</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>imdkm</copyright>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 15:37:17 +0900</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jpn</title>
       <link>//localhost:1313/tags/jpn/</link>
-      <pubDate>Wed, 24 Dec 2025 02:00:15 +0900</pubDate>
+      <pubDate>Mon, 05 Jan 2026 15:37:17 +0900</pubDate>
       <guid>//localhost:1313/tags/jpn/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Works</title>
+      <link>//localhost:1313/tags/works/</link>
+      <pubDate>Mon, 05 Jan 2026 15:37:17 +0900</pubDate>
+      <guid>//localhost:1313/tags/works/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Book-Review</title>
@@ -22,6 +31,7 @@
       <pubDate>Thu, 30 Jan 2025 13:30:00 +0900</pubDate>
       <guid>//localhost:1313/tags/book-review/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Review</title>
@@ -29,13 +39,7 @@
       <pubDate>Sun, 22 Sep 2024 20:21:04 +0900</pubDate>
       <guid>//localhost:1313/tags/review/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Works</title>
-      <link>//localhost:1313/tags/works/</link>
-      <pubDate>Wed, 24 Jul 2024 18:42:23 +0900</pubDate>
-      <guid>//localhost:1313/tags/works/</guid>
-      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Press</title>
@@ -43,6 +47,7 @@
       <pubDate>Fri, 05 Jul 2024 11:00:00 +0900</pubDate>
       <guid>//localhost:1313/tags/press/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
       <title>Sunday-Playlist</title>
@@ -50,6 +55,7 @@
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/sunday-playlist/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
   </channel>
 </rss>

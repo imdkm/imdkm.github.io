@@ -75,186 +75,21 @@ Behringer Crave シーケンサーの操作方法まとめ | A Smooth Architect
 「パラメーター・セレクション」で細かい設定をする アサイナブル・アウトプット（ASSIGNから出力する信号）の設定や、内部・外部クロックの設定、クロックのエッジ検出の設定、テンポのコントロールなどは「パラメーター・セレクション」で変更できる。
 以下、CRAVEのクイックスタートガイド（英語版）とMoog Mother-32の日本語マニュアルの記述を参考に操作方法を備忘録的にまとめておく。ただし、Behringerが提供しているSYNTHTRIBEというアプリを使ってUSB接続経由で設定するほうがわかりやすいだろう。PCとつなぐのめんどくさい、本体で済ませられるならそっちのがいい、という場合はこちらで。">
   <meta itemprop="datePublished" content="2023-11-22T00:00:00+00:00">
-  <meta itemprop="wordCount" content="151">
+  <meta itemprop="wordCount" content="150">
   <meta itemprop="keywords" content="Jpn">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
+  
+  <link href="/original.min.css" rel="stylesheet">
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
+  
+    
+    <link href="/syntax.min.css" rel="stylesheet">
+  
 
-  a {
-    color: #3273dc;
-     
-  }
+  
 
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    width: 70%;
-    margin: auto;
-    display: block;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
-  }
-
-</style>
-
+  
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -350,10 +185,15 @@ Behringer Crave シーケンサーの操作方法まとめ | A Smooth Architect
   }
 
   blockquote {
-    border-left: 1px solid #999;
+    border-left: none;
     color: #222;
-    padding-left: 20px;
-    font-style: italic;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+     
+    font-style: normal;
+    background-color: #eee;
   }
 
   footer {
@@ -420,7 +260,15 @@ Behringer Crave シーケンサーの操作方法まとめ | A Smooth Architect
 <a href="/old_blog">旧ブログアーカイヴ</a>
 </nav>
 </header>
-  <main>
+  <main id="main-content">
+
+<h1>Behringer CRAVEの使い方メモ</h1>
+<p class="byline">
+  <time datetime='2023-11-22' pubdate>
+    2023-11-22
+  </time>
+  
+</p>
 
 <content>
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -442,6 +290,11 @@ Behringer Crave シーケンサーの操作方法まとめ | A Smooth Architect
 <h2 id="パラメーターセレクションで細かい設定をする">「パラメーター・セレクション」で細かい設定をする</h2>
 <p>アサイナブル・アウトプット（ASSIGNから出力する信号）の設定や、内部・外部クロックの設定、クロックのエッジ検出の設定、テンポのコントロールなどは「パラメーター・セレクション」で変更できる。</p>
 <p>以下、CRAVEのクイックスタートガイド（英語版）と<a href="https://www.korg-kid.com/moog/product-details/mother-32/">Moog Mother-32の日本語マニュアル</a>の記述を参考に操作方法を備忘録的にまとめておく。ただし、Behringerが提供しているSYNTHTRIBEというアプリを使ってUSB接続経由で設定するほうがわかりやすいだろう。PCとつなぐのめんどくさい、本体で済ませられるならそっちのがいい、という場合はこちらで。</p>
+
+
+
+
+
 <pre tabindex="0"><code>1. [SHIFT] + [HOLD/REST] + [8] を同時押しして設定モードに入る
    （ロケーションLEDの1が黄色に点灯）
 
@@ -499,8 +352,7 @@ Behringer Crave シーケンサーの操作方法まとめ | A Smooth Architect
 	ページ4：クロック・エッジ
 		1. フォール（降下時）
 		2. ライズ（上昇時）
-			パルスの上昇と加工どっちを読むか
-</code></pre><p>クロック・タイプを外部トリガーにして、[LFO SQU]から[TEMPO]にパッチングすると、LFOがトリガーになってシーケンスがひとつずつ進む、みたいなことができる。</p>
+			パルスの上昇と加工どっちを読むか</code></pre><p>クロック・タイプを外部トリガーにして、[LFO SQU]から[TEMPO]にパッチングすると、LFOがトリガーになってシーケンスがひとつずつ進む、みたいなことができる。</p>
 <figure>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/jjClwbdT2vE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
@@ -518,12 +370,9 @@ Behringer Crave シーケンサーの操作方法まとめ | A Smooth Architect
 <p>
   
 </p>
-  <div class="share-buttons">
-    <p><small><b>このページをシェアする</b>:
-    <a href="https://twitter.com/intent/tweet?url=%2f%2flocalhost%3a1313%2fold_blog%2f2023-11-22-behringer-crave%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%25E3%2583%25A1%25E3%2583%25A2%2f&text=Behringer%20CRAVE%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%83%a1%e3%83%a2" target="_blank">X</a> |
-    <a href="https://www.threads.net/intent/post?text=Behringer%20CRAVE%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%83%a1%e3%83%a2 %2f%2flocalhost%3a1313%2fold_blog%2f2023-11-22-behringer-crave%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%25E3%2583%25A1%25E3%2583%25A2%2f" target="_blank">Threads</a> |
-    <a href="https://bsky.app/intent/compose?text=Behringer%20CRAVE%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9%e3%83%a1%e3%83%a2 %2f%2flocalhost%3a1313%2fold_blog%2f2023-11-22-behringer-crave%25E3%2581%25AE%25E4%25BD%25BF%25E3%2581%2584%25E6%2596%25B9%25E3%2583%25A1%25E3%2583%25A2%2f" target="_blank">Bluesky</a></small></p>
-</div>
+
+
+
 
   </main>
   <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>

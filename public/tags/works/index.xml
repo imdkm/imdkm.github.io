@@ -1,20 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Works on imdkm</title>
     <link>//localhost:1313/tags/works/</link>
     <description>Recent content in Works on imdkm</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>imdkm</copyright>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 15:37:17 +0900</lastBuildDate>
     <atom:link href="//localhost:1313/tags/works/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>
+［告知］1月18日（日）「ワード・オブ・エコー」、19日（月）「インターネット時代の&#34;ワールド・ミュージック&#34;：Uprootをめぐってデジタルテクノロジーの話を聞く」出演</title>
+      <link>//localhost:1313/blog/202601_talks/</link>
+      <pubDate>Mon, 05 Jan 2026 15:37:17 +0900</pubDate>
+      <guid>//localhost:1313/blog/202601_talks/</guid>
+      <description>&lt;p&gt;　2026年1月は京都でトーク・イベント2本に出演します。imdkm京都ツアー。&lt;/p&gt;&#xA;&lt;h3 id=&#34;1月18日日ワードオブエコー-京都のクラブで開催する本と音楽のブックフェス-day-2--京都-club-metro&#34;&gt;1月18日（日）『ワード・オブ・エコー』 〜京都のクラブで開催する本と音楽のブックフェス〜 DAY 2 @ 京都 CLUB METRO&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;日時 2026年1月17日（土）・18日（日）14:30 - 21:00&lt;br&gt;&#xA;会場 CLUB METRO（京都市・神宮丸太町駅直結）&lt;br&gt;&#xA;企画1 ミュージシャン×ライターらが語る「本・言葉・音楽」&lt;br&gt;&#xA;tofubeats （音楽プロデューサー／DJ） × imdkm （音楽ライター）&lt;br&gt;&#xA;「インディペンデントに宿るヌクモリティ ――音楽・ZINE・書店をつなぐ手仕事」&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;　京都 METRO にて1月17日（土）・18日（日）の2日間にわたって開催されるブックフェス『ワード・オブ・エコー』。2日目のトーク企画に、tofubeatsとともに登壇します（出番は15時半～）。&lt;/p&gt;&#xA;&lt;p&gt;　テーマは「インディペンデントに宿るヌクモリティ ――音楽・ZINE・書店をつなぐ手仕事」ということで、いわゆる「音楽本」というよりはインディペンデントな活動の魅力やそれを支えるインフラやエコシステムについて話す感じになると思います。&lt;/p&gt;&#xA;&lt;p&gt;　同日にはin the blue shirt × 日高良祐のトークセッションもあり。本のフリーマーケットもあります（出品するよ）。wai wai music resort やアリムラさんも出演するライヴやDJなども充実しておりますのでぜひどうぞ。初日のトークもDaichi Yamamoto × 渡辺志保、さらさ × つやちゃん、渡辺志保 × つやちゃん……とおもしろそうなラインナップ。&lt;/p&gt;&#xA;&lt;h3 id=&#34;1月19日月-インターネット時代のワールドミュージックuprootをめぐってデジタルテクノロジーの話を聞く--京都女子大学&#34;&gt;1月19日（月） インターネット時代の&amp;quot;ワールド・ミュージック&amp;quot;：Uprootをめぐってデジタルテクノロジーの話を聞く @ 京都女子大学&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;『インターネット時代の&amp;quot;ワールド・ミュージック&amp;quot;：Uprootをめぐってデジタルテクノロジーの話を聞く』&#xA;　日時：2026年1月19日(月) 18:00～19:30&lt;br&gt;&#xA;　場所：京都女子大学 E104-1（調整中）&lt;br&gt;&#xA;　入場無料・要申込（https://forms.office.com/r/7V47wBBwP3）&lt;br&gt;&#xA;　登壇：imdkm（音楽ライター）、渡邊未帆（大阪音楽大学）&lt;br&gt;&#xA;　司会：日高良祐（京都女子大学）&lt;/p&gt;&#xA;&lt;p&gt;インターネット以後のデジタルカルチャーのなかで、いわゆる&amp;quot;ワールド・ミュージック&amp;quot;をどのように聴く／捉える／考えるべきなのか？　Jace Clayton (DJ /rupture)による『Uproot: Travels in 21st-Century Music and Digital Culture』を手がかりに、今まさに翻訳プロジェクトを進行中かつ音楽とテクノロジーの関係に造詣の深いimdkm氏、前衛音楽から民族音楽まで幅広く研究／実践を繰り広げる渡邊未帆氏をゲストに呼んで話を聞く会を開催します！！&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>　2026年1月は京都でトーク・イベント2本に出演します。imdkm京都ツアー。</p>
+<h3 id="1月18日日ワードオブエコー-京都のクラブで開催する本と音楽のブックフェス-day-2--京都-club-metro">1月18日（日）『ワード・オブ・エコー』 〜京都のクラブで開催する本と音楽のブックフェス〜 DAY 2 @ 京都 CLUB METRO</h3>
+<blockquote>
+<p>日時 2026年1月17日（土）・18日（日）14:30 - 21:00<br>
+会場 CLUB METRO（京都市・神宮丸太町駅直結）<br>
+企画1 ミュージシャン×ライターらが語る「本・言葉・音楽」<br>
+tofubeats （音楽プロデューサー／DJ） × imdkm （音楽ライター）<br>
+「インディペンデントに宿るヌクモリティ ――音楽・ZINE・書店をつなぐ手仕事」</p>
+</blockquote>
+<p>　京都 METRO にて1月17日（土）・18日（日）の2日間にわたって開催されるブックフェス『ワード・オブ・エコー』。2日目のトーク企画に、tofubeatsとともに登壇します（出番は15時半～）。</p>
+<p>　テーマは「インディペンデントに宿るヌクモリティ ――音楽・ZINE・書店をつなぐ手仕事」ということで、いわゆる「音楽本」というよりはインディペンデントな活動の魅力やそれを支えるインフラやエコシステムについて話す感じになると思います。</p>
+<p>　同日にはin the blue shirt × 日高良祐のトークセッションもあり。本のフリーマーケットもあります（出品するよ）。wai wai music resort やアリムラさんも出演するライヴやDJなども充実しておりますのでぜひどうぞ。初日のトークもDaichi Yamamoto × 渡辺志保、さらさ × つやちゃん、渡辺志保 × つやちゃん……とおもしろそうなラインナップ。</p>
+<h3 id="1月19日月-インターネット時代のワールドミュージックuprootをめぐってデジタルテクノロジーの話を聞く--京都女子大学">1月19日（月） インターネット時代の&quot;ワールド・ミュージック&quot;：Uprootをめぐってデジタルテクノロジーの話を聞く @ 京都女子大学</h3>
+<blockquote>
+<p>『インターネット時代の&quot;ワールド・ミュージック&quot;：Uprootをめぐってデジタルテクノロジーの話を聞く』
+　日時：2026年1月19日(月) 18:00～19:30<br>
+　場所：京都女子大学 E104-1（調整中）<br>
+　入場無料・要申込（https://forms.office.com/r/7V47wBBwP3）<br>
+　登壇：imdkm（音楽ライター）、渡邊未帆（大阪音楽大学）<br>
+　司会：日高良祐（京都女子大学）</p>
+<p>インターネット以後のデジタルカルチャーのなかで、いわゆる&quot;ワールド・ミュージック&quot;をどのように聴く／捉える／考えるべきなのか？　Jace Clayton (DJ /rupture)による『Uproot: Travels in 21st-Century Music and Digital Culture』を手がかりに、今まさに翻訳プロジェクトを進行中かつ音楽とテクノロジーの関係に造詣の深いimdkm氏、前衛音楽から民族音楽まで幅広く研究／実践を繰り広げる渡邊未帆氏をゲストに呼んで話を聞く会を開催します！！</p>
+</blockquote>
+<p>　つづく19日（月）には日高さんにお招きいただき京都女子大学にてトーク。日高さんを司会として、大阪音楽大学の渡邊未帆さんと一緒に、現在わたしが翻訳している Jace Clayton の <em>Uproot: Travels in 21st-Century Music and Digital Culture</em> を題材としていろいろとお話します。美学校でのレクチャーやAMeeTでの連載の内容に関連する、あるいは遅延派通信でちょいちょい取り上げている中南米のダンス・ミュージックなどとも関わる（いまめっちゃ大変なことになっていますが……　言及できるかな）感じになるかなと。</p>
+<p>　21日の昼に飛行機で帰る予定です。20日夜はあいているのでもしなんかあればなんでもやりますから連絡ください！！！</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>長谷川白紙『魔法学校』解説（お仕事報告）</title>
       <link>//localhost:1313/blog/mahogakko/</link>
       <pubDate>Wed, 24 Jul 2024 18:42:23 +0900</pubDate>
       <guid>//localhost:1313/blog/mahogakko/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://www.beatink.com/upload/save_image/05021240_66330b4278c3b.png&#34; alt=&#34;長谷川白紙『魔法学校』カバーアート&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;本日リリースとなった長谷川白紙のセカンド・アルバム『魔法学校』の日本盤にて解説を執筆しています。『魔法学校』という作品におけるもっとも大きなトピックである「声」を軸にいろいろと書いています。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.beatink.com/products/detail.php?product_id=14074&#34;&gt;BEATINK.COM / 魔法学校&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;これあんまり言わないことなんですが、『魔法学校』はCDかロスレスのデータ買っていいヘッドフォンかスピーカーででけー音で聴いてほしいです。DOMMUNEで聴いてしみじみ思いました。&lt;/p&gt;&#xA;&lt;p&gt;そうだ、事後報告になって恐縮ですが、リリースの前日にSUPER DOMMUNEにて行われた&lt;a href=&#34;https://www.dommune.com/streamings/2024/072301/&#34;&gt;『魔法学校』リリース記念イベント&lt;/a&gt;では司会として出演したほか、企画・構成などもお手伝いしていました。いろいろと試行錯誤しながらつくっていきましたが、結果としては充実したトークができたのではないかと思います……。そしてなにより白紙自身のライヴが素晴らしかった。ご出演いただいた天野龍太郎さん、イシヅカユウさん、青本柚紀さん、ありがとうございました。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img src="https://www.beatink.com/upload/save_image/05021240_66330b4278c3b.png" alt="長谷川白紙『魔法学校』カバーアート"></p>
+<p>本日リリースとなった長谷川白紙のセカンド・アルバム『魔法学校』の日本盤にて解説を執筆しています。『魔法学校』という作品におけるもっとも大きなトピックである「声」を軸にいろいろと書いています。</p>
+<p><a href="https://www.beatink.com/products/detail.php?product_id=14074">BEATINK.COM / 魔法学校</a></p>
+<p>これあんまり言わないことなんですが、『魔法学校』はCDかロスレスのデータ買っていいヘッドフォンかスピーカーででけー音で聴いてほしいです。DOMMUNEで聴いてしみじみ思いました。</p>
+<p>そうだ、事後報告になって恐縮ですが、リリースの前日にSUPER DOMMUNEにて行われた<a href="https://www.dommune.com/streamings/2024/072301/">『魔法学校』リリース記念イベント</a>では司会として出演したほか、企画・構成などもお手伝いしていました。いろいろと試行錯誤しながらつくっていきましたが、結果としては充実したトークができたのではないかと思います……。そしてなにより白紙自身のライヴが素晴らしかった。ご出演いただいた天野龍太郎さん、イシヅカユウさん、青本柚紀さん、ありがとうございました。</p>
+]]></content:encoded>
     </item>
     <item>
       <title>EIRI「Homie/Cide」（お仕事報告）</title>
@@ -22,6 +61,23 @@
       <pubDate>Fri, 05 Jul 2024 11:00:00 +0900</pubDate>
       <guid>//localhost:1313/blog/eiri_homiecide/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/240705_homiecide.jpg&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;　この度OMOIDE LABELからリリースされるトラックメーカー／コンポーザーEIRIによるシングル「Homie/Cide」（&lt;a href=&#34;https://omoidelabel.bandcamp.com/album/homie-cide&#34;&gt;Bandcamp&lt;/a&gt;）のプレスリリースを担当しました。パレスチナでいま起こっているイスラエルによる虐殺・民族浄化に対するプロテスト・ソングであり、ごりごりのレベル・ミュージックです。2ヶ月分の売上が、UNRWAへの寄付にあてられます。リリース文は以下。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;　愛知県在住のトラックメイカー／コンポーザーEIRIが、ネットレーベルOMOIDE LABELよりファースト・シングル「Homie/Cide」をリリースする。FULLMATIC XXの『L.O.G (1991 TAPE)』（2020年）に衝撃を受け、生々しく歪んだPhonkのサウンドを求めて本格的に活動を開始したというEIRI。完成した作品を正式にリリースするのは本作が初となる。ビートだけではなく、自身でマイクを握り、切り裂くようなヴォーカルも披露している。&lt;/p&gt;&#xA;&lt;p&gt;　「Homie/Cide」の主題は、一聴してすぐにわかるとおり、イスラエルによるパレスチナでのジェノサイドに対する痛烈な批判だ。EIRIは、止むことのないイスラエルによる残虐な軍事攻撃や、それに加担するアメリカをはじめとした「西側」諸国の抱える矛盾と欺瞞への怒りを率直に表明する。きわめてストレートなレベル・ミュージックだ。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;　また、リミックスには、いずれもパレスチナ問題に深い関心を寄せるVTuberの温泉マーク、そしてOMOIDE LABELから昨年EP「HONNINMAN RETURNS」をリリースしたhonninmanというふたりの表現者が参加。イスラエルのジェノサイドに否を突きつけながら、さらなる連帯の可能性を模索する印象的なメッセージを付け加えている。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;　なお、本作の制作過程においては、イスラエル企業であるWAVESのプラグイン（サウンドを加工するためのソフトウェア）を使用しないなど、可能な限りイスラエルへのボイコットを試みているという。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;　また、7月5日（金）のリリースから9月6日（金）のBandcamp Friday終了までに本作で得られた収益は、アーティストを通じて国連パレスチナ難民救済事業機関（UNRWA）緊急支援寄付（https://www.securite.jp/unrwa_emergency_support）にあてられる。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;　ぜひチェックしてみてください。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><img src="/images/240705_homiecide.jpg" alt="Image"></p>
+<p>　この度OMOIDE LABELからリリースされるトラックメーカー／コンポーザーEIRIによるシングル「Homie/Cide」（<a href="https://omoidelabel.bandcamp.com/album/homie-cide">Bandcamp</a>）のプレスリリースを担当しました。パレスチナでいま起こっているイスラエルによる虐殺・民族浄化に対するプロテスト・ソングであり、ごりごりのレベル・ミュージックです。2ヶ月分の売上が、UNRWAへの寄付にあてられます。リリース文は以下。</p>
+<blockquote>
+<p>　愛知県在住のトラックメイカー／コンポーザーEIRIが、ネットレーベルOMOIDE LABELよりファースト・シングル「Homie/Cide」をリリースする。FULLMATIC XXの『L.O.G (1991 TAPE)』（2020年）に衝撃を受け、生々しく歪んだPhonkのサウンドを求めて本格的に活動を開始したというEIRI。完成した作品を正式にリリースするのは本作が初となる。ビートだけではなく、自身でマイクを握り、切り裂くようなヴォーカルも披露している。</p>
+<p>　「Homie/Cide」の主題は、一聴してすぐにわかるとおり、イスラエルによるパレスチナでのジェノサイドに対する痛烈な批判だ。EIRIは、止むことのないイスラエルによる残虐な軍事攻撃や、それに加担するアメリカをはじめとした「西側」諸国の抱える矛盾と欺瞞への怒りを率直に表明する。きわめてストレートなレベル・ミュージックだ。</p>
+</blockquote>
+<blockquote>
+<p>　また、リミックスには、いずれもパレスチナ問題に深い関心を寄せるVTuberの温泉マーク、そしてOMOIDE LABELから昨年EP「HONNINMAN RETURNS」をリリースしたhonninmanというふたりの表現者が参加。イスラエルのジェノサイドに否を突きつけながら、さらなる連帯の可能性を模索する印象的なメッセージを付け加えている。</p>
+</blockquote>
+<blockquote>
+<p>　なお、本作の制作過程においては、イスラエル企業であるWAVESのプラグイン（サウンドを加工するためのソフトウェア）を使用しないなど、可能な限りイスラエルへのボイコットを試みているという。</p>
+</blockquote>
+<blockquote>
+<p>　また、7月5日（金）のリリースから9月6日（金）のBandcamp Friday終了までに本作で得られた収益は、アーティストを通じて国連パレスチナ難民救済事業機関（UNRWA）緊急支援寄付（https://www.securite.jp/unrwa_emergency_support）にあてられる。</p>
+</blockquote>
+<p>　ぜひチェックしてみてください。</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

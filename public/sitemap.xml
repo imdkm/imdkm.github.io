@@ -2,15 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>//localhost:1313/blog/202601_talks/</loc>
   </url><url>
-    <loc>//localhost:1313/blog/ctrl2cap/</loc>
+    <loc>//localhost:1313/blog/</loc>
   </url><url>
     <loc>//localhost:1313/</loc>
   </url><url>
     <loc>//localhost:1313/tags/jpn/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/works/</loc>
+  </url><url>
+    <loc>//localhost:1313/blog/ctrl2cap/</loc>
   </url><url>
     <loc>//localhost:1313/blog/acynchronicity/</loc>
   </url><url>
@@ -23,8 +27,6 @@
     <loc>//localhost:1313/tags/review/</loc>
   </url><url>
     <loc>//localhost:1313/blog/svp/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/works/</loc>
   </url><url>
     <loc>//localhost:1313/blog/mahogakko/</loc>
   </url><url>

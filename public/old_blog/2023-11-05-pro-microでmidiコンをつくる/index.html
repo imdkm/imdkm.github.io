@@ -46,6 +46,11 @@ imdkm(@imdkm)がシェアした投稿
 
 こんな書き方でいいのか忘れたけど。直接空中配線やろうかと思ったけど、念のため（？）ユニバーサル基板を適当な大きさにカットし利用。GNDは最終的に全部23ピンに落としてます。
 ソースコードは以下の通り。多分そんなきれいではないです。TotalMixではF#3～C#4の信号をCh.1で送るとスナップショットの切り替えができ、A6でDimのオンオフを制御可能。
+
+
+
+
+
 /*
 imdkm
 a midi controll for TotalMix Fx
@@ -140,8 +145,7 @@ void noteOff(byte channel, byte pitch, byte velocity) {
 void controlChange(byte channel, byte control, byte value) {
   midiEventPacket_t event = {0x0B, 0xB0 | channel, control, value};
   MidiUSB.sendMIDI(event);
-}
-スイッチ及びLEDには、使わなくなってほっぽっていたメカニカルキーボードからLED付きキースイッチをいくつか拝借した。キーキャップもそのキーボードから流用。" />
+}スイッチ及びLEDには、使わなくなってほっぽっていたメカニカルキーボードからLED付きキースイッチをいくつか拝借した。キーキャップもそのキーボードから流用。" />
 <meta name="keywords" content="" />
 
 
@@ -171,7 +175,7 @@ imdkm(@imdkm)がシェアした投稿
 ソースコードと回路図 最終的に配線をいろいろいじってこんな回路図に。
 こんな書き方でいいのか忘れたけど。直接空中配線やろうかと思ったけど、念のため（？）ユニバーサル基板を適当な大きさにカットし利用。GNDは最終的に全部23ピンに落としてます。
 ソースコードは以下の通り。多分そんなきれいではないです。TotalMixではF#3～C#4の信号をCh.1で送るとスナップショットの切り替えができ、A6でDimのオンオフを制御可能。
-/*imdkma midi controll for TotalMix Fx2023/11/02*/#include &#34;MIDIUSB.h&#34;// スナップショット切り替え部分の入出力関係const int btn[] = {2, 4, 6, 8};const int led[] = {3, 5, 7, 9};const int note[] = {54, 55, 56, 57}; // notes = F#3, G3, G#3, A3int ledActive = 0;// DIMの入出力関係const int btnDim = 16;const int ledDim = 10;const int noteDim = 93;bool isDimOn = false;void setup() {Serial.begin(31250); // MIDIのボーレートを設定for (int i = 0; i &lt; 4; i&#43;&#43;){ // ピンをボタンとLEDに割当pinMode(btn[i], INPUT_PULLUP); // ボタンは内部プルアップ使うpinMode(led[i], OUTPUT);}digitalWrite(led[ledActive], HIGH); // デフォルトのLEDを点灯pinMode(btnDim, INPUT_PULLUP);pinMode(ledDim, OUTPUT);}void loop() {for (int i = 0; i &lt; 4; i&#43;&#43;){if (digitalRead(btn[i]) == LOW) { // タクトスイッチが押された場合delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの挙動digitalWrite(led[ledActive], LOW);ledActive = i;digitalWrite(led[i], HIGH); // 新しいLEDを点灯while (digitalRead(btn[i]) == LOW) {// スイッチが押されたままの場合、待機}}}if (digitalRead(btnDim) == LOW) {delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの制御isDimOn = !isDimOn;digitalWrite(ledDim, isDimOn ? HIGH : LOW);while (digitalRead(btnDim) == LOW) {// スイッチが押されたままの場合、待機}}}// 以下、多分なんかMIDIUSBの動作に必要なやつvoid noteOn(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOn = {0x09, 0x90 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOn);}void noteOff(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOff = {0x08, 0x80 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOff);}void controlChange(byte channel, byte control, byte value) {midiEventPacket_t event = {0x0B, 0xB0 | channel, control, value};MidiUSB.sendMIDI(event);} スイッチ及びLEDには、使わなくなってほっぽっていたメカニカルキーボードからLED付きキースイッチをいくつか拝借した。キーキャップもそのキーボードから流用。">
+/*imdkma midi controll for TotalMix Fx2023/11/02*/#include &#34;MIDIUSB.h&#34;// スナップショット切り替え部分の入出力関係const int btn[] = {2, 4, 6, 8};const int led[] = {3, 5, 7, 9};const int note[] = {54, 55, 56, 57}; // notes = F#3, G3, G#3, A3int ledActive = 0;// DIMの入出力関係const int btnDim = 16;const int ledDim = 10;const int noteDim = 93;bool isDimOn = false;void setup() {Serial.begin(31250); // MIDIのボーレートを設定for (int i = 0; i &lt; 4; i&#43;&#43;){ // ピンをボタンとLEDに割当pinMode(btn[i], INPUT_PULLUP); // ボタンは内部プルアップ使うpinMode(led[i], OUTPUT);}digitalWrite(led[ledActive], HIGH); // デフォルトのLEDを点灯pinMode(btnDim, INPUT_PULLUP);pinMode(ledDim, OUTPUT);}void loop() {for (int i = 0; i &lt; 4; i&#43;&#43;){if (digitalRead(btn[i]) == LOW) { // タクトスイッチが押された場合delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの挙動digitalWrite(led[ledActive], LOW);ledActive = i;digitalWrite(led[i], HIGH); // 新しいLEDを点灯while (digitalRead(btn[i]) == LOW) {// スイッチが押されたままの場合、待機}}}if (digitalRead(btnDim) == LOW) {delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの制御isDimOn = !isDimOn;digitalWrite(ledDim, isDimOn ? HIGH : LOW);while (digitalRead(btnDim) == LOW) {// スイッチが押されたままの場合、待機}}}// 以下、多分なんかMIDIUSBの動作に必要なやつvoid noteOn(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOn = {0x09, 0x90 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOn);}void noteOff(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOff = {0x08, 0x80 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOff);}void controlChange(byte channel, byte control, byte value) {midiEventPacket_t event = {0x0B, 0xB0 | channel, control, value};MidiUSB.sendMIDI(event);}スイッチ及びLEDには、使わなくなってほっぽっていたメカニカルキーボードからLED付きキースイッチをいくつか拝借した。キーキャップもそのキーボードから流用。">
   <meta property="og:locale" content="ja_jp">
   <meta property="og:type" content="article">
     <meta property="article:section" content="old_blog">
@@ -205,7 +209,7 @@ imdkm(@imdkm)がシェアした投稿
 ソースコードと回路図 最終的に配線をいろいろいじってこんな回路図に。
 こんな書き方でいいのか忘れたけど。直接空中配線やろうかと思ったけど、念のため（？）ユニバーサル基板を適当な大きさにカットし利用。GNDは最終的に全部23ピンに落としてます。
 ソースコードは以下の通り。多分そんなきれいではないです。TotalMixではF#3～C#4の信号をCh.1で送るとスナップショットの切り替えができ、A6でDimのオンオフを制御可能。
-/*imdkma midi controll for TotalMix Fx2023/11/02*/#include &#34;MIDIUSB.h&#34;// スナップショット切り替え部分の入出力関係const int btn[] = {2, 4, 6, 8};const int led[] = {3, 5, 7, 9};const int note[] = {54, 55, 56, 57}; // notes = F#3, G3, G#3, A3int ledActive = 0;// DIMの入出力関係const int btnDim = 16;const int ledDim = 10;const int noteDim = 93;bool isDimOn = false;void setup() {Serial.begin(31250); // MIDIのボーレートを設定for (int i = 0; i &lt; 4; i&#43;&#43;){ // ピンをボタンとLEDに割当pinMode(btn[i], INPUT_PULLUP); // ボタンは内部プルアップ使うpinMode(led[i], OUTPUT);}digitalWrite(led[ledActive], HIGH); // デフォルトのLEDを点灯pinMode(btnDim, INPUT_PULLUP);pinMode(ledDim, OUTPUT);}void loop() {for (int i = 0; i &lt; 4; i&#43;&#43;){if (digitalRead(btn[i]) == LOW) { // タクトスイッチが押された場合delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの挙動digitalWrite(led[ledActive], LOW);ledActive = i;digitalWrite(led[i], HIGH); // 新しいLEDを点灯while (digitalRead(btn[i]) == LOW) {// スイッチが押されたままの場合、待機}}}if (digitalRead(btnDim) == LOW) {delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの制御isDimOn = !isDimOn;digitalWrite(ledDim, isDimOn ? HIGH : LOW);while (digitalRead(btnDim) == LOW) {// スイッチが押されたままの場合、待機}}}// 以下、多分なんかMIDIUSBの動作に必要なやつvoid noteOn(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOn = {0x09, 0x90 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOn);}void noteOff(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOff = {0x08, 0x80 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOff);}void controlChange(byte channel, byte control, byte value) {midiEventPacket_t event = {0x0B, 0xB0 | channel, control, value};MidiUSB.sendMIDI(event);} スイッチ及びLEDには、使わなくなってほっぽっていたメカニカルキーボードからLED付きキースイッチをいくつか拝借した。キーキャップもそのキーボードから流用。">
+/*imdkma midi controll for TotalMix Fx2023/11/02*/#include &#34;MIDIUSB.h&#34;// スナップショット切り替え部分の入出力関係const int btn[] = {2, 4, 6, 8};const int led[] = {3, 5, 7, 9};const int note[] = {54, 55, 56, 57}; // notes = F#3, G3, G#3, A3int ledActive = 0;// DIMの入出力関係const int btnDim = 16;const int ledDim = 10;const int noteDim = 93;bool isDimOn = false;void setup() {Serial.begin(31250); // MIDIのボーレートを設定for (int i = 0; i &lt; 4; i&#43;&#43;){ // ピンをボタンとLEDに割当pinMode(btn[i], INPUT_PULLUP); // ボタンは内部プルアップ使うpinMode(led[i], OUTPUT);}digitalWrite(led[ledActive], HIGH); // デフォルトのLEDを点灯pinMode(btnDim, INPUT_PULLUP);pinMode(ledDim, OUTPUT);}void loop() {for (int i = 0; i &lt; 4; i&#43;&#43;){if (digitalRead(btn[i]) == LOW) { // タクトスイッチが押された場合delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの挙動digitalWrite(led[ledActive], LOW);ledActive = i;digitalWrite(led[i], HIGH); // 新しいLEDを点灯while (digitalRead(btn[i]) == LOW) {// スイッチが押されたままの場合、待機}}}if (digitalRead(btnDim) == LOW) {delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの制御isDimOn = !isDimOn;digitalWrite(ledDim, isDimOn ? HIGH : LOW);while (digitalRead(btnDim) == LOW) {// スイッチが押されたままの場合、待機}}}// 以下、多分なんかMIDIUSBの動作に必要なやつvoid noteOn(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOn = {0x09, 0x90 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOn);}void noteOff(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOff = {0x08, 0x80 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOff);}void controlChange(byte channel, byte control, byte value) {midiEventPacket_t event = {0x0B, 0xB0 | channel, control, value};MidiUSB.sendMIDI(event);}スイッチ及びLEDには、使わなくなってほっぽっていたメカニカルキーボードからLED付きキースイッチをいくつか拝借した。キーキャップもそのキーボードから流用。">
 
 
 
@@ -234,188 +238,23 @@ imdkm(@imdkm)がシェアした投稿
 ソースコードと回路図 最終的に配線をいろいろいじってこんな回路図に。
 こんな書き方でいいのか忘れたけど。直接空中配線やろうかと思ったけど、念のため（？）ユニバーサル基板を適当な大きさにカットし利用。GNDは最終的に全部23ピンに落としてます。
 ソースコードは以下の通り。多分そんなきれいではないです。TotalMixではF#3～C#4の信号をCh.1で送るとスナップショットの切り替えができ、A6でDimのオンオフを制御可能。
-/*imdkma midi controll for TotalMix Fx2023/11/02*/#include &#34;MIDIUSB.h&#34;// スナップショット切り替え部分の入出力関係const int btn[] = {2, 4, 6, 8};const int led[] = {3, 5, 7, 9};const int note[] = {54, 55, 56, 57}; // notes = F#3, G3, G#3, A3int ledActive = 0;// DIMの入出力関係const int btnDim = 16;const int ledDim = 10;const int noteDim = 93;bool isDimOn = false;void setup() {Serial.begin(31250); // MIDIのボーレートを設定for (int i = 0; i &lt; 4; i&#43;&#43;){ // ピンをボタンとLEDに割当pinMode(btn[i], INPUT_PULLUP); // ボタンは内部プルアップ使うpinMode(led[i], OUTPUT);}digitalWrite(led[ledActive], HIGH); // デフォルトのLEDを点灯pinMode(btnDim, INPUT_PULLUP);pinMode(ledDim, OUTPUT);}void loop() {for (int i = 0; i &lt; 4; i&#43;&#43;){if (digitalRead(btn[i]) == LOW) { // タクトスイッチが押された場合delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの挙動digitalWrite(led[ledActive], LOW);ledActive = i;digitalWrite(led[i], HIGH); // 新しいLEDを点灯while (digitalRead(btn[i]) == LOW) {// スイッチが押されたままの場合、待機}}}if (digitalRead(btnDim) == LOW) {delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの制御isDimOn = !isDimOn;digitalWrite(ledDim, isDimOn ? HIGH : LOW);while (digitalRead(btnDim) == LOW) {// スイッチが押されたままの場合、待機}}}// 以下、多分なんかMIDIUSBの動作に必要なやつvoid noteOn(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOn = {0x09, 0x90 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOn);}void noteOff(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOff = {0x08, 0x80 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOff);}void controlChange(byte channel, byte control, byte value) {midiEventPacket_t event = {0x0B, 0xB0 | channel, control, value};MidiUSB.sendMIDI(event);} スイッチ及びLEDには、使わなくなってほっぽっていたメカニカルキーボードからLED付きキースイッチをいくつか拝借した。キーキャップもそのキーボードから流用。">
+/*imdkma midi controll for TotalMix Fx2023/11/02*/#include &#34;MIDIUSB.h&#34;// スナップショット切り替え部分の入出力関係const int btn[] = {2, 4, 6, 8};const int led[] = {3, 5, 7, 9};const int note[] = {54, 55, 56, 57}; // notes = F#3, G3, G#3, A3int ledActive = 0;// DIMの入出力関係const int btnDim = 16;const int ledDim = 10;const int noteDim = 93;bool isDimOn = false;void setup() {Serial.begin(31250); // MIDIのボーレートを設定for (int i = 0; i &lt; 4; i&#43;&#43;){ // ピンをボタンとLEDに割当pinMode(btn[i], INPUT_PULLUP); // ボタンは内部プルアップ使うpinMode(led[i], OUTPUT);}digitalWrite(led[ledActive], HIGH); // デフォルトのLEDを点灯pinMode(btnDim, INPUT_PULLUP);pinMode(ledDim, OUTPUT);}void loop() {for (int i = 0; i &lt; 4; i&#43;&#43;){if (digitalRead(btn[i]) == LOW) { // タクトスイッチが押された場合delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, note[i], 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの挙動digitalWrite(led[ledActive], LOW);ledActive = i;digitalWrite(led[i], HIGH); // 新しいLEDを点灯while (digitalRead(btn[i]) == LOW) {// スイッチが押されたままの場合、待機}}}if (digitalRead(btnDim) == LOW) {delay(50); // チャタリング防止// MIDIノートの送信noteOn(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);noteOff(0, noteDim, 64); // Ch.1, note, vel. 64MidiUSB.flush();delay(50);// LEDの制御isDimOn = !isDimOn;digitalWrite(ledDim, isDimOn ? HIGH : LOW);while (digitalRead(btnDim) == LOW) {// スイッチが押されたままの場合、待機}}}// 以下、多分なんかMIDIUSBの動作に必要なやつvoid noteOn(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOn = {0x09, 0x90 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOn);}void noteOff(byte channel, byte pitch, byte velocity) {midiEventPacket_t noteOff = {0x08, 0x80 | channel, pitch, velocity};MidiUSB.sendMIDI(noteOff);}void controlChange(byte channel, byte control, byte value) {midiEventPacket_t event = {0x0B, 0xB0 | channel, control, value};MidiUSB.sendMIDI(event);}スイッチ及びLEDには、使わなくなってほっぽっていたメカニカルキーボードからLED付きキースイッチをいくつか拝借した。キーキャップもそのキーボードから流用。">
   <meta itemprop="datePublished" content="2023-11-05T00:00:00+00:00">
-  <meta itemprop="wordCount" content="360">
+  <meta itemprop="wordCount" content="359">
   <meta itemprop="keywords" content="Jpn">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
+  
+  <link href="/original.min.css" rel="stylesheet">
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
+  
+    
+    <link href="/syntax.min.css" rel="stylesheet">
+  
 
-  a {
-    color: #3273dc;
-     
-  }
+  
 
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    width: 70%;
-    margin: auto;
-    display: block;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
-  }
-
-</style>
-
+  
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -511,10 +350,15 @@ imdkm(@imdkm)がシェアした投稿
   }
 
   blockquote {
-    border-left: 1px solid #999;
+    border-left: none;
     color: #222;
-    padding-left: 20px;
-    font-style: italic;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+     
+    font-style: normal;
+    background-color: #eee;
   }
 
   footer {
@@ -581,7 +425,15 @@ imdkm(@imdkm)がシェアした投稿
 <a href="/old_blog">旧ブログアーカイヴ</a>
 </nav>
 </header>
-  <main>
+  <main id="main-content">
+
+<h1>Pro MicroでMIDIコンをつくる</h1>
+<p class="byline">
+  <time datetime='2023-11-05' pubdate>
+    2023-11-05
+  </time>
+  
+</p>
 
 <content>
   <p>本記事はアフィリエイトリンクを含みます。</p>
@@ -623,6 +475,11 @@ imdkm(@imdkm)がシェアした投稿
 <p><img src="images/midiusb_totalmix.png" alt=""></p>
 <p>こんな書き方でいいのか忘れたけど。直接空中配線やろうかと思ったけど、念のため（？）ユニバーサル基板を適当な大きさにカットし利用。GNDは最終的に全部23ピンに落としてます。</p>
 <p>ソースコードは以下の通り。多分そんなきれいではないです。TotalMixではF#3～C#4の信号をCh.1で送るとスナップショットの切り替えができ、A6でDimのオンオフを制御可能。</p>
+
+
+
+
+
 <pre tabindex="0"><code>/*
 imdkm
 a midi controll for TotalMix Fx
@@ -717,8 +574,7 @@ void noteOff(byte channel, byte pitch, byte velocity) {
 void controlChange(byte channel, byte control, byte value) {
   midiEventPacket_t event = {0x0B, 0xB0 | channel, control, value};
   MidiUSB.sendMIDI(event);
-}
-</code></pre><p>スイッチ及びLEDには、使わなくなってほっぽっていたメカニカルキーボードからLED付きキースイッチをいくつか拝借した。キーキャップもそのキーボードから流用。</p>
+}</code></pre><p>スイッチ及びLEDには、使わなくなってほっぽっていたメカニカルキーボードからLED付きキースイッチをいくつか拝借した。キーキャップもそのキーボードから流用。</p>
 <p><img src="images/1699091987967-1024x1024.jpg" alt=""></p>
 <h2 id="筐体をどうするか">筐体をどうするか</h2>
 <p>キースイッチを使うのはいいけれど、筐体が悩みどころだった。ユニバーサル基板に固定するのも面倒そうだし、わざわざ図面をひいてアクリルカットや3Dプリントを発注するのもだるい。結局、加工が楽でサイズ感も手頃なダイソーの桐材とMDFを使うことに。</p>
@@ -749,12 +605,9 @@ void controlChange(byte channel, byte control, byte value) {
 <p>
   
 </p>
-  <div class="share-buttons">
-    <p><small><b>このページをシェアする</b>:
-    <a href="https://twitter.com/intent/tweet?url=%2f%2flocalhost%3a1313%2fold_blog%2f2023-11-05-pro-micro%25E3%2581%25A7midi%25E3%2582%25B3%25E3%2583%25B3%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2582%258B%2f&text=Pro%20Micro%e3%81%a7MIDI%e3%82%b3%e3%83%b3%e3%82%92%e3%81%a4%e3%81%8f%e3%82%8b" target="_blank">X</a> |
-    <a href="https://www.threads.net/intent/post?text=Pro%20Micro%e3%81%a7MIDI%e3%82%b3%e3%83%b3%e3%82%92%e3%81%a4%e3%81%8f%e3%82%8b %2f%2flocalhost%3a1313%2fold_blog%2f2023-11-05-pro-micro%25E3%2581%25A7midi%25E3%2582%25B3%25E3%2583%25B3%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2582%258B%2f" target="_blank">Threads</a> |
-    <a href="https://bsky.app/intent/compose?text=Pro%20Micro%e3%81%a7MIDI%e3%82%b3%e3%83%b3%e3%82%92%e3%81%a4%e3%81%8f%e3%82%8b %2f%2flocalhost%3a1313%2fold_blog%2f2023-11-05-pro-micro%25E3%2581%25A7midi%25E3%2582%25B3%25E3%2583%25B3%25E3%2582%2592%25E3%2581%25A4%25E3%2581%258F%25E3%2582%258B%2f" target="_blank">Bluesky</a></small></p>
-</div>
+
+
+
 
   </main>
   <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
