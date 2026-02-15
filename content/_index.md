@@ -35,22 +35,20 @@ title = "imdkm. a writer and beatmaker"
 
 [単著『リズムから考えるJ-POP史』（blueprint, 2019）](https://blueprint.co.jp/publishing/5694)
 
-[V.A.『冨田ラボ / 冨田恵一 WORKS BEST 2 ～beautiful songs to remember～』楽曲解説](https://www.jvcmusic.co.jp/-/Discography/A024314/VICL-65825.html) 
-
 [【アーカイブ配信】「基礎教養シリーズ〜ゼロから聴きたいテクノロジーと音楽史〜」 | 美学校](https://bigakko.jp/event/2024/technology_and_music_history)
 
 などなど……
 
-### きまぐれにピックアップ（2024年7月）
+### きまぐれにピックアップ（2026年2月）
 
-2024.02.22 [ただ「音楽のために集まれる」場所の意味。ニア・アーカイヴスが語る、ジャングルが打ち鳴らす可能性 | CINRA](https://www.cinra.net/article/202402-niaarchives_ymmts)
+2025.11.28 [ムック『小室哲哉 読音2』（ステレオサウンド社）アルバム・レビュー5作を担当](https://www.stereosound-store.jp/c/book/9784880735498)
 
-2023.06.30 [ジュリアス・イーストマンというブラッククィアの作曲家。歴史に消えかけたその音楽、キャリアを紐解く | CINRA](https://www.cinra.net/article/202306-juliuseastman_ymmts)
+2025.10.27 [ユリイカ2025年11月号　特集＝原口沙輔「原口沙輔のいさん――〈転向〉はなにを浮かび上がらせたか」](https://www.seidosha.co.jp/book/index.php?id=4078&status=published)
 
-2022.11.02 [AIがもたらす音楽の未来は？ ザ・ビートルズ『Revolver』を生まれ変わらせた音源分離技術から考える | CINRA](https://www.cinra.net/article/202211-thebeatles_ymmtscl)
+2025.08.26 [俺の曲、初めてみんなで聴いてみた〜imdkmのサウンドシェア体験記〜](https://www.audio-technica.co.jp/always-listening/articles/sound-share/)
 
-2022.07.13 [石若駿とAIの共演が生み出した、“即興演奏を解体＆再構築する”特殊な音楽体験　『Echoes for unknown egos――発現しあう響きたち』を観て｜Real Sound｜リアルサウンド テック](https://realsound.jp/tech/2022/07/post-1074326.html)
+2024.10.09 [音楽制作のテクノロジーと「脱植民地化」 第1回（全4回） 新局面を迎えたポップのグローバル化](https://www.ameet.jp/digital-imaging/5621/)
 
-2022.04.08 [D.O.I.の語るリル・ナズ・Xのサウンドの革新性。曰く「未来的」で「パラダイムシフト級」 | EYESCREAM](https://eyescream.jp/music/113169/)
+2024.07.24 [長谷川白紙『魔法学校』](https://www.beatink.com/products/detail.php?product_id=14074) ライナーノーツを執筆
 
 詳しくは[これまでのお仕事](works)から。

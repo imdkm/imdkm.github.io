@@ -5,34 +5,10 @@ menu = "main"
 
 # これまでのお仕事
 
-**最新**, [2024]({{% ref "/works/2024.md" %}}), [2023]({{% ref "/works/2023.md" %}}), [2022]({{% ref "/works/2022.md" %}}), [2021]({{% ref "/works/2021.md" %}})
+**最新**, [2025]({{% ref "/works/2025.md" %}}), [2024]({{% ref "/works/2024.md" %}}), [2023]({{% ref "/works/2023.md" %}}), [2022]({{% ref "/works/2022.md" %}}), [2021]({{% ref "/works/2021.md" %}})
 
 2020年以前のまとめは作業中です。
 
-## 2025
+## 2026
 
-2025.08.27 [なぜ今、DTM試聴会なのか？ 有村崚が語る、音楽制作における「優劣」を排除したサウンドシェアのコンセプト](https://www.audio-technica.co.jp/always-listening/articles/ryo-arimura/)
-
-2025.08.26 [俺の曲、初めてみんなで聴いてみた〜imdkmのサウンドシェア体験記〜](https://www.audio-technica.co.jp/always-listening/articles/sound-share/)
-
-2025.08.21 [【INTERVIEW】「ぶっ恋呂百花」で胸張っていく――ぶっ恋呂百花『幽霊のように』インタビュー](https://indiegrab.jp/interview/172536/)
-
-2025.07.25 [映画『わたのはらぞこ』公開記念インタヴュー 音楽を手がけた三浦康嗣が語る、“掟破り”の制作方法](https://turntokyo.com/features/koshi-miura-watanoharazoko-interview/)
-
-2025.06.25 [ユリイカ2025年7月臨時増刊号　総特集＝岡﨑乾二郎 「音楽を語る岡﨑乾二郎を読んで音楽を語る」](https://www.seidosha.co.jp/book/index.php?id=4044)
-
-2025.06.18 [角銅真実と地元クリエイター達の縁が生んだ特別な一日。山形・文翔館ライブレポート](https://niewmedia.com/specials/contact_yamagata_edski_wrimd/)
-
-2025.05.16 [星野源『Gen』レビュー 6年半の試行錯誤の果てに出した、ひとつの解答](https://niewmedia.com/specials/gen_edski_wrimd/)
-
-2025.04.02 [「じゃぶじゃぶ池」のさざ波に身を任せる - DOUBLE ANNUAL 2025 アニュラスのじゃぶじゃぶ池／omnium-gatherum](https://uryu-tsushin.kyoto-art.ac.jp/detail/1360)
-
-2025.03.19 [Homecomings『see you, frail angel. sea adore you』アナログ盤ライナーノーツ](https://seeyou-frailangel-seaadoreyou.ponycanyon.co.jp/)
-
-2025.03.11 [冨田ラボ、4人のシンガー加入の意図とは？　新体制“デビュー曲”での未知なる挑戦、変化／進化の面白さを語る](https://realsound.jp/2025/03/post-1952389.html)
-
-2025.03.08 [tofubeatsが神戸の後輩・Neibissに寄せる熱い信頼と期待の背景　J-CLUBキラーチューン「ON&ON」が生まれるまで](https://realsound.jp/2025/03/post-1949166.html)
-
-2025.03.12 [レディー・ガガ5年ぶり新作『MAYHEM』レビュー。ごった煮が魅力のダンスポップ](https://niewmedia.com/specials/ladygaga_mayhem_edski_wrimd/)
-
-2025.02.18 [音楽を作り続けるために作る、治癒行為としての作曲 “日々を生きる”ためのDTM 〜Yaporigamiの場合〜](https://www.audio-technica.co.jp/always-listening/articles/living-every-day-dtm-03/?utm_source=tw&utm_medium=social&utm_campaign=org_tw20250218)
+2026.02.10 [白原ケンイチ監修『ジャパニーズR&Bディスクガイド　シティ・ポップ／渋谷系／日本語ラップと交差する和製グルーヴの誕生と成熟 1990s～2020s』（DU BOOKS）](https://prtimes.jp/main/html/rd/p/000000292.000033531.html) ディスクレビュー及びロレイン・ジェームスインタビューを担当
