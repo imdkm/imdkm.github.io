@@ -1,0 +1,14 @@
+# Hugo が生成する公開用フォルダ（GitHub Actions でビルドする場合）
+/public/
+/resources/_gen/
+
+# ローカルの開発用キャッシュ
+/.hugo_build.lock
+
+# OS固有の不要なファイル
+.DS_Store
+Thumbs.db
+
+# エディタの設定ファイル（任意）
+.vscode/
+.idea/
