@@ -27,3 +27,5 @@ DJ、トークなどの出演情報です。
 
 > tofubeats （音楽プロデューサー／DJ） × imdkm （音楽ライター）  
 > 「インディペンデントに宿るヌクモリティ ――音楽・ZINE・書店をつなぐ手仕事」
+
+2026.04.25 (sat) [RAF-REC presents NISHIBI vol.33 北村蕗 1st album 『Spira1oop』release live!!](https://www.instagram.com/p/DWQ3xgvj20O/) @ 山形 RAF-REC **#DJ**
