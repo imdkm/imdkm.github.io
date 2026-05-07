@@ -4,7 +4,7 @@ date = 2026-05-05T14:50:51+09:00
 lastmod = 2026-05-05T14:50:51+09:00
 
 tags = ["jpn","event","works",]
-draft = true
+draft = false
 +++
 
 ## 文フリ当日の所感
