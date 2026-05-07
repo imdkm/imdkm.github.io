@@ -4,13 +4,23 @@
   <url>
     <loc>/blog/</loc>
   </url><url>
-    <loc>/blog/ctrl2cap/</loc>
-  </url><url>
     <loc>/</loc>
+  </url><url>
+    <loc>/blog/bunfreetyo42/</loc>
+  </url><url>
+    <loc>/tags/eng/</loc>
+  </url><url>
+    <loc>/tags/event/</loc>
   </url><url>
     <loc>/tags/jpn/</loc>
   </url><url>
     <loc>/tags/</loc>
+  </url><url>
+    <loc>/tags/works/</loc>
+  </url><url>
+    <loc>/blog/202601_talks/</loc>
+  </url><url>
+    <loc>/blog/ctrl2cap/</loc>
   </url><url>
     <loc>/blog/acynchronicity/</loc>
   </url><url>
@@ -23,8 +33,6 @@
     <loc>/tags/review/</loc>
   </url><url>
     <loc>/blog/svp/</loc>
-  </url><url>
-    <loc>/tags/works/</loc>
   </url><url>
     <loc>/blog/mahogakko/</loc>
   </url><url>
@@ -699,6 +707,8 @@
     <loc>/works/2023/</loc>
   </url><url>
     <loc>/works/2024/</loc>
+  </url><url>
+    <loc>/works/2025/</loc>
   </url><url>
     <loc>/gigs/</loc>
   </url>

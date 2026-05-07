@@ -7,14 +7,6 @@ title = "imdkm. a writer and beatmaker"
 
 ---
 
-## 文学フリマ東京 42 に「遅延派通信」で出店予定！
-
-2026 年 5 月 4 日（月・祝）に東京ビッグサイトにて開催予定の文学フリマ東京 42 に「遅延派通信」で出店します。ブース番号は「S-70」です。新刊2冊（↓）＋既刊を頒布予定。詳しくは[こちら]({{< relref "/blog/bunfreetyo42.md" >}})。
-
-![遅延派通信お品書き](/images/bftyo42/list.png)
-
----
-
 ## 音楽情報ニュースレター「遅延派通信」配信中！
 
 [![](./images/laggist_logo.png)](https://note.com/imdkm/membership)

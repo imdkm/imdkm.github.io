@@ -41,182 +41,14 @@
   <meta itemprop="keywords" content="Jpn">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
+  
+  <link href="/original.min.css" rel="stylesheet">
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
+  
 
-  a {
-    color: #3273dc;
-     
-  }
+  
 
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    width: 70%;
-    margin: auto;
-    display: block;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
-  }
-
-</style>
-
+  
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -312,10 +144,15 @@
   }
 
   blockquote {
-    border-left: 1px solid #999;
+    border-left: none;
     color: #222;
-    padding-left: 20px;
-    font-style: italic;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+     
+    font-style: normal;
+    background-color: #eee;
   }
 
   footer {
@@ -382,7 +219,15 @@
 <a href="/old_blog">旧ブログアーカイヴ</a>
 </nav>
 </header>
-  <main>
+  <main id="main-content">
+
+<h1>AIはプリペアド・ピアノの夢を見るか？――人工知能と自動作曲に関する覚書</h1>
+<p class="byline">
+  <time datetime='2016-11-04' pubdate>
+    2016-11-04
+  </time>
+  
+</p>
 
 <content>
   <iframe width="700" height="394" src="https://www.youtube.com/embed/LSHZ_b05W7o" frameborder="0" allowfullscreen></iframe>
@@ -439,12 +284,12 @@
 <p>……「んなことぐだぐだごたく並べてるけど、聴いている分には楽しかったら構わないじゃん」って？　いやまったくその通りで、個人的にはシンギュラリティってそういう感じだと思うんですよね。理解を絶した凄まじい世界がやってくるのではなく、「なんか便利になったな～」ってみんな普通に暮らしてるんだけど、その暮らしを支えている原理は字義通り<a href="http://d.hatena.ne.jp/keyword/%BF%CD%C3%D2">人智</a>を超えたAIなの。むしろそれまでが大変だ。<strong>FlowMachinesみたいなのが大事なのは、AIと人間の付き合い方をきちんとデザインしてくれているところですよね。</strong> そうじゃないとがんがん軋轢が生まれちゃいそう。<a href="http://d.hatena.ne.jp/keyword/%A4%B3%A4%C1">こち</a>らからは以上です。</p>
 <p><a href="#fn-8d5d73b2">*1</a>:詳しい理屈については、ネット上にも記事がいやになるほどあふれているけれど、書籍で言えば松尾豊の『<a href="http://d.hatena.ne.jp/asin/4040800206/tortoisetau09-22">人工知能は人間を超えるか ディープラーニングの先にあるもの (角川EPUB選書)</a>』などがぼくにはわかりやすかった</p>
 </content>
-
-
-
 <p>
   
 </p>
+
+
+
 
   </main>
   <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
