@@ -68,7 +68,11 @@
   }
 
   img {
-    max-width: 100%;
+    display: block;      /* ブロック要素にする */
+    margin-left: auto;   /* 左余白を自動 */
+    margin-right: auto;  /* 右余白を自動 */
+    max-width: 100%;    /* 親要素からはみ出さないようにする */
+    height: auto;        /* 比率を維持 */
   }
 
   code {
