@@ -7,7 +7,7 @@ tags = ["jpn","works","event"]
 draft = false
 +++
 
-<img src="/images/zinefestsnd_menu.png" alt="ZINEフェス仙台告知用画像" class="border">
+<img src="/images/zf_snd_2606.png" alt="ZINEフェス仙台告知用画像" class="border">
 
 **6月28日（日）仙台市中小企業活性化センター多目的ホールでの [ZINEフェス仙台](https://note.com/bookcultureclub/n/n5b1c7b0b9d8f) に出店します。**
 
