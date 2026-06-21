@@ -9,7 +9,7 @@ menu = 'main'
 
 ## 即売会
 
-2026.06.28 sat [ZINEフェス仙台 @ 仙台市中小企業活性化センター多目的ホール]({{% ref "../blog/zinfestsnd202606.md" %}})
+2026.06.28 sat [ZINEフェス仙台 @ 仙台市中小企業活性化センター多目的ホール]({{% ref "../blog/zinefestsnd202606.md" %}})
 
 2026.05.04 mon [文学フリマ東京42 @ 東京ビッグサイト]({{% ref "../blog/bunfree42matome.md" %}})
 
