@@ -9,10 +9,11 @@ DJ、トークなどの出演情報です。
 
 山形駅西口のレコ屋 RAF-REC ([Instagram](https://www.instagram.com/rafrec_yamagata/)) にて、不定期で DJ バーに出演しています。告知は随時 [Instagram](https://www.instagram.com/imdkm/) 等々で行ってます。チャージは無料なのでお気軽にどうぞ。
 
-## 2025
-2025.10.11 (sat) AOBA NU NOISE - NIGHT @ 仙台 SHAFT **#DJ**
-
 ## 2026
+2026.07.31 (sat) [ZINE TALK 04 @ 京都精華大学情報館](https://johokan.kyoto-seika.ac.jp/event/event-16987/) **#TALK**
+
+2026.04.25 (sat) [RAF-REC presents NISHIBI vol.33 北村蕗 1st album 『Spira1oop』release live!!](https://www.instagram.com/p/DWQ3xgvj20O/) @ 山形 RAF-REC **#DJ**
+
 2026.01.19 (sat) インターネット時代の"ワールド・ミュージック"：Uprootをめぐってデジタルテクノロジーの話を聞く **#TALK**
 
 > 日時：2026年1月19日(月) 18:00～19:30  
@@ -28,4 +29,5 @@ DJ、トークなどの出演情報です。
 > tofubeats （音楽プロデューサー／DJ） × imdkm （音楽ライター）  
 > 「インディペンデントに宿るヌクモリティ ――音楽・ZINE・書店をつなぐ手仕事」
 
-2026.04.25 (sat) [RAF-REC presents NISHIBI vol.33 北村蕗 1st album 『Spira1oop』release live!!](https://www.instagram.com/p/DWQ3xgvj20O/) @ 山形 RAF-REC **#DJ**
+## 2025
+2025.10.11 (sat) AOBA NU NOISE - NIGHT @ 仙台 SHAFT **#DJ**
